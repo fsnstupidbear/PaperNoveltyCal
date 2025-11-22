@@ -1,0 +1,200 @@
+An Empirical Analysis of Search in GSAT,"We describe an extensive study of search in GSAT, an approximation procedure
+for propositional satisfiability. GSAT performs greedy hill-climbing on the
+number of satisfied clauses in a truth assignment. Our experiments provide a
+more complete picture of GSAT's search than previous accounts. We describe in
+detail the two phases of search: rapid hill-climbing followed by a long plateau
+search. We demonstrate that when applied to randomly generated 3SAT problems,
+there is a very simple scaling with problem size for both the mean number of
+satisfied clauses and the mean branching rate. Our results allow us to make
+detailed numerical conjectures about the length of the hill-climbing phase, the
+average gradient of this phase, and to conjecture that both the average score
+and average branching rate decay exponentially during plateau search. We end by
+showing how these results can be used to direct future theoretical analysis.
+This work provides a case study of how computer experiments can be used to
+improve understanding of the theoretical properties of algorithms.",GSAT - 0.00,propositional satisfiability - 0.00,GSAT - propositional satisfiability - 0.00,"{'CumulativeMethodScore': 0.4296809076804205, 'CumulativeTaskScore': 0.44375447054421435, 'CumulativeMethodTaskPairScore': 0.440570890551996}"
+Substructure Discovery Using Minimum Description Length and Background Knowledge,"The ability to identify interesting and repetitive substructures is an
+essential component to discovering knowledge in structural data. We describe a
+new version of our SUBDUE substructure discovery system based on the minimum
+description length principle. The SUBDUE system discovers substructures that
+compress the original data and represent structural concepts in the data. By
+replacing previously-discovered substructures in the data, multiple passes of
+SUBDUE produce a hierarchical description of the structural regularities in the
+data. SUBDUE uses a computationally-bounded inexact graph match that identifies
+similar, but not identical, instances of a substructure and finds an
+approximate measure of closeness of two substructures when under computational
+constraints. In addition to the minimum description length principle, other
+background knowledge can be used by SUBDUE to guide the search towards more
+appropriate substructures. Experiments in a variety of domains demonstrate
+SUBDUE's ability to find substructures capable of compressing the original data
+and to discover structural concepts important to the domain. Description of
+Online Appendix: This is a compressed tar file containing the SUBDUE discovery
+system, written in C. The program accepts as input databases represented in
+graph form, and will output discovered substructures with their corresponding
+value.",ĊSUBDUE - 4.43; SUBDUE - 0.00,substructure discovery - 0.00; Substructure - 0.00,SUBDUE - substructure discovery - 0.00,"{'CumulativeMethodScore': 0.6583946797644464, 'CumulativeTaskScore': 0.44375447054421435, 'CumulativeMethodTaskPairScore': 0.4405709141632031}"
+Bias-Driven Revision of Logical Domain Theories,"The theory revision problem is the problem of how best to go about revising a
+deficient domain theory using information contained in examples that expose
+inaccuracies. In this paper we present our approach to the theory revision
+problem for propositional domain theories. The approach described here, called
+PTR, uses probabilities associated with domain theory elements to numerically
+track the ``flow'' of proof through the theory. This allows us to measure the
+precise role of a clause or literal in allowing or preventing a (desired or
+undesired) derivation for a given example. This information is used to
+efficiently locate and repair flawed elements of the theory. PTR is proved to
+converge to a theory which correctly classifies all examples, and shown
+experimentally to be fast and accurate even for deep theories.",. PTR - 4.74; ĊPTR - 1.68,theory revision - 0.00,. PTR - theory revision - 6.88; ĊPTR - theory revision - 2.47,"{'CumulativeMethodScore': 0.7463776036383454, 'CumulativeTaskScore': 0.44375447054421435, 'CumulativeMethodTaskPairScore': 0.5221252298829137}"
+Wrap-Up: a Trainable Discourse Module for Information Extraction,"The vast amounts of on-line text now available have led to renewed interest
+in information extraction (IE) systems that analyze unrestricted text,
+producing a structured representation of selected information from the text.
+This paper presents a novel approach that uses machine learning to acquire
+knowledge for some of the higher level IE processing. Wrap-Up is a trainable IE
+discourse component that makes intersentential inferences and identifies
+logical relations among information extracted from the text. Previous
+corpus-based approaches were limited to lower level processing such as
+part-of-speech tagging, lexical disambiguation, and dictionary construction.
+Wrap-Up is fully trainable, and not only automatically decides what classifiers
+are needed, but even derives the feature set for each classifier automatically.
+Performance equals that of a partially trainable discourse module requiring
+manual customization for each domain.",Wrap-Up - 1.95,information extraction - 0.00; Ċpart-of-speech tagging - 2.38; lexical disambiguation - 1.19; IE - 0.00,Wrap-Up - IE - 7.01,"{'CumulativeMethodScore': 0.5326321183147188, 'CumulativeTaskScore': 0.6991463390918542, 'CumulativeMethodTaskPairScore': 0.501612125663295}"
+Cost-Sensitive Classification: Empirical Evaluation of a Hybrid Genetic Decision Tree Induction Algorithm,"This paper introduces ICET, a new algorithm for cost-sensitive
+classification. ICET uses a genetic algorithm to evolve a population of biases
+for a decision tree induction algorithm. The fitness function of the genetic
+algorithm is the average cost of classification when using the decision tree,
+including both the costs of tests (features, measurements) and the costs of
+classification errors. ICET is compared here with three other algorithms for
+cost-sensitive classification - EG2, CS-ID3, and IDX - and also with C4.5,
+which classifies without regard to cost. The five algorithms are evaluated
+empirically on five real-world medical datasets. Three sets of experiments are
+performed. The first set examines the baseline performance of the five
+algorithms on the five datasets and establishes that ICET performs
+significantly better than its competitors. The second set tests the robustness
+of ICET under a variety of conditions and shows that ICET maintains its
+advantage. The third set looks at ICET's search in bias space and discovers a
+way to improve the search.",ICET - 0.00; C4.5 - 0.00; EG2 - 0.00; CS-ID3 - 0.00; IDX - 0.00,Ċclassification - 0.75; cost-sensitive - 1.20,ICET - cost-sensitive - 5.86; C4.5 - cost-sensitive - 2.11,"{'CumulativeMethodScore': 0.4296809076804205, 'CumulativeTaskScore': 0.5888917608920886, 'CumulativeMethodTaskPairScore': 0.5099993297599031}"
+FLECS: Planning with a Flexible Commitment Strategy,"There has been evidence that least-commitment planners can efficiently handle
+planning problems that involve difficult goal interactions. This evidence has
+led to the common belief that delayed-commitment is the ""best"" possible
+planning strategy. However, we recently found evidence that eager-commitment
+planners can handle a variety of planning problems more efficiently, in
+particular those with difficult operator choices. Resigned to the futility of
+trying to find a universally successful planning strategy, we devised a planner
+that can be used to study which domains and problems are best for which
+planning strategies. In this article we introduce this new planning algorithm,
+FLECS, which uses a FLExible Commitment Strategy with respect to plan-step
+orderings. It is able to use any strategy from delayed-commitment to
+eager-commitment. The combination of delayed and eager operator-ordering
+commitments allows FLECS to take advantage of the benefits of explicitly using
+a simulated execution state and reasoning about planning constraints. FLECS can
+vary its commitment strategy across different problems and domains, and also
+during the course of a single planning problem. FLECS represents a novel
+contribution to planning in that it explicitly provides the choice of which
+commitment strategy to use while planning. FLECS provides a framework to
+investigate the mapping from planning domains and problems to efficient
+planning strategies.",ĊFLECSx Commitment - 6.84; FLECS - 3.27,Ċ - 0.00,FLECS - Ċ - 9.90,"{'CumulativeMethodScore': 0.865509236871612, 'CumulativeTaskScore': 0.44375447054421435, 'CumulativeMethodTaskPairScore': 0.52690860646297}"
+Induction of First-Order Decision Lists: Results on Learning the Past Tense of English Verbs,"This paper presents a method for inducing logic programs from examples that
+learns a new class of concepts called first-order decision lists, defined as
+ordered lists of clauses each ending in a cut. The method, called FOIDL, is
+based on FOIL (Quinlan, 1990) but employs intensional background knowledge and
+avoids the need for explicit negative examples. It is particularly useful for
+problems that involve rules with specific exceptions, such as learning the
+past-tense of English verbs, a task widely studied in the context of the
+symbolic/connectionist debate. FOIDL is able to learn concise, accurate
+programs for this problem from significantly fewer examples than previous
+methods (both connectionist and symbolic).",first-order decision lists - 0.00; FOIL - 2.17; FOIDL - 2.07,learning theĊpast-ense - 5.33,FOIL - learning theĊpast-ense - 14.50,"{'CumulativeMethodScore': 0.6496683894037146, 'CumulativeTaskScore': 0.7982597757013467, 'CumulativeMethodTaskPairScore': 0.5668345945023577}"
+Building and Refining Abstract Planning Cases by Change of Representation Language,"ion is one of the most promising approaches to improve the performance of
+problem solvers. In several domains abstraction by dropping sentences of a
+domain description -- as used in most hierarchical planners -- has proven
+useful. In this paper we present examples which illustrate significant
+drawbacks of abstraction by dropping sentences. To overcome these drawbacks, we
+propose a more general view of abstraction involving the change of
+representation language. We have developed a new abstraction methodology and a
+related sound and complete learning algorithm that allows the complete change
+of representation language of planning cases from concrete to abstract.
+However, to achieve a powerful change of the representation language, the
+abstract language itself as well as rules which describe admissible ways of
+abstracting states must be provided in the domain model. This new abstraction
+approach is the core of Paris (Plan Abstraction and Refinement in an Integrated
+System), a system in which abstract planning cases are automatically learned
+from given concrete cases. An empirical study in the domain of process planning
+in mechanical engineering shows significant advantages of the proposed
+reasoning from abstract cases over classical hierarchical planning.",Paris - 0.43; Plan Abstraction and Refinement - 4.62,process planning - 0.80,Paris - process planning - 3.19; Plan Abstraction and Refinement - process planning - 6.57,"{'CumulativeMethodScore': 0.6875146028893631, 'CumulativeTaskScore': 0.5036763142778168, 'CumulativeMethodTaskPairScore': 0.5256220365517441}"
+OPUS: An Efficient Admissible Algorithm for Unordered Search,"OPUS is a branch and bound search algorithm that enables efficient admissible
+search through spaces for which the order of search operator application is not
+significant. The algorithm's search efficiency is demonstrated with respect to
+very large machine learning search spaces. The use of admissible search is of
+potential value to the machine learning community as it means that the exact
+learning biases to be employed for complex learning tasks can be precisely
+specified and manipulated. OPUS also has potential for application in other
+areas of artificial intelligence, notably, truth maintenance.",OPUS - 0.00,truth maintenance - 0.00,OPUS - truth maintenance - 0.00,"{'CumulativeMethodScore': 0.42968139461031524, 'CumulativeTaskScore': 0.443754891236026, 'CumulativeMethodTaskPairScore': 0.4405710203570936}"
+Translating between Horn Representations and their Characteristic Models,"Characteristic models are an alternative, model based, representation for
+Horn expressions. It has been shown that these two representations are
+incomparable and each has its advantages over the other. It is therefore
+natural to ask what is the cost of translating, back and forth, between these
+representations. Interestingly, the same translation questions arise in
+database theory, where it has applications to the design of relational
+databases. This paper studies the computational complexity of these problems.
+Our main result is that the two translation problems are equivalent under
+polynomial reductions, and that they are equivalent to the corresponding
+decision problem. Namely, translating is equivalent to deciding whether a given
+set of models is the set of characteristic models for a given Horn expression.
+We also relate these problems to the hypergraph transversal problem, a well
+known problem which is related to other applications in AI and for which no
+polynomial time algorithm is known. It is shown that in general our translation
+problems are at least as hard as the hypergraph transversal problem, and in a
+special case they are equivalent to it.",Characteristic models - 0.96,hypergraph transversal - 0.00; translating - 0.00,Characteristic models - translating - 1.82,"{'CumulativeMethodScore': 0.47988760615936504, 'CumulativeTaskScore': 0.44375447054421435, 'CumulativeMethodTaskPairScore': 0.45634181483080566}"
+A Formal Framework for Speedup Learning from Problems and Solutions,"Speedup learning seeks to improve the computational efficiency of problem
+solving with experience. In this paper, we develop a formal framework for
+learning efficient problem solving from random problems and their solutions. We
+apply this framework to two different representations of learned knowledge,
+namely control rules and macro-operators, and prove theorems that identify
+sufficient conditions for learning in each representation. Our proofs are
+constructive in that they are accompanied with learning algorithms. Our
+framework captures both empirical and explanation-based speedup learning in a
+unified fashion. We illustrate our framework with implementations in two
+domains: symbolic integration and Eight Puzzle. This work integrates many
+strands of experimental and theoretical work in machine learning, including
+empirical learning of control rules, macro-operator learning, Explanation-Based
+Learning (EBL), and Probably Approximately Correct (PAC) Learning.",EBL Learning - 2.36,symbolic integration - 1.09; Speedup learning - 1.24; Explanation-BasedĊLearning - 4.00,EBL Learning - Speedup learning - 8.08,"{'CumulativeMethodScore': 0.5539900430733568, 'CumulativeTaskScore': 0.8422478915214378, 'CumulativeMethodTaskPairScore': 0.5110107622203859}"
+Cue Phrase Classification Using Machine Learning,"Cue phrases may be used in a discourse sense to explicitly signal discourse
+structure, but also in a sentential sense to convey semantic rather than
+structural information. Correctly classifying cue phrases as discourse or
+sentential is critical in natural language processing systems that exploit
+discourse structure, e.g., for performing tasks such as anaphora resolution and
+plan recognition. This paper explores the use of machine learning for
+classifying cue phrases as discourse or sentential. Two machine learning
+programs (Cgrendel and C4.5) are used to induce classification models from sets
+of pre-classified cue phrases and their features in text and speech. Machine
+learning is shown to be an effective technique for not only automating the
+generation of classification models, but also for improving upon previous
+results. When compared to manually derived classification models already in the
+literature, the learned models often perform with higher accuracy and contain
+new linguistic insights into the data. In addition, the ability to
+automatically construct classification models makes it easier to comparatively
+analyze the utility of alternative feature representations of the data.
+Finally, the ease of retraining makes the learning approach more scalable and
+flexible than manual methods.",C4.5 - 0.00; Cgrendel - 0.43,Ċplan recognitionential - 0.76; anaphora resolution - 0.00; Cue Phrase Classification - 0.00,C4.5 - anaphora resolution - 0.00; Cgrendel - anaphora resolution - 1.51,"{'CumulativeMethodScore': 0.4523106091525794, 'CumulativeTaskScore': 0.5008007297086123, 'CumulativeMethodTaskPairScore': 0.45366510168003044}"
+MUSE CSP: An Extension to the Constraint Satisfaction Problem,"This paper describes an extension to the constraint satisfaction problem
+(CSP) called MUSE CSP (MUltiply SEgmented Constraint Satisfaction Problem).
+This extension is especially useful for those problems which segment into
+multiple sets of partially shared variables. Such problems arise naturally in
+signal processing applications including computer vision, speech processing,
+and handwriting recognition. For these applications, it is often difficult to
+segment the data in only one way given the low-level information utilized by
+the segmentation algorithms. MUSE CSP can be used to compactly represent
+several similar instances of the constraint satisfaction problem. If multiple
+instances of a CSP have some common variables which have the same domains and
+constraints, then they can be combined into a single instance of a MUSE CSP,
+reducing the work required to apply the constraints. We introduce the concepts
+of MUSE node consistency, MUSE arc consistency, and MUSE path consistency. We
+then demonstrate how MUSE CSP can be used to compactly represent lexically
+ambiguous sentences and the multiple sentence hypotheses that are often
+generated by speech recognition algorithms so that grammar constraints can be
+used to provide parses for all syntactically correct sentences. Algorithms for
+MUSE arc and path consistency are provided. Finally, we discuss how to create a
+MUSE CSP from a set of CSPs which are labeled to indicate when the same
+variable is shared by more than a single CSP.",ĊMUSE CSP - 1.38; MUSE - 0.55; MUSE CSP - 1.09; MUltiply SEgmented Constraint Satisfaction Problem - 1.32,speech recognitionMUSE - 0.81; constraint satisfaction problem - 1.21; handwriting recognition - 0.00; CSP - 0.00; speech processing - 0.00,MUSE - constraint satisfaction problem - 10.85; MUSE CSP - speech recognitionMUSE - 8.78; MUSE CSP - constraint satisfaction problem - 10.94; MUSE CSP - handwriting recognition - 6.65; ĊMUSE CSP - constraint satisfaction problem - 12.38; ĊMUSE CSP - CSP - 9.10; MUltiply SEgmented Constraint Satisfaction Problem - constraint satisfaction problem - 5.44,"{'CumulativeMethodScore': 0.6547162772876394, 'CumulativeTaskScore': 0.593997055246911, 'CumulativeMethodTaskPairScore': 0.8814424273901968}"
+Exploiting Causal Independence in Bayesian Network Inference,"A new method is proposed for exploiting causal independencies in exact
+Bayesian network inference. A Bayesian network can be viewed as representing a
+factorization of a joint probability into the multiplication of a set of
+conditional probabilities. We present a notion of causal independence that
+enables one to further factorize the conditional probabilities into a
+combination of even smaller factors and consequently obtain a finer-grain

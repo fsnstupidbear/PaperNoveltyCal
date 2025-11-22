@@ -1,0 +1,9 @@
+{
+  "P@10": 0.2552886836027714,
+  "nDCG@10": 0.24823499493591528,
+  "Q": 2165,
+  "pool": "nn_recent(topN=400)",
+  "r%": 20.0,
+  "include_self": true,
+  "label_mode": "self_or_top_r(B4_newedge)"
+}

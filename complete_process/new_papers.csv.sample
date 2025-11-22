@@ -1,0 +1,200 @@
+﻿Title,Summary,Authors,Published,Category
+A Meta-Learning Algorithm for Interrogative Agendas,"Explainability is a key challenge and a major research theme in AI research
+for developing intelligent systems that are capable of working with humans more
+effectively. An obvious choice in developing explainable intelligent systems
+relies on employing knowledge representation formalisms which are inherently
+tailored towards expressing human knowledge e.g., interrogative agendas. In the
+scope of this work, we focus on formal concept analysis (FCA), a standard
+knowledge representation formalism, to express interrogative agendas, and in
+particular to categorize objects w.r.t. a given set of features. Several
+FCA-based algorithms have already been in use for standard machine learning
+tasks such as classification and outlier detection. These algorithms use a
+single concept lattice for such a task, meaning that the set of features used
+for the categorization is fixed. Different sets of features may have different
+importance in that categorization, we call a set of features an agenda. In many
+applications a correct or good agenda for categorization is not known
+beforehand. In this paper, we propose a meta-learning algorithm to construct a
+good interrogative agenda explaining the data. Such algorithm is meant to call
+existing FCA-based classification and outlier detection algorithms iteratively,
+to increase their accuracy and reduce their sample complexity. The proposed
+method assigns a measure of importance to different set of features used in the
+categorization, hence making the results more explainable.","Erman Acar, Andrea De Domenico, Krishna Manoorkar, Mattia Panettiere",2023-01-04T22:09:36Z,cs.AI
+What is a decision problem?,"This paper presents a general framework about what is a decision problem. Our
+motivation is related to the fact that decision analysis and operational
+research are structured (as disciplines) around classes of methods, while
+instead we should first characterise the decision problems our clients present
+us. For this purpose we introduce a new framework, independent from any
+existing method, based upon primitives provided by (or elicited from) the
+client. We show that the number of archetypal decision problems are finite and
+so the archetypal decision support methods.","Alberto Colorni, Alexis Tsoukiàs",2023-01-07T01:03:08Z,cs.AI
+Knowledge Reasoning via Jointly Modeling Knowledge Graphs and Soft Rules,"Knowledge graphs (KGs) play a crucial role in many applications, such as
+question answering, but incompleteness is an urgent issue for their broad
+application. Much research in knowledge graph completion (KGC) has been
+performed to resolve this issue. The methods of KGC can be classified into two
+major categories: rule-based reasoning and embedding-based reasoning. The
+former has high accuracy and good interpretability, but a major challenge is to
+obtain effective rules on large-scale KGs. The latter has good efficiency and
+scalability, but it relies heavily on data richness and cannot fully use domain
+knowledge in the form of logical rules. We propose a novel method that injects
+rules and learns representations iteratively to take full advantage of rules
+and embeddings. Specifically, we model the conclusions of rule groundings as
+0-1 variables and use a rule confidence regularizer to remove the uncertainty
+of the conclusions. The proposed approach has the following advantages: 1) It
+combines the benefits of both rules and knowledge graph embeddings (KGEs) and
+achieves a good balance between efficiency and scalability. 2) It uses an
+iterative method to continuously improve KGEs and remove incorrect rule
+conclusions. Evaluations on two public datasets show that our method
+outperforms the current state-of-the-art methods, improving performance by
+2.7\% and 4.3\% in mean reciprocal rank (MRR).","Yinyu Lan, Shizhu He, Kang Liu, Jun Zhao",2023-01-07T05:24:29Z,cs.AI
+Mind Reasoning Manners: Enhancing Type Perception for Generalized Zero-shot Logical Reasoning over Text,"Logical reasoning task involves diverse types of complex reasoning over text,
+based on the form of multiple-choice question answering. Given the context,
+question and a set of options as the input, previous methods achieve superior
+performances on the full-data setting. However, the current benchmark dataset
+has the ideal assumption that the reasoning type distribution on the train
+split is close to the test split, which is inconsistent with many real
+application scenarios. To address it, there remain two problems to be studied:
+(1) How is the zero-shot capability of the models (train on seen types and test
+on unseen types)? (2) How to enhance the perception of reasoning types for the
+models? For problem 1, we propose a new benchmark for generalized zero-shot
+logical reasoning, named ZsLR. It includes six splits based on the three type
+sampling strategies. For problem 2, a type-aware model TaCo is proposed. It
+utilizes both the heuristic input reconstruction and the contrastive learning
+to improve the type perception in the global representation. Extensive
+experiments on both the zero-shot and full-data settings prove the superiority
+of TaCo over the state-of-the-art methods. Also, we experiment and verify the
+generalization capability of TaCo on other logical reasoning dataset.","Fangzhi Xu, Jun Liu, Qika Lin, Tianzhe Zhao, Jian Zhang, Lingling Zhang",2023-01-08T05:24:34Z,cs.AI
+Semantic rule Web-based Diagnosis and Treatment of Vector-Borne Diseases using SWRL rules,"Vector-borne diseases (VBDs) are a kind of infection caused through the
+transmission of vectors generated by the bites of infected parasites, bacteria,
+and viruses, such as ticks, mosquitoes, triatomine bugs, blackflies, and
+sandflies. If these diseases are not properly treated within a reasonable time
+frame, the mortality rate may rise. In this work, we propose a set of
+ontologies that will help in the diagnosis and treatment of vector-borne
+diseases. For developing VBD's ontology, electronic health records taken from
+the Indian Health Records website, text data generated from Indian government
+medical mobile applications, and doctors' prescribed handwritten notes of
+patients are used as input. This data is then converted into correct text using
+Optical Character Recognition (OCR) and a spelling checker after
+pre-processing. Natural Language Processing (NLP) is applied for entity
+extraction from text data for making Resource Description Framework (RDF)
+medical data with the help of the Patient Clinical Data (PCD) ontology.
+Afterwards, Basic Formal Ontology (BFO), National Vector Borne Disease Control
+Program (NVBDCP) guidelines, and RDF medical data are used to develop
+ontologies for VBDs, and Semantic Web Rule Language (SWRL) rules are applied
+for diagnosis and treatment. The developed ontology helps in the construction
+of decision support systems (DSS) for the NVBDCP to control these diseases.","Ritesh Chandra, Sadhana Tiwari, Sonali Agarwal, Navjot Singh",2023-01-08T10:32:38Z,cs.AI
+A Divide-Align-Conquer Strategy for Program Synthesis,"A major bottleneck in search-based program synthesis is the exponentially
+growing search space which makes learning large programs intractable. Humans
+mitigate this problem by leveraging the compositional nature of the real world:
+In structured domains, a logical specification can often be decomposed into
+smaller, complementary solution programs. We show that compositional
+segmentation can be applied in the programming by examples setting to divide
+the search for large programs across multiple smaller program synthesis
+problems. For each example, we search for a decomposition into smaller units
+which maximizes the reconstruction accuracy in the output under a latent task
+program. A structural alignment of the constituent parts in the input and
+output leads to pairwise correspondences used to guide the program synthesis
+search. In order to align the input/output structures, we make use of the
+Structure-Mapping Theory (SMT), a formal model of human analogical reasoning
+which originated in the cognitive sciences. We show that decomposition-driven
+program synthesis with structural alignment outperforms Inductive Logic
+Programming (ILP) baselines on string transformation tasks even with minimal
+knowledge priors. Unlike existing methods, the predictive accuracy of our agent
+monotonically increases for additional examples and achieves an average time
+complexity of $\mathcal{O}(m)$ in the number $m$ of partial programs for highly
+structured domains such as strings. We extend this method to the complex
+setting of visual reasoning in the Abstraction and Reasoning Corpus (ARC) for
+which ILP methods were previously infeasible.","Jonas Witt, Stef Rasing, Sebastijan Dumančić, Tias Guns, Claus-Christian Carbon",2023-01-08T19:10:55Z,cs.AI
+"A Robust Multilabel Method Integrating Rule-based Transparent Model, Soft Label Correlation Learning and Label Noise Resistance","Model transparency, label correlation learning and the robust-ness to label
+noise are crucial for multilabel learning. However, few existing methods study
+these three characteristics simultaneously. To address this challenge, we
+propose the robust multilabel Takagi-Sugeno-Kang fuzzy system (R-MLTSK-FS) with
+three mechanisms. First, we design a soft label learning mechanism to reduce
+the effect of label noise by explicitly measuring the interactions between
+labels, which is also the basis of the other two mechanisms. Second, the
+rule-based TSK FS is used as the base model to efficiently model the inference
+relationship be-tween features and soft labels in a more transparent way than
+many existing multilabel models. Third, to further improve the performance of
+multilabel learning, we build a correlation enhancement learning mechanism
+based on the soft label space and the fuzzy feature space. Extensive
+experiments are conducted to demonstrate the superiority of the proposed
+method.","Qiongdan Lou, Zhaohong Deng, Kup-Sze Choi, Shitong Wang",2023-01-09T11:54:14Z,cs.AI
+Measuring Board Game Distance,"This paper presents a general approach for measuring distances between board
+games within the Ludii general game system. These distances are calculated
+using a previously published set of general board game concepts, each of which
+represents a common game idea or shared property. Our results compare and
+contrast two different measures of distance, highlighting the subjective nature
+of such metrics and discussing the different ways that they can be interpreted.","Matthew Stephenson, Dennis J. N. J. Soemers, Éric Piette, Cameron Browne",2023-01-10T11:34:57Z,cs.AI
+Causal Abstraction for Faithful Model Interpretation,"A faithful and interpretable explanation of an AI model's behavior and
+internal structure is a high-level explanation that is human-intelligible but
+also consistent with the known, but often opaque low-level causal details of
+the model. We argue that the theory of causal abstraction provides the
+mathematical foundations for the desired kinds of model explanations. In causal
+abstraction analysis, we use interventions on model-internal states to
+rigorously assess whether an interpretable high-level causal model is a
+faithful description of an AI model. Our contributions in this area are: (1) We
+generalize causal abstraction to cyclic causal structures and typed high-level
+variables. (2) We show how multi-source interchange interventions can be used
+to conduct causal abstraction analyses. (3) We define a notion of approximate
+causal abstraction that allows us to assess the degree to which a high-level
+causal model is a causal abstraction of a lower-level one. (4) We prove
+constructive causal abstraction can be decomposed into three operations we
+refer to as marginalization, variable-merge, and value-merge. (5) We formalize
+the XAI methods of LIME, causal effect estimation, causal mediation analysis,
+iterated nullspace projection, and circuit-based explanations as special cases
+of causal abstraction analysis.","Atticus Geiger, Chris Potts, Thomas Icard",2023-01-11T20:42:41Z,cs.AI
+On the Structural Generalization in Text-to-SQL,"Exploring the generalization of a text-to-SQL parser is essential for a
+system to automatically adapt the real-world databases. Previous works provided
+investigations focusing on lexical diversity, including the influence of the
+synonym and perturbations in both natural language questions and databases.
+However, research on the structure variety of database schema~(DS) is
+deficient. Specifically, confronted with the same input question, the target
+SQL is probably represented in different ways when the DS comes to a different
+structure. In this work, we provide in-deep discussions about the structural
+generalization of text-to-SQL tasks. We observe that current datasets are too
+templated to study structural generalization. To collect eligible test data, we
+propose a framework to generate novel text-to-SQL data via automatic and
+synchronous (DS, SQL) pair altering. In the experiments, significant
+performance reduction when evaluating well-trained text-to-SQL models on the
+synthetic samples demonstrates the limitation of current research regarding
+structural generalization. According to comprehensive analysis, we suggest the
+practical reason is the overfitting of (NL, SQL) patterns.","Jieyu Li, Lu Chen, Ruisheng Cao, Su Zhu, Hongshen Xu, Zhi Chen, Hanchong Zhang, Kai Yu",2023-01-12T02:52:51Z,cs.AI
+Against Algorithmic Exploitation of Human Vulnerabilities,"Decisions such as which movie to watch next, which song to listen to, or
+which product to buy online, are increasingly influenced by recommender systems
+and user models that incorporate information on users' past behaviours,
+preferences, and digitally created content. Machine learning models that enable
+recommendations and that are trained on user data may unintentionally leverage
+information on human characteristics that are considered vulnerabilities, such
+as depression, young age, or gambling addiction. The use of algorithmic
+decisions based on latent vulnerable state representations could be considered
+manipulative and could have a deteriorating impact on the condition of
+vulnerable individuals. In this paper, we are concerned with the problem of
+machine learning models inadvertently modelling vulnerabilities, and want to
+raise awareness for this issue to be considered in legislation and AI ethics.
+Hence, we define and describe common vulnerabilities, and illustrate cases
+where they are likely to play a role in algorithmic decision-making. We propose
+a set of requirements for methods to detect the potential for vulnerability
+modelling, detect whether vulnerable groups are treated differently by a model,
+and detect whether a model has created an internal representation of
+vulnerability. We conclude that explainable artificial intelligence methods may
+be necessary for detecting vulnerability exploitation by machine learning-based
+recommendation systems.","Inga Strümke, Marija Slavkovik, Clemens Stachl",2023-01-12T13:15:24Z,cs.AI
+Persistence-Based Discretization for Learning Discrete Event Systems from Time Series,"To get a good understanding of a dynamical system, it is convenient to have
+an interpretable and versatile model of it. Timed discrete event systems are a
+kind of model that respond to these requirements. However, such models can be
+inferred from timestamped event sequences but not directly from numerical data.
+To solve this problem, a discretization step must be done to identify events or
+symbols in the time series. Persist is a discretization method that intends to
+create persisting symbols by using a score called persistence score. This
+allows to mitigate the risk of undesirable symbol changes that would lead to a
+too complex model. After the study of the persistence score, we point out that
+it tends to favor excessive cases making it miss interesting persisting
+symbols. To correct this behavior, we replace the metric used in the
+persistence score, the Kullback-Leibler divergence, with the Wasserstein
+distance. Experiments show that the improved persistence score enhances
+Persist's ability to capture the information of the original time series and
+that it makes it better suited for discrete event systems learning.","Lénaïg Cornanguer, Christine Largouët, Laurence Rozé, Alexandre Termier",2023-01-12T14:10:30Z,cs.AI
+Discovering and Explaining Driver Behaviour under HoS Regulations,"World wide transport authorities are imposing complex Hours of Service
+regulations to drivers, which constraint the amount of working, driving and
+resting time when delivering a service. As a consequence, transport companies
+are responsible not only of scheduling driving plans aligned with laws that
+define the legal behaviour of a driver, but also of monitoring and identifying

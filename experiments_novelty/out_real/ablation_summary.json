@@ -1,0 +1,10 @@
+{
+  "base_acc_proxy": 0.4984894259818731,
+  "drops": {
+    "Only-Method": 0.0,
+    "Only-Task": 0.0,
+    "No-Pair": 0.0,
+    "No-Attention": 0.0,
+    "EncoderSwap": 0.0
+  }
+}

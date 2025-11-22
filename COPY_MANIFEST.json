@@ -1,0 +1,336 @@
+{
+  "included": [
+    {
+      "path": "complete_process\\cleaned_final_data_1_row.csv",
+      "reason": "small data <= 262144B"
+    },
+    {
+      "path": "complete_process\\complete_process.py",
+      "reason": "python source"
+    },
+    {
+      "path": "complete_process\\handle_batch_data.py",
+      "reason": "python source"
+    },
+    {
+      "path": "complete_process\\new_papers_5rows.csv",
+      "reason": "small data <= 262144B"
+    },
+    {
+      "path": "complete_process\\past_socre_data_file.csv",
+      "reason": "small data <= 262144B"
+    },
+    {
+      "path": "complete_process\\test.py",
+      "reason": "python source"
+    },
+    {
+      "path": "complete_process\\__init__.py",
+      "reason": "python source"
+    },
+    {
+      "path": "data\\output_h5_structure.py",
+      "reason": "python source"
+    },
+    {
+      "path": "data\\__init__.py",
+      "reason": "python source"
+    },
+    {
+      "path": "evaluate\\evaluate.py",
+      "reason": "python source"
+    },
+    {
+      "path": "evaluate\\t_test.py",
+      "reason": "python source"
+    },
+    {
+      "path": "evaluate\\__init__.py",
+      "reason": "python source"
+    },
+    {
+      "path": "getNoveltyScore\\extract_entities.py",
+      "reason": "python source"
+    },
+    {
+      "path": "getNoveltyScore\\__init__.py",
+      "reason": "python source"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\config.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\trainer_state.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\ner_model\\config.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\ner_model_attention\\config.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\ner_tokenizer\\merges.txt",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\ner_tokenizer\\special_tokens_map.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "model\\ner_tokenizer\\tokenizer_config.json",
+      "reason": "text-like <= 524288B"
+    },
+    {
+      "path": "util\\cleaned_final_data_1_row.csv",
+      "reason": "small data <= 262144B"
+    },
+    {
+      "path": "util\\clean_nan_data.py",
+      "reason": "python source"
+    },
+    {
+      "path": "util\\filter_data_citation.py",
+      "reason": "python source"
+    },
+    {
+      "path": "util\\identify_word_embedding_performance.py",
+      "reason": "python source"
+    },
+    {
+      "path": "util\\save_first_5_rows.py",
+      "reason": "python source"
+    },
+    {
+      "path": "util\\util.py",
+      "reason": "python source"
+    },
+    {
+      "path": "util\\__init__.py",
+      "reason": "python source"
+    }
+  ],
+  "sampled": [
+    {
+      "path": "complete_process\\cleaned_final_data.csv",
+      "reason": "data sampled (size 1451084B > 262144B)",
+      "output": "complete_process\\cleaned_final_data.csv.sample"
+    },
+    {
+      "path": "complete_process\\extracted_data.csv",
+      "reason": "data sampled (size 2215582B > 262144B)",
+      "output": "complete_process\\extracted_data.csv.sample"
+    },
+    {
+      "path": "complete_process\\new_papers.csv",
+      "reason": "data sampled (size 14486798B > 262144B)",
+      "output": "complete_process\\new_papers.csv.sample"
+    },
+    {
+      "path": "complete_process\\old_papers.csv",
+      "reason": "data sampled (size 3427878B > 262144B)",
+      "output": "complete_process\\old_papers.csv.sample"
+    },
+    {
+      "path": "data\\initial_data.csv",
+      "reason": "data sampled (size 2215582B > 262144B)",
+      "output": "data\\initial_data.csv.sample"
+    },
+    {
+      "path": "evaluate\\new_extracted_data.csv",
+      "reason": "data sampled (size 3848082B > 262144B)",
+      "output": "evaluate\\new_extracted_data.csv.sample"
+    },
+    {
+      "path": "evaluate\\old_extracted_data.csv",
+      "reason": "data sampled (size 492194B > 262144B)",
+      "output": "evaluate\\old_extracted_data.csv.sample"
+    },
+    {
+      "path": "util\\cleaned_final_data.csv",
+      "reason": "data sampled (size 1451084B > 262144B)",
+      "output": "util\\cleaned_final_data.csv.sample"
+    },
+    {
+      "path": "util\\filtered_data.csv",
+      "reason": "data sampled (size 23204697B > 262144B)",
+      "output": "util\\filtered_data.csv.sample"
+    },
+    {
+      "path": "util\\filtered_data_50.csv",
+      "reason": "data sampled (size 11885758B > 262144B)",
+      "output": "util\\filtered_data_50.csv.sample"
+    },
+    {
+      "path": "util\\final_output.csv",
+      "reason": "data sampled (size 2180786B > 262144B)",
+      "output": "util\\final_output.csv.sample"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "data\\method_data_50.h5",
+      "reason": "excluded extension .h5"
+    },
+    {
+      "path": "data\\method_task_comb_embeddings_50.h5",
+      "reason": "excluded extension .h5"
+    },
+    {
+      "path": "data\\task_data_50.h5",
+      "reason": "excluded extension .h5"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\optimizer.pt",
+      "reason": "excluded extension .pt"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\pytorch_model.bin",
+      "reason": "excluded extension .bin"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\rng_state.pth",
+      "reason": "excluded extension .pth"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\scheduler.pt",
+      "reason": "excluded extension .pt"
+    },
+    {
+      "path": "model\\IdentifyScientificEntityRelation\\training_args.bin",
+      "reason": "excluded extension .bin"
+    },
+    {
+      "path": "model\\ner_model\\pytorch_model.bin",
+      "reason": "excluded extension .bin"
+    },
+    {
+      "path": "model\\ner_model_attention\\pytorch_model.bin",
+      "reason": "excluded extension .bin"
+    },
+    {
+      "path": "model\\ner_tokenizer\\tokenizer.json",
+      "reason": "text-like too large (2109680B > 524288B)"
+    },
+    {
+      "path": "model\\ner_tokenizer\\vocab.json",
+      "reason": "text-like too large (798296B > 524288B)"
+    }
+  ],
+  "settings": {
+    "only_py": false,
+    "max_size": 524288,
+    "max_notebook_size": 1048576,
+    "max_data_size": 262144,
+    "sample_lines": 200,
+    "data_sampling_enabled": true
+  },
+  "exclude_dirs": [
+    ".ds_store",
+    ".git",
+    ".history",
+    ".idea",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pycache__",
+    "artifacts",
+    "build",
+    "checkpoints",
+    "dist",
+    "env",
+    "logs",
+    "node_modules",
+    "runs",
+    "venv",
+    "wandb"
+  ],
+  "exclude_exts": [
+    ".7z",
+    ".a",
+    ".avi",
+    ".bin",
+    ".bmp",
+    ".bz2",
+    ".ckpt",
+    ".class",
+    ".dat",
+    ".dll",
+    ".dylib",
+    ".gif",
+    ".gz",
+    ".h5",
+    ".iso",
+    ".jar",
+    ".jpeg",
+    ".jpg",
+    ".lib",
+    ".mkv",
+    ".mov",
+    ".mp3",
+    ".mp4",
+    ".npy",
+    ".npz",
+    ".onnx",
+    ".parquet",
+    ".pb",
+    ".png",
+    ".pt",
+    ".pth",
+    ".pyc",
+    ".pyd",
+    ".pyo",
+    ".safetensors",
+    ".so",
+    ".svg",
+    ".tar",
+    ".tflite",
+    ".tiff",
+    ".wav",
+    ".xz",
+    ".zip"
+  ],
+  "always_copy_names": [
+    ".env.example",
+    ".flake8",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".pre-commit-config.yml",
+    "Dockerfile",
+    "LICENSE",
+    "LICENSE.md",
+    "MANIFEST.in",
+    "Makefile",
+    "Pipfile",
+    "Pipfile.lock",
+    "README",
+    "README.md",
+    "README.rst",
+    "conda.yml",
+    "docker-compose.yml",
+    "environment.yml",
+    "mypy.ini",
+    "poetry.lock",
+    "pyproject.toml",
+    "requirements-dev.txt",
+    "requirements.lock",
+    "requirements.txt",
+    "ruff.toml",
+    "setup.cfg",
+    "setup.py",
+    "tox.ini"
+  ],
+  "summary": {
+    "files_copied": 28,
+    "files_sampled": 11,
+    "files_skipped": 12,
+    "bytes_copied": 2284973
+  }
+}

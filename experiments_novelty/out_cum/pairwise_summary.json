@@ -1,0 +1,26 @@
+{
+  "pairs": 2165,
+  "acc": 0.5727482678983834,
+  "acc_ci": [
+    0.5519630484988453,
+    0.5935334872979214
+  ],
+  "auc": 0.620440452506547,
+  "auc_ci": [
+    0.5966901044861299,
+    0.6420611609214407
+  ],
+  "orientation": "delta",
+  "protocol": "nearest-historical per field with global fallback (TF-IDF)",
+  "coverage": {
+    "recent_total": 2165,
+    "hist_total": 331,
+    "by_field_pairs": 2165,
+    "fallback_pairs": 0,
+    "pairs": 2165
+  },
+  "seed": 42,
+  "rounds": 1000,
+  "max_features": 60000,
+  "scores_csv": "scores_pair.csv"
+}

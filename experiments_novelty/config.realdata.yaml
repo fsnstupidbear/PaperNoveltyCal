@@ -1,0 +1,72 @@
+file_format: csv
+has_header: false
+
+csv:
+  delimiter: ","
+  quotechar: '"'
+
+# ★ 按列号（从 0 开始）映射你现有的 5 列
+columns_by_index:
+  title: 0
+  abstract: 1
+  tasks_with_scores: 2
+  methods_with_scores: 3
+  combo_score: 4
+
+# 若你后续也放在此目录名
+historical_path: data/historical.csv
+recent_path:     data/recent.csv
+
+# 文本预处理
+text_lowercase: true
+remove_stopwords: true
+bigram: false
+
+# 你的总分 S 的聚合权重（可调）
+weights:
+  method_entity: 0.8
+  task_entity:   0.8
+  combo_pair:    2.5    # ← 从 1.0 提到 2.5（可再试 3.0、3.5）
+
+
+norm_eps: 1.0e-8
+
+# ★ 检索评测的“银标准”：基于距离（与历史最近邻的相似度 → 稀有度）
+silver_label: "distance"
+distance_top_percent: 20      # 或先试 25
+retrieval:
+  k: 10
+  include_self_label: true
+  label_mode: self_or_top_r
+  pool_mode: nn_recent
+  nn_top_n: 300               # 先从 300 开始（你之前 200 已跑过）
+
+# 候选池设置：你数据没有 field，统一合池
+pool:
+  by_field: false
+  max_size: 4000
+  near_years: 10
+
+#（可选）嵌入/主题等配置；保持默认即可
+embeddings:
+  use_sci_bert: false
+  model_name: allenai/scibert_scivocab_uncased
+  batch_size: 16
+  device: cpu
+
+lda:
+  enabled: true
+  num_topics: 100
+  passes: 5
+  random_state: 42
+
+# 时间鲁棒（如果需要年份才能真滚动，这里先保留占位）
+time_splits:
+  - historical: [2016, 2022]
+    recent:     [2023, 2025]
+
+bootstrap:
+  rounds: 1000
+  seed: 123
+
+save_intermediate: true

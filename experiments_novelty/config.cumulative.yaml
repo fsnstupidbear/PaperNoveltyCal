@@ -1,0 +1,44 @@
+# config.cumulative.yaml
+input:
+  recent_csv: "data/recent_cumulative.csv"
+  historical_csv: "data/historical_cumulative.csv"
+
+columns:
+  has_header: false           # 你的 CSV 开头就是数据，所以没有表头
+  title_idx: 0                # A 列：标题
+  abstract_idx: 1             # B 列：摘要（没有就填 -1）
+  cum_json_idx: 5             # F 列：形如 {'CumulativeMethodScore': ...} 的字典字符串
+  cum_keys:                   # F 列字典里的字段名映射
+    method: "CumulativeMethodScore"
+    task: "CumulativeTaskScore"
+    pair: "CumulativeMethodTaskPairScore"
+
+weights:
+  method: 1.0
+  task: 1.0
+  pair: 0.35
+
+retrieval:
+  nn_top_n: 200               # 检索候选池大小（可 200/300/400）
+  r_percent: 20               # 银标 r%
+  include_self: true          # 是否把 query 自身算作正例（你之前用过 true）
+
+misc:
+  field_default: "ALL"
+
+lda:
+  num_topics: 100         # 主题数，常用 80~200
+  passes: 5               # 每轮遍历语料次数
+  iterations: 200         # 每次训练迭代步数
+  random_state: 42
+  no_below: 5             # 丢弃出现次数 <5 的词
+  no_above: 0.5           # 丢弃出现在 >50% 文档的高频词
+
+bootstrap:
+  rounds: 1000   # 自助法抽样次数（可 500~2000）
+  seed: 42       # 随机种子
+  ci: 0.95       # 置信区间置信度（eval_pairwise若未用到也没关系）
+
+graph:
+  topk_terms: 12     # 每篇文用历史TF-IDF取前K个术语
+  max_features: 20000

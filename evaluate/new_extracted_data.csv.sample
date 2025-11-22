@@ -1,0 +1,200 @@
+A Meta-Learning Algorithm for Interrogative Agendas,"Explainability is a key challenge and a major research theme in AI research
+for developing intelligent systems that are capable of working with humans more
+effectively. An obvious choice in developing explainable intelligent systems
+relies on employing knowledge representation formalisms which are inherently
+tailored towards expressing human knowledge e.g., interrogative agendas. In the
+scope of this work, we focus on formal concept analysis (FCA), a standard
+knowledge representation formalism, to express interrogative agendas, and in
+particular to categorize objects w.r.t. a given set of features. Several
+FCA-based algorithms have already been in use for standard machine learning
+tasks such as classification and outlier detection. These algorithms use a
+single concept lattice for such a task, meaning that the set of features used
+for the categorization is fixed. Different sets of features may have different
+importance in that categorization, we call a set of features an agenda. In many
+applications a correct or good agenda for categorization is not known
+beforehand. In this paper, we propose a meta-learning algorithm to construct a
+good interrogative agenda explaining the data. Such algorithm is meant to call
+existing FCA-based classification and outlier detection algorithms iteratively,
+to increase their accuracy and reduce their sample complexity. The proposed
+method assigns a measure of importance to different set of features used in the
+categorization, hence making the results more explainable.",FCA - 0.69; formal concept analysis - 2.09,classification - 0.00; outlier detection - 0.00; categorize - 1.35,FCA - classification - 2.68; FCA - outlier detection - 1.83; FCA - categorize - 5.82; formal concept analysis - classification - 4.89; formal concept analysis - outlier detection - 3.81; formal concept analysis - categorize - 6.60,"{'CumulativeMethodScore': 0.5761283431337167, 'CumulativeTaskScore': 0.5444498916919902, 'CumulativeMethodTaskPairScore': 0.6589599523558132}"
+Contrast with Major Classifier Vectors for Federated Medical Relation Extraction with Heterogeneous Label Distribution,"Federated medical relation extraction enables multiple clients to train a
+deep network collaboratively without sharing their raw medical data. In order
+to handle the heterogeneous label distribution across clients, most of the
+existing works only involve enforcing regularization between local and global
+models during optimization. In this paper, we fully utilize the models of all
+clients and propose a novel concept of \textit{major classifier vectors}, where
+a group of class vectors is obtained in an ensemble rather than the weighted
+average method on the server. The major classifier vectors are then distributed
+to all clients and the local training of each client is Contrasted with Major
+Classifier vectors (FedCMC), so the local model is not prone to overfitting to
+the local label distribution. FedCMC requires only a small amount of additional
+transfer of classifier parameters without any leakage of raw data, extracted
+representations, and label distributions. Our extensive experiments show that
+FedCMC outperforms the other state-of-the-art FL algorithms on three medical
+relation extraction datasets.",ĊFedCMC - 1.01; FedCMC - 0.54,Federated Medical Relation Extraction - 1.64; Federated medical relation extraction - 1.45; Ċrelation extraction - 0.94,ĊFedCMC - Federated medical relation extraction - 5.84; FedCMC - Federated medical relation extraction - 4.72,"{'CumulativeMethodScore': 0.5115678192902682, 'CumulativeTaskScore': 0.727571886331227, 'CumulativeMethodTaskPairScore': 0.5326409714579288}"
+Counterexample Guided Abstraction Refinement with Non-Refined Abstractions for Multi-Agent Path Finding,"Counterexample guided abstraction refinement (CEGAR) represents a powerful
+symbolic technique for various tasks such as model checking and reachability
+analysis. Recently, CEGAR combined with Boolean satisfiability (SAT) has been
+applied for multi-agent path finding (MAPF), a problem where the task is to
+navigate agents from their start positions to given individual goal positions
+so that the agents do not collide with each other.
+  The recent CEGAR approach used the initial abstraction of the MAPF problem
+where collisions between agents were omitted and were eliminated in subsequent
+abstraction refinements. We propose in this work a novel CEGAR-style solver for
+MAPF based on SAT in which some abstractions are deliberately left non-refined.
+This adds the necessity to post-process the answers obtained from the
+underlying SAT solver as these answers slightly differ from the correct MAPF
+solutions. Non-refining however yields order-of-magnitude smaller SAT encodings
+than those of the previous approach and speeds up the overall solving process
+making the SAT-based solver for MAPF competitive again in relevant benchmarks.",CEGAR - 0.49; Counterexample guided abstraction refinement - 2.28,MAPF - 0.00; multi-agent path finding - 0.30; Multi-Agent Path Finding - 0.79; ĊMAPF - 0.63,CEGAR - MAPF - 2.83; CEGAR - multi-agent path finding - 2.46; Counterexample guided abstraction refinement - MAPF - 5.41; Counterexample guided abstraction refinement - multi-agent path finding - 4.54; Counterexample guided abstraction refinement - ĊMAPF - 6.74,"{'CumulativeMethodScore': 0.5759412895034013, 'CumulativeTaskScore': 0.571609051919228, 'CumulativeMethodTaskPairScore': 0.6295503397747508}"
+NeSIG: A Neuro-Symbolic Method for Learning to Generate Planning Problems,"In the field of Automated Planning there is often the need for a set of
+planning problems from a particular domain, e.g., to be used as training data
+for Machine Learning or as benchmarks in planning competitions. In most cases,
+these problems are created either by hand or by a domain-specific generator,
+putting a burden on the human designers. In this paper we propose NeSIG, to the
+best of our knowledge the first domain-independent method for automatically
+generating planning problems that are valid, diverse and difficult to solve. We
+formulate problem generation as a Markov Decision Process and train two
+generative policies with Deep Reinforcement Learning to generate problems with
+the desired properties. We conduct experiments on several classical domains,
+comparing our method with handcrafted domain-specific generators that generate
+valid and diverse problems but do not optimize difficulty. The results show
+NeSIG is able to automatically generate valid problems of greater difficulty
+than the competitor approaches, while maintaining good diversity.",NeSIG - 2.28,Automated Planning - 1.22,NeSIG - Automated Planning - 3.50,"{'CumulativeMethodScore': 0.5498124521387973, 'CumulativeTaskScore': 0.5351156438392771, 'CumulativeMethodTaskPairScore': 0.4709395050425529}"
+Generalized Planning as Heuristic Search: A new planning search-space that leverages pointers over objects,"Planning as heuristic search is one of the most successful approaches to
+classical planning but unfortunately, it does not extend trivially to
+Generalized Planning (GP). GP aims to compute algorithmic solutions that are
+valid for a set of classical planning instances from a given domain, even if
+these instances differ in the number of objects, the number of state variables,
+their domain size, or their initial and goal configuration. The generalization
+requirements of GP make it impractical to perform the state-space search that
+is usually implemented by heuristic planners. This paper adapts the planning as
+heuristic search paradigm to the generalization requirements of GP, and
+presents the first native heuristic search approach to GP. First, the paper
+introduces a new pointer-based solution space for GP that is independent of the
+number of classical planning instances in a GP problem and the size of those
+instances (i.e. the number of objects, state variables and their domain sizes).
+Second, the paper defines a set of evaluation and heuristic functions for
+guiding a combinatorial search in our new GP solution space. The computation of
+these evaluation and heuristic functions does not require grounding states or
+actions in advance. Therefore our GP as heuristic search approach can handle
+large sets of state variables with large numerical domains, e.g.~integers.
+Lastly, the paper defines an upgraded version of our novel algorithm for GP
+called Best-First Generalized Planning (BFGP), that implements a best-first
+search in our pointer-based solution space, and that is guided by our
+evaluation/heuristic functions for GP.",BFGP - 0.42; General - 0.00; Best-First Generalized Planning - 2.79,Generalized Planning - 1.16; GP - 0.00,BFGP - GP - 2.44; Best-First Generalized Planning - GP - 4.73,"{'CumulativeMethodScore': 0.5978178494528797, 'CumulativeTaskScore': 0.5304317602581461, 'CumulativeMethodTaskPairScore': 0.503083899912631}"
+Context Matters: A Strategy to Pre-train Language Model for Science Education,"This study aims at improving the performance of scoring student responses in
+science education automatically. BERT-based language models have shown
+significant superiority over traditional NLP models in various language-related
+tasks. However, science writing of students, including argumentation and
+explanation, is domain-specific. In addition, the language used by students is
+different from the language in journals and Wikipedia, which are training
+sources of BERT and its existing variants. All these suggest that a
+domain-specific model pre-trained using science education data may improve
+model performance. However, the ideal type of data to contextualize pre-trained
+language model and improve the performance in automatically scoring student
+written responses remains unclear. Therefore, we employ different data in this
+study to contextualize both BERT and SciBERT models and compare their
+performance on automatic scoring of assessment tasks for scientific
+argumentation. We use three datasets to pre-train the model: 1) journal
+articles in science education, 2) a large dataset of students' written
+responses (sample size over 50,000), and 3) a small dataset of students'
+written responses of scientific argumentation tasks. Our experimental results
+show that in-domain training corpora constructed from science questions and
+responses improve language model performance on a wide variety of downstream
+tasks. Our study confirms the effectiveness of continual pre-training on
+domain-specific data in the education domain and demonstrates a generalizable
+strategy for automating science education tasks with high accuracy. We plan to
+release our data and SciEdBERT models for public use and community engagement.",SciBERT scoringĊargumentation - 2.24; BERT - 0.00; BERTation - 0.65; SciEdBERT - 0.54,scoring student responses - 1.33; Ċ - 0.00,SciBERT scoringĊargumentation - scoring student responses - 6.96; BERT - scoring student responses - 4.18; BERTation - scoring student responses - 5.43; SciEdBERT - scoring student responses - 4.95,"{'CumulativeMethodScore': 0.6092465198690409, 'CumulativeTaskScore': 0.5430509858658491, 'CumulativeMethodTaskPairScore': 0.6258544489360682}"
+HeroNet: A Hybrid Retrieval-Generation Network for Conversational Bots,"Using natural language, Conversational Bot offers unprecedented ways to many
+challenges in areas such as information searching, item recommendation, and
+question answering. Existing bots are usually developed through retrieval-based
+or generative-based approaches, yet both of them have their own advantages and
+disadvantages. To assemble this two approaches, we propose a hybrid
+retrieval-generation network (HeroNet) with the three-fold ideas: 1). To
+produce high-quality sentence representations, HeroNet performs multi-task
+learning on two subtasks: Similar Queries Discovery and Query-Response
+Matching. Specifically, the retrieval performance is improved while the model
+size is reduced by training two lightweight, task-specific adapter modules that
+share only one underlying T5-Encoder model. 2). By introducing adversarial
+training, HeroNet is able to solve both retrieval\&generation tasks
+simultaneously while maximizing performance of each other. 3). The retrieval
+results are used as prior knowledge to improve the generation performance while
+the generative result are scored by the discriminator and their scores are
+integrated into the generator's cross-entropy loss function. The experimental
+results on a open dataset demonstrate the effectiveness of the HeroNet and our
+code is available at https://github.com/TempHero/HeroNet.git",HeroNet - 0.67; T5 - 0.00,Query-ResponseĊMatching - 2.99; Similar Queries Discovery - 1.05; Conversational Bot - 1.14; Ċquestion answering - 1.09; item recommendation - 0.21,HeroNet - Conversational Bot - 6.51; HeroNet - item recommendation - 4.64; HeroNet - Similar Queries Discovery - 5.81; T5 - Conversational Bot - 4.10; T5 - item recommendation - 1.10; T5 - Similar Queries Discovery - 3.55,"{'CumulativeMethodScore': 0.46506706682221044, 'CumulativeTaskScore': 0.8479378670517954, 'CumulativeMethodTaskPairScore': 0.6595417378780052}"
+BERT-based Authorship Attribution on the Romanian Dataset called ROST,"Being around for decades, the problem of Authorship Attribution is still very
+much in focus currently. Some of the more recent instruments used are the
+pre-trained language models, the most prevalent being BERT. Here we used such a
+model to detect the authorship of texts written in the Romanian language. The
+dataset used is highly unbalanced, i.e., significant differences in the number
+of texts per author, the sources from which the texts were collected, the time
+period in which the authors lived and wrote these texts, the medium intended to
+be read (i.e., paper or online), and the type of writing (i.e., stories, short
+stories, fairy tales, novels, literary articles, and sketches). The results are
+better than expected, sometimes exceeding 87\% macro-accuracy.",BERT authorship - 2.67,Authorship Attribution - 2.52,BERT authorship - Authorship Attribution - 5.19,"{'CumulativeMethodScore': 0.5702735756619589, 'CumulativeTaskScore': 0.6298243827755886, 'CumulativeMethodTaskPairScore': 0.48573105950234713}"
+Purposeful and Operation-based Cognitive System for AGI,"This paper proposes a new cognitive model, acting as the main component of an
+AGI agent. The model is introduced in its mature state, and as an extension of
+previous models, DENN, and especially AKREM, by including operational models
+(frames/classes) and will. In addition, it is mainly based on the duality
+principle in every known intelligent aspect, such as exhibiting both top-down
+and bottom-up model learning, generalization verse specialization, and more.
+Furthermore, a holistic approach is advocated for AGI designing and cognition
+under constraints or efficiency is proposed, in the form of reusability and
+simplicity. Finally, reaching this mature state is described via a cognitive
+evolution from infancy to adulthood, utilizing a consolidation principle. The
+final product of this cognitive model is a dynamic operational memory of models
+and instances.",ĊAGI - 1.74; DENN - 1.62; AGI - 3.07; AKREM - 2.22,AG - 0.18,DENN - AG - 5.01; ĊAGI - AG - 5.85; AKREM - AG - 7.13,"{'CumulativeMethodScore': 0.8250475163952962, 'CumulativeTaskScore': 0.4568448347714668, 'CumulativeMethodTaskPairScore': 0.5964734554585562}"
+"Multimodality Representation Learning: A Survey on Evolution, Pretraining and Its Applications","Multimodality Representation Learning, as a technique of learning to embed
+information from different modalities and their correlations, has achieved
+remarkable success on a variety of applications, such as Visual Question
+Answering (VQA), Natural Language for Visual Reasoning (NLVR), and Vision
+Language Retrieval (VLR). Among these applications, cross-modal interaction and
+complementary information from different modalities are crucial for advanced
+models to perform any multimodal task, e.g., understand, recognize, retrieve,
+or generate optimally. Researchers have proposed diverse methods to address
+these tasks. The different variants of transformer-based architectures
+performed extraordinarily on multiple modalities. This survey presents the
+comprehensive literature on the evolution and enhancement of deep learning
+multimodal architectures to deal with textual, visual and audio features for
+diverse cross-modal and modern multimodal tasks. This study summarizes the (i)
+recent task-specific deep learning methodologies, (ii) the pretraining types
+and multimodal pretraining objectives, (iii) from state-of-the-art pretrained
+multimodal approaches to unifying architectures, and (iv) multimodal task
+categories and possible future improvements that can be devised for better
+multimodal learning. Moreover, we prepare a dataset section for new researchers
+that covers most of the benchmarks for pretraining and finetuning. Finally,
+major challenges, gaps, and potential research topics are explored. A
+constantly-updated paperlist related to our survey is maintained at
+https://github.com/marslanm/multimodality-representation-learning.",Multimodality Representation Learning - 0.44,VisionĊLanguage Retrieval - 1.31; VLR - 0.49; Natural Language for Visual Reasoning - 1.02; NLVR - 0.27; VQA - 0.00; Visual QuestionĊAnswering - 0.97,Multimodality Representation Learning - NLVR - 2.25; Multimodality Representation Learning - VQA - 1.31; Multimodality Representation Learning - VLR - 2.95,"{'CumulativeMethodScore': 0.4524827569627506, 'CumulativeTaskScore': 0.7298092584597002, 'CumulativeMethodTaskPairScore': 0.4973181018922489}"
+MetaTKG: Learning Evolutionary Meta-Knowledge for Temporal Knowledge Graph Reasoning,"Reasoning over Temporal Knowledge Graphs (TKGs) aims to predict future facts
+based on given history. One of the key challenges for prediction is to learn
+the evolution of facts. Most existing works focus on exploring evolutionary
+information in history to obtain effective temporal embeddings for entities and
+relations, but they ignore the variation in evolution patterns of facts, which
+makes them struggle to adapt to future data with different evolution patterns.
+Moreover, new entities continue to emerge along with the evolution of facts
+over time. Since existing models highly rely on historical information to learn
+embeddings for entities, they perform poorly on such entities with little
+historical information. To tackle these issues, we propose a novel Temporal
+Meta-learning framework for TKG reasoning, MetaTKG for brevity. Specifically,
+our method regards TKG prediction as many temporal meta-tasks, and utilizes the
+designed Temporal Meta-learner to learn evolutionary meta-knowledge from these
+meta-tasks. The proposed method aims to guide the backbones to learn to adapt
+quickly to future data and deal with entities with little historical
+information by the learned meta-knowledge. Specially, in temporal meta-learner,
+we design a Gating Integration module to adaptively establish temporal
+correlations between meta-tasks. Extensive experiments on four widely-used
+datasets and three backbones demonstrate that our method can greatly improve
+the performance.",Temporal - 1.31; MetaTKG - 0.60,TKGs - 1.42; TKG - 0.00; Reasoning over Temporal Knowledge Graphs - 4.33,Temporal - TKGs - 11.03; Temporal - TKG - 5.50; Temporal - Reasoning over Temporal Knowledge Graphs - 10.95; MetaTKG - TKGs - 5.86; MetaTKG - Reasoning over Temporal Knowledge Graphs - 8.05,"{'CumulativeMethodScore': 0.5304837165631688, 'CumulativeTaskScore': 0.8179983995389537, 'CumulativeMethodTaskPairScore': 0.7703549758397116}"
+DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems,"Online social media platforms offer access to a vast amount of information,
+but sifting through the abundance of news can be overwhelming and tiring for
+readers. personalised recommendation algorithms can help users find information
+that interests them. However, most existing models rely solely on observations
+of user behaviour, such as viewing history, ignoring the connections between
+the news and a user's prior knowledge. This can result in a lack of diverse
+recommendations for individuals. In this paper, we propose a novel method to
+address the complex problem of news recommendation. Our approach is based on
+the idea of dual observation, which involves using a deep neural network with

@@ -1,0 +1,5 @@
+| Method | Accuracy | AUC | nDCG@10 | Precision@10 |
+|---|---:|---:|---:|---:|
+| Ours (PAIR, meta) |  |  |  |  |
+| Ours (RET, base) |  |  |  |  |
+| Ours (RET, fusion-UB) |  |  |  |  |

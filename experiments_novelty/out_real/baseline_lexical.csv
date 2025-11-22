@@ -1,0 +1,332 @@
+id,title,year,field,B1_tfidf_dist,B1_bm25_negmax
+R0,An Empirical Analysis of Search in GSAT,0,ALL,0.88568575159032,-234.1926755406213
+R1,Substructure Discovery Using Minimum Description Length and Background Knowledge,0,ALL,0.8837270217197848,-279.77624383124305
+R2,Bias-Driven Revision of Logical Domain Theories,0,ALL,0.9000701267318056,-185.42707624847472
+R3,Wrap-Up: a Trainable Discourse Module for Information Extraction,0,ALL,0.8639722540761055,-157.8622650079939
+R4,Cost-Sensitive Classification: Empirical Evaluation of a Hybrid Genetic Decision Tree Induction Algorithm,0,ALL,0.8734914114246322,-254.29780067613675
+R5,FLECS: Planning with a Flexible Commitment Strategy,0,ALL,0.8004735176160267,-310.8354194052088
+R6,Induction of First-Order Decision Lists: Results on Learning the Past Tense of English Verbs,0,ALL,0.9105753274399451,-149.01165244973848
+R7,Building and Refining Abstract Planning Cases by Change of Representation Language,0,ALL,0.8661259272571242,-300.41473128645936
+R8,OPUS: An Efficient Admissible Algorithm for Unordered Search,0,ALL,0.8281065227827743,-147.12860570686055
+R9,Translating between Horn Representations and their Characteristic Models,0,ALL,0.8993794790491662,-241.88988111923842
+R10,A Formal Framework for Speedup Learning from Problems and Solutions,0,ALL,0.8968757821946931,-170.73885078125554
+R11,Cue Phrase Classification Using Machine Learning,0,ALL,0.8874554931864141,-233.50249688632593
+R12,MUSE CSP: An Extension to the Constraint Satisfaction Problem,0,ALL,0.8762671699497764,-287.5489898761742
+R13,Exploiting Causal Independence in Bayesian Network Inference,0,ALL,0.8558109629162575,-266.3756726467898
+R14,Flaw Selection Strategies for Partial-Order Planning,0,ALL,0.9035009707742889,-213.91586476391376
+R15,Cached Sufficient Statistics for Efficient Machine Learning with Large Datasets,0,ALL,0.8811382393030873,-293.46590402194545
+R16,Model-Based Diagnosis using Structured System Descriptions,0,ALL,0.9024509295306845,-251.57222984594978
+R17,A reusable iterative optimization software library to solve combinatorial problems with approximate reasoning,0,ALL,0.8796857120037349,-172.39766392235234
+R18,Iterative Deepening Branch and Bound,0,ALL,0.8830063974442016,-126.6904963931915
+R19,On the accuracy and running time of GSAT,0,ALL,0.8852008221935033,-262.2288468128313
+R20,ACLP: Integrating Abduction and Constraint Solving,0,ALL,0.8862223740843204,-260.5874225687159
+R21,Probabilistic Default Reasoning with Conditional Constraints,0,ALL,0.8758458487331636,-152.35227981739197
+R22,Planning with Incomplete Information,0,ALL,0.859921183865086,-227.80870287118012
+R23,SATEN: An Object-Oriented Web-Based Revision and Extraction Engine,0,ALL,0.7480519327710919,-153.9052837327371
+R24,DATALOG with constraints - an answer-set programming system,0,ALL,0.8266392927969488,-335.85929663565605
+R25,Brainstorm/J: a Java Framework for Intelligent Agents,0,ALL,0.8487808392902204,-168.2600835376018
+R26,Searching for Plannable Domains can Speed up Reinforcement Learning,0,ALL,0.8838262619073683,-200.95906301925757
+R27,A Framework for Searching AND/OR Graphs with Cycles,0,ALL,0.9005093398140688,-204.91986626740558
+R28,Pruning Isomorphic Structural Sub-problems in Configuration,0,ALL,0.8674887913936845,-212.61148590203024
+R29,"Probabilistic Reasoning as Information Compression by Multiple Alignment, Unification and Search: An Introduction and Overview",0,ALL,0.9043687289689806,-229.52022428758187
+R30,Parametric Connectives in Disjunctive Logic Programming,0,ALL,0.8874373045407015,-230.47453776970298
+R31,Logic-Based Specification Languages for Intelligent Software Agents,0,ALL,0.8833900440763605,-194.45757166956398
+R32,Modeling Object Oriented Constraint Programs in Z,0,ALL,0.8699046217467561,-231.89816057747208
+R33,Data Mining Approach for Analyzing Call Center Performance,0,ALL,0.8929538509012496,-184.37061728014322
+R34,A Concurrent Fuzzy-Neural Network Approach for Decision Support Systems,0,ALL,0.8664198198845086,-131.0131647947073
+R35,Business Intelligence from Web Usage Mining,0,ALL,0.8371497345206277,-338.66720550622153
+R36,Regression with respect to sensing actions and partial states,0,ALL,0.8734862040366655,-254.05823720365152
+R37,Decomposition Based Search - A theoretical and experimental evaluation,0,ALL,0.8735494621758301,-195.9057073084267
+R38,Proportional Conflict Redistribution Rules for Information Fusion,0,ALL,0.8662791347655685,-227.78429235820948
+R39,Planning with Preferences using Logic Programming,0,ALL,0.8459523937062383,-142.83952070055594
+R40,K-Histograms: An Efficient Clustering Algorithm for Categorical Dataset,0,ALL,0.8000304485172421,-145.4489425513527
+R41,"An efficient memetic, permutation-based evolutionary algorithm for real-world train timetabling",0,ALL,0.9025637661210597,-206.14872286661492
+R42,Evolution of Voronoi based Fuzzy Recurrent Controllers,0,ALL,0.7780879397698638,-333.6505938061705
+R43,Processing Uncertainty and Indeterminacy in Information Systems success mapping,0,ALL,0.8952243967633488,-126.3171825317093
+R44,Truecluster: robust scalable clustering with model selection,0,ALL,0.828768008211138,-167.00361005779294
+R45,Divide-and-Evolve: a New Memetic Scheme for Domain-Independent Temporal Planning,0,ALL,0.8336259380444687,-195.74320991616426
+R46,Approximation Algorithms for K-Modes Clustering,0,ALL,0.8491020113341305,-179.31136166359735
+R47,Retraction and Generalized Extension of Computing with Words,0,ALL,0.839137081836204,-295.916267201043
+R48,Fusion of qualitative beliefs using DSmT,0,ALL,0.8723932461455037,-142.66102328731563
+R49,Decentralized Failure Diagnosis of Stochastic Discrete Event Systems,0,ALL,0.8657774643556975,-294.834771310638
+R50,Structure and Problem Hardness: Goal Asymmetry and DPLL Proofs in<br> SAT-Based Planning,0,ALL,0.8670188112491505,-390.3951416330408
+R51,Case Base Mining for Adaptation Knowledge Acquisition,0,ALL,0.8335202339265697,-183.3641884130669
+R52,Fuzzy Artmap and Neural Network Approach to Online Processing of Inputs with Missing Values,0,ALL,0.8352848163129749,-215.40618945304598
+R53,On-Line Condition Monitoring using Computational Intelligence,0,ALL,0.9018719201224055,-190.0989955753403
+R54,The Road to Quantum Artificial Intelligence,0,ALL,0.7225238530818427,-178.95043056406288
+R55,Qualitative Belief Conditioning Rules (QBCR),0,ALL,0.779289728258761,-178.7709409117373
+R56,Fitness landscape of the cellular automata majority problem: View from the Olympus,0,ALL,0.8993790351117693,-353.4811952512732
+R57,Lagrangian Relaxation for MAP Estimation in Graphical Models,0,ALL,0.8996217424196321,-270.8796075043006
+R58,Decomposition During Search for Propagation-Based Constraint Solvers,0,ALL,0.8776985022066055,-151.10715774586345
+R59,Bin Packing Under Multiple Objectives - a Heuristic Approximation Approach,0,ALL,0.8045511631654756,-206.37519197790914
+R60,Extended ASP tableaux and rule redundancy in normal logic programs,0,ALL,0.7933964931789169,-292.5163114771924
+R61,Classification dynamique d'un flux documentaire : une évaluation statique préalable de l'algorithme GERMEN,0,ALL,0.8944488802252544,-204.3089274442785
+R62,Learning DTW Global Constraint for Time Series Classification,0,ALL,0.7872632912182912,-275.30074663308176
+R63,A Novel Two-Stage Dynamic Decision Support based Optimal Threat Evaluation and Defensive Resource Scheduling Algorithm for Multi Air-borne threats,0,ALL,0.8877005671854726,-223.8431268365351
+R64,Reasoning about Cardinal Directions between Extended Objects,0,ALL,0.9040616893355705,-171.87691257232103
+R65,A Local Search Modeling for Constrained Optimum Paths Problems (Extended Abstract),0,ALL,0.8106023065407878,-149.48538981303665
+R66,Finite element model selection using Particle Swarm Optimization,0,ALL,0.8055478950154593,-302.3962193927064
+R67,$α$-Discounting Multi-Criteria Decision Making ($α$-D MCDM),0,ALL,0.8810179457731793,-331.1003643230597
+R68,Model-Driven Constraint Programming,0,ALL,0.8713682130730722,-158.90307367557133
+R69,A new model for solution of complex distributed constrained problems,0,ALL,0.8650746000298765,-204.65402602700956
+R70,Terrorism Event Classification Using Fuzzy Inference Systems,0,ALL,0.7906411624343125,-328.17709245732465
+R71,Online Cake Cutting,0,ALL,0.8741252752224143,-132.57357291170442
+R72,Logic-Based Decision Support for Strategic Environmental Assessment,0,ALL,0.8936430032816896,-243.37676078297966
+R73,AI 3D Cybug Gaming,0,ALL,0.8611962390957039,-102.45805594057916
+R74,General Scaled Support Vector Machines,0,ALL,0.8769226231247176,-166.25535041161004
+R75,Introduction to the iDian,0,ALL,0.8994157881049784,-150.75738454968766
+R76,Prunnig Algorithm of Generation a Minimal Set of Rule Reducts Based on Rough Set Theory,0,ALL,0.8763255643467115,-119.18405441325011
+R77,Significance of Classification Techniques in Prediction of Learning Disabilities,0,ALL,0.8725775773536038,-235.9137517388997
+R78,URSA: A System for Uniform Reduction to SAT,0,ALL,0.800421088572407,-255.1307093505131
+R79,SAPFOCS: a metaheuristic based approach to part family formation problems in group technology,0,ALL,0.8885116059786284,-258.25847841129445
+R80,Evolving Genes to Balance a Pole,0,ALL,0.9071884676253936,-132.6289804600645
+R81,Growing a Tree in the Forest: Constructing Folksonomies by Integrating Structured Metadata,0,ALL,0.9078391838756041,-198.87642058782674
+R82,A general approach to belief change in answer set programming,0,ALL,0.7552648087277163,-350.6340065622827
+R83,Learning Efficient Disambiguation,0,ALL,0.8592932598887844,-267.0143056037373
+R84,Resolving Part-of-Speech Ambiguity in the Greek Language Using Learning Techniques,0,ALL,0.9136287988580546,-130.83341991275023
+R85,Implementing Integrity Constraints in an Existing Belief Revision System,0,ALL,0.7017649246799356,-343.87999240417844
+R86,Reasoning with Axioms: Theory and Pratice,0,ALL,0.9110287084849745,-229.66677566094816
+R87,Semantic Parsing based on Verbal Subcategorization,0,ALL,0.8870861930151892,-109.72845662860374
+R88,Boosting Applied to Word Sense Disambiguation,0,ALL,0.8902353928185397,-159.25588985208992
+R89,Naive Bayes and Exemplar-Based approaches to Word Sense Disambiguation Revisited,0,ALL,0.8951927701942091,-224.96739972326162
+R90,Coaxing Confidences from an Old Friend: Probabilistic Classifications from Transformation Rule Lists,0,ALL,0.8932513328677915,-149.8591975376941
+R91,Stacking classifiers for anti-spam filtering of e-mail,0,ALL,0.7600833117201231,-83.56067609107795
+R92,Propositional satisfiability in answer-set programming,0,ALL,0.7536342103432404,-275.40428399587233
+R93,aspps --- an implementation of answer-set programming with propositional schemata,0,ALL,0.802387274234718,-96.26184956116866
+R94,A Logic Programming Approach to Knowledge-State Planning: Semantics and Complexity,0,ALL,0.8491871087969947,-264.78848273560686
+R95,Computing Preferred Answer Sets by Meta-Interpretation in Answer Set Programming,0,ALL,0.8018217438429232,-281.64193707540767
+R96,"The Mysterious Optimality of Naive Bayes: Estimation of the Probability in the System of ""Classifiers""",0,ALL,0.9029734370787708,-138.84308194165166
+R97,Robust Global Localization Using Clustered Particle Filtering,0,ALL,0.7696702073651809,-313.66708241512026
+R98,Relational Association Rules: getting WARMeR,0,ALL,0.8867405545521108,-133.6017353158255
+R99,A Polynomial Translation of Logic Programs with Nested Expressions into Disjunctive Logic Programs: Preliminary Report,0,ALL,0.7984303873957362,-337.60300962241934
+R100,Offline Specialisation in Prolog Using a Hand-Written Compiler Generator,0,ALL,0.8685170072596253,-344.0263232179677
+R101,Approximate Grammar for Information Extraction,0,ALL,0.756509422903606,-196.7935750872262
+R102,Conflict-based Force Aggregation,0,ALL,0.8703829841214292,-110.37254389121114
+R103,Bounded LTL Model Checking with Stable Models,0,ALL,0.8786969210447096,-202.27010022997874
+R104,"'Computing' as Information Compression by Multiple Alignment, Unification and Search",0,ALL,0.9094176315720619,-215.79245000061883
+R105,"Syntax, Parsing and Production of Natural Language in a Framework of Information Compression by Multiple Alignment, Unification and Search",0,ALL,0.8871824067895694,-258.7715159859636
+R106,Learning in Multiagent Systems: An Introduction from a Game-Theoretic Perspective,0,ALL,0.8662387742808821,-180.06346937597135
+R107,Abduction in Well-Founded Semantics and Generalized Stable Models,0,ALL,0.8705648311313714,-343.89660856401616
+R108,Intelligent search strategies based on adaptive Constraint Handling Rules,0,ALL,0.8825065242782666,-254.92687705807452
+R109,A FP-Tree Based Approach for Mining All Strongly Correlated Pairs without Candidate Generation,0,ALL,0.878603727228132,-177.61691306810408
+R110,ANTIDS: Self-Organized Ant-based Clustering Model for Intrusion Detection System,0,ALL,0.870124093241497,-273.85873275343374
+R111,Self-Organized Stigmergic Document Maps: Environment as a Mechanism for Context Learning,0,ALL,0.8527754097581773,-270.50060162594343
+R112,Map Segmentation by Colour Cube Genetic K-Mean Clustering,0,ALL,0.8544504954609442,-257.09753279210275
+R113,Image Colour Segmentation by Genetic Algorithms,0,ALL,0.8753885749009992,-265.7067211565678
+R114,A Suffix Tree Approach to Email Filtering,0,ALL,0.8691676079296503,-160.32013826517263
+R115,Componentwise Least Squares Support Vector Machines,0,ALL,0.8952033480712396,-168.0177420645936
+R116,A Unified Subspace Outlier Ensemble Framework for Outlier Detection in High Dimensional Spaces,0,ALL,0.8572861889767833,-394.8741500452728
+R117,A Fast Greedy Algorithm for Outlier Mining,0,ALL,0.8883966827115344,-183.62158184258223
+R118,K-ANMI: A Mutual Information Based Clustering Algorithm for Categorical Data,0,ALL,0.8013462156963981,-175.84468128691867
+R119,Probabilistic Automata for Computing with Words,0,ALL,0.8710685018506406,-256.7232776042304
+R120,An application-oriented terminology evaluation: the case of back-of-the book indexes,0,ALL,0.8841010605466735,-109.4720072152857
+R121,Universal Algorithmic Intelligence: A mathematical top->down approach,0,ALL,0.9061708361699299,-214.3849487757442
+R122,Multimodal Meaning Representation for Generic Dialogue Systems Architectures,0,ALL,0.8699651760270057,-247.9472805186704
+R123,Improving ecological niche models by data mining large environmental datasets for surrogate models,0,ALL,0.9104595197570059,-212.6216180755095
+R124,Introduction to Arabic Speech Recognition Using CMUSphinx System,0,ALL,0.8348411967568649,-131.89849818483754
+R125,Arabic Speech Recognition System using CMU-Sphinx4,0,ALL,0.8219008344048698,-117.3384532370212
+R126,Clustering with Lattices in the Analysis of Graph Patterns,0,ALL,0.892475474415191,-301.00119396362436
+R127,Multi-Dimensional Recurrent Neural Networks,0,ALL,0.8991254265456801,-126.3546660433149
+R128,Condition Monitoring of HV Bushings in the Presence of Missing Data Using Evolutionary Computing,0,ALL,0.8358206077462598,-168.14762876449677
+R129,On complexity of optimized crossover for binary representations,0,ALL,0.8661868393594285,-214.9412307076034
+R130,Virtual Sensor Based Fault Detection and Classification on a Plasma Etch Reactor,0,ALL,0.8294111467427376,-218.4290137354912
+R131,Learning Probabilistic Models of Word Sense Disambiguation,0,ALL,0.9043849264746623,-137.59790781308513
+R132,Classification of Images Using Support Vector Machines,0,ALL,0.9010017097678032,-191.10931989354947
+R133,A Recommender System based on the Immune Network,0,ALL,0.892289150185673,-202.95572744215337
+R134,Movie Recommendation Systems Using An Artificial Immune System,0,ALL,0.8916270210748425,-94.54374008613132
+R135,Design and Implementation of Aggregate Functions in the DLV System,0,ALL,0.8736237755982331,-265.38280543891335
+R136,A Recommender System based on Idiotypic Artificial Immune Networks,0,ALL,0.8943465133114188,-197.88795231150473
+R137,Binary Decision Diagrams for Affine Approximation,0,ALL,0.8147332124898895,-249.75752379908008
+R138,Symmetry Breaking for Maximum Satisfiability,0,ALL,0.795920087053407,-253.56534866093153
+R139,An Analysis of Key Factors for the Success of the Communal Management of Knowledge,0,ALL,0.8981919008397439,-291.6488788954306
+R140,A Pseudo-Boolean Solution to the Maximum Quartet Consistency Problem,0,ALL,0.8213954172404605,-210.3986955988155
+R141,MOOPPS: An Optimization System for Multi Objective Scheduling,0,ALL,0.8841265331800502,-220.35445695219047
+R142,Temporal Difference Updating without a Learning Rate,0,ALL,0.8796795562847397,-189.579119686304
+R143,Justifications for Logic Programs under Answer Set Semantics,0,ALL,0.7637186576937072,-204.5476067253864
+R144,Emerge-Sort: Converging to Ordered Sequences by Simple Local Operators,0,ALL,0.9062752314074772,-155.63603347206853
+R145,The Offset Tree for Learning with Partial Labels,0,ALL,0.8865574775647167,-184.6572373343732
+R146,Finding Still Lifes with Memetic/Exact Hybrid Algorithms,0,ALL,0.8578029742337268,-256.4470733563202
+R147,Algorithms for Weighted Boolean Optimization,0,ALL,0.7073363803648866,-257.36180504136246
+R148,"Design, development and implementation of a tool for construction of declarative functional descriptions of semantic web services based on WSMO methodology",0,ALL,0.8893847598617028,-322.2949677810752
+R149,Online prediction of ovarian cancer,0,ALL,0.8910033851065846,-236.49562298063586
+R150,On the Workings of Genetic Algorithms: The Genoclique Fixing Hypothesis,0,ALL,0.9016011193608058,-200.8455919737374
+R151,A Minimum Description Length Approach to Multitask Feature Selection,0,ALL,0.9178386556598592,-263.13004866944857
+R152,Mining Compressed Repetitive Gapped Sequential Patterns Efficiently,0,ALL,0.8786508206320943,-318.3130851721273
+R153,Apply Local Clustering Method to Improve the Running Speed of Ant Colony Optimization,0,ALL,0.8629412248337918,-269.7270297171508
+R154,Graphical Probabilistic Routing Model for OBS Networks with Realistic Traffic Scenario,0,ALL,0.8791515688424079,-216.67051325811255
+R155,Manipulation and gender neutrality in stable marriage procedures,0,ALL,0.8983175479737335,-221.47954488125322
+R156,An Agent Based Classification Model,0,ALL,0.8607230109671902,-217.1251627160619
+R157,Dendritic Cells for Anomaly Detection,0,ALL,0.8918927770731019,-190.3223802413003
+R158,A new approach to content-based file type detection,0,ALL,0.9008351349111867,-159.0928651998344
+R159,Exploration Of The Dendritic Cell Algorithm Using The Duration Calculus,0,ALL,0.8835388182743249,-279.03736822697147
+R160,Information Fusion in the Immune System,0,ALL,0.8845800088751784,-178.8722463054055
+R161,Belief Propagation for Min-cost Network Flow: Convergence and Correctness,0,ALL,0.7447084369468537,-347.6883296133144
+R162,Nurse Rostering with Genetic Algorithms,0,ALL,0.8636999837117372,-528.4845588229119
+R163,GRASP for the Coalition Structure Formation Problem,0,ALL,0.8786057459334347,-217.2439310779707
+R164,PCA 4 DCA: The Application Of Principal Component Analysis To The Dendritic Cell Algorithm,0,ALL,0.8899633372699799,-231.88672089909323
+R165,Mirrored Language Structure and Innate Logic of the Human Brain as a Computable Model of the Oracle Turing Machine,0,ALL,0.8892209688075574,-130.97681193024354
+R166,From RESTful Services to RDF: Connecting the Web and the Semantic Web,0,ALL,0.9242415527529655,-226.99752787901366
+R167,Counterexample Guided Abstraction Refinement Algorithm for Propositional Circumscription,0,ALL,0.7973648188889635,-200.73693486997144
+R168,Formalization of Psychological Knowledge in Answer Set Programming and its Application,0,ALL,0.826875546444083,-217.5183507823328
+R169,Machine Learning Approaches for Modeling Spammer Behavior,0,ALL,0.704059539568838,-204.36837327357486
+R170,Gaussian Process Bandits for Tree Search: Theory and Application to Planning in Discounted MDPs,0,ALL,0.8717148938810058,-309.76692957169183
+R171,Hierarchical Semi-Markov Conditional Random Fields for Recursive Sequential Data,0,ALL,0.9072782178101813,-142.28489660905277
+R172,An Embarrassingly Simple Speed-Up of Belief Propagation with Robust Potentials,0,ALL,0.7828371605680609,-287.6337178578637
+R173,Predictive State Temporal Difference Learning,0,ALL,0.8745062903954275,-293.9748351310039
+R174,Covered Clause Elimination,0,ALL,0.7872162600105147,-120.77518866760605
+R175,MUDOS-NG: Multi-document Summaries Using N-gram Graphs (Tech Report),0,ALL,0.7948521097227369,-202.01067208199052
+R176,Inverse-Category-Frequency based supervised term weighting scheme for text categorization,0,ALL,0.9188656199946352,-168.2031677008205
+R177,An Image-Based Sensor System for Autonomous Rendez-Vous with Uncooperative Satellites,0,ALL,0.8976815744843503,-223.62059262914642
+R178,A Multi-stage Probabilistic Algorithm for Dynamic Path-Planning,0,ALL,0.7315074618628528,-143.1501114297652
+R179,Combining a Probabilistic Sampling Technique and Simple Heuristics to solve the Dynamic Path Planning Problem,0,ALL,0.765012865818707,-196.00260571765997
+R180,Learning to Predict Combinatorial Structures,0,ALL,0.8887605655360428,-193.3270344322495
+R181,Incremental Parser Generation for Tree Adjoining Grammars,0,ALL,0.8736593795522327,-134.67368694475132
+R182,Processing Unknown Words in HPSG,0,ALL,0.8834982540364865,-146.3409369713553
+R183,Computing Declarative Prosodic Morphology,0,ALL,0.8956735235281121,-134.36931789306084
+R184,Empirically Evaluating an Adaptable Spoken Dialogue System,0,ALL,0.8142532168039129,-207.173252263134
+R185,Temporal Meaning Representations in a Natural Language Front-End,0,ALL,0.8750370742936082,-131.58623840914325
+R186,A Real World Implementation of Answer Extraction,0,ALL,0.8655301946228322,-195.73819282536664
+R187,Exploiting Syntactic Structure for Natural Language Modeling,0,ALL,0.8958210909095229,-169.55142380872434
+R188,Structured Language Modeling for Speech Recognition,0,ALL,0.8698310029825423,-99.40362919530537
+R189,Looking at discourse in a corpus: The role of lexical cohesion,0,ALL,0.8702992400898744,-171.86959350916084
+R190,"On the Scalability of the Answer Extraction System ""ExtrAns""",0,ALL,0.8596058121970006,-294.2639499960698
+R191,Trainable Methods for Surface Natural Language Generation,0,ALL,0.9030515658545926,-174.1192625117845
+R192,Aspects of Pattern-Matching in Data-Oriented Parsing,0,ALL,0.8682361957414793,-199.86369402379157
+R193,Selectional Restrictions in HPSG,0,ALL,0.9208842117854881,-145.72871416325134
+R194,Bunsetsu Identification Using Category-Exclusive Rules,0,ALL,0.9075102267958571,-69.38657697402603
+R195,Japanese Probabilistic Information Retrieval Using Location and Category Information,0,ALL,0.8618613324900679,-146.28276965883748
+R196,Microplanning with Communicative Intentions: The SPUD System,0,ALL,0.8824145017076104,-265.57018568957056
+R197,Part-of-Speech Tagging with Two Sequential Transducers,0,ALL,0.8982206485995171,-285.2739962602315
+R198,Combining semantic and syntactic structure for language modeling,0,ALL,0.922925193761953,-106.22468428208897
+R199,Part of Speech Tagging in Thai Language Using Support Vector Machine,0,ALL,0.8595712118470797,-211.54428268544652
+R200,Computational Phonology,0,ALL,0.9237864259128642,-121.17718126478765
+R201,An Approach for Resource Sharing in Multilingual NLP,0,ALL,0.8829462941447993,-214.29997130367818
+R202,A Public Reference Implementation of the RAP Anaphora Resolution Algorithm,0,ALL,0.8958678112600861,-156.29323288278073
+R203,Unsupervised Topic Adaptation for Lecture Speech Retrieval,0,ALL,0.8609329252747722,-193.7223153509614
+R204,"An Anthological Review of Research Utilizing MontyLingua, a Python-Based End-to-End Text Processor",0,ALL,0.8868271023562364,-223.91568984550096
+R205,Framework and Resources for Natural Language Parser Evaluation,0,ALL,0.8518284480713442,-261.50598198622566
+R206,Methods to integrate a language model with semantic information for a word prediction component,0,ALL,0.8972083043329674,-180.46924288242525
+R207,A chain dictionary method for Word Sense Disambiguation and applications,0,ALL,0.84895675999104,-139.4489930858896
+R208,Une grammaire formelle du créole martiniquais pour la génération automatique,0,ALL,0.7665905259500737,-196.7081735854387
+R209,What's in a Message?,0,ALL,0.8924177180793491,-229.1205938874569
+R210,Induction of Word and Phrase Alignments for Automatic Document Summarization,0,ALL,0.8349758588162888,-315.54796090819644
+R211,A Noisy-Channel Model for Document Compression,0,ALL,0.8539710899866365,-175.49053931781452
+R212,Pattern Based Term Extraction Using ACABIT System,0,ALL,0.8802470635651987,-89.85073568618155
+R213,Multiple Retrieval Models and Regression Models for Prior Art Search,0,ALL,0.821706621322923,-202.30918370925247
+R214,Standards for Language Resources,0,ALL,0.9211055749520288,-115.91281246945016
+R215,Towards Effective Sentence Simplification for Automatic Processing of Biomedical Text,0,ALL,0.8373652131899453,-245.74967730801367
+R216,Approximations to the MMI criterion and their effect on lattice-based MMI,0,ALL,0.898198305670369,-317.90179084910784
+R217,Why has (reasonably accurate) Automatic Speech Recognition been so hard to achieve?,0,ALL,0.8202713247197234,-371.05644765734485
+R218,Learning Recursive Segments for Discourse Parsing,0,ALL,0.8180069193006655,-221.67078322395994
+R219,Complete Complementary Results Report of the MARF's NLP Approach to the DEFT 2010 Competition,0,ALL,0.8958610647626944,-202.52083472996
+R220,For the sake of simplicity: Unsupervised extraction of lexical simplifications from Wikipedia,0,ALL,0.8756514167809554,-138.4940987539829
+R221,Learning Taxonomy for Text Segmentation by Formal Concept Analysis,0,ALL,0.8481386264203686,-118.49701714400712
+R222,"Image Compression with Iterated Function Systems, Finite Automata and Zerotrees: Grand Unification",0,ALL,0.9005580813589167,-240.6360452277686
+R223,Gradient Vector Flow Models for Boundary Extraction in 2D Images,0,ALL,0.8833588296170422,-223.1900499802593
+R224,"The Perceptron Algorithm: Image and Signal Decomposition, Compression, and Analysis by Iterative Gaussian Blurring",0,ALL,0.8875567587073206,-264.3418762241913
+R225,Enhancement of Noisy Planar Nuclear Medicine Images using Mean Field Annealing,0,ALL,0.8406423998155144,-166.82242904499483
+R226,MI image registration using prior knowledge,0,ALL,0.8016498449524679,-182.7119584208215
+R227,Variational local structure estimation for image super-resolution,0,ALL,0.7316478300362628,-176.17685424352865
+R228,A Class of LULU Operators on Multi-Dimensional Arrays,0,ALL,0.9376890848591327,-91.27348469589285
+R229,Wavelet and Curvelet Moments for Image Classification: Application to Aggregate Mixture Grading,0,ALL,0.8595680915961195,-222.42025962586345
+R230,Sparse Component Analysis (SCA) in Random-valued and Salt and Pepper Noise Removal,0,ALL,0.8932191059910384,-192.61732495027772
+R231,Point-Set Registration: Coherent Point Drift,0,ALL,0.8496509031400652,-376.422818232434
+R232,Learning Object Location Predictors with Boosting and Grammar-Guided Feature Extraction,0,ALL,0.8772125337403865,-291.74915304535125
+R233,Kernel Spectral Curvature Clustering (KSCC),0,ALL,0.8910593917678441,-173.89036533666726
+R234,Motion Segmentation by SCC on the Hopkins 155 Database,0,ALL,0.8948591869062353,-76.63865679363137
+R235,An Iterative Shrinkage Approach to Total-Variation Image Restoration,0,ALL,0.8722277718747711,-374.37873522624346
+R236,An Optimal Method For Wake Detection In SAR Images Using Radon Transformation Combined With Wavelet Filters,0,ALL,0.8890401454361331,-209.9231441844883
+R237,Boosting k-NN for categorization of natural scenes,0,ALL,0.9057527436626379,-264.31139409107794
+R238,Gradient Based Seeded Region Grow method for CT Angiographic Image Segmentation,0,ALL,0.8833570182313953,-153.95757036914225
+R239,Nonlinear Filter Based Image Denoising Using AMF Approach,0,ALL,0.8538147999974292,-341.0347031817154
+R240,Pattern recognition using inverse resonance filtration,0,ALL,0.8979007235470531,-205.23765700835762
+R241,Land-cover Classification and Mapping for Eastern Himalayan State Sikkim,0,ALL,0.8917126794310082,-145.5938570580721
+R242,Recognition of Handwritten Roman Script Using Tesseract Open source OCR Engine,0,ALL,0.8576046985511384,-133.43363418739168
+R243,Development of a Multi-User Recognition Engine for Handwritten Bangla Basic Characters and Digits,0,ALL,0.8962613364514016,-226.06102004444244
+R244,Regularized Richardson-Lucy Algorithm for Sparse Reconstruction of Poissonian Images,0,ALL,0.8782041341595592,-357.65133489521054
+R245,A New Approach to Lung Image Segmentation using Fuzzy Possibilistic C-Means Algorithm,0,ALL,0.7671208207980698,-398.9208698179599
+R246,Color Image Compression Based On Wavelet Packet Best Tree,0,ALL,0.8473955491843377,-282.81906719040256
+R247,Deblured Gaussian Blurred Images,0,ALL,0.906358405504933,-208.87320743346046
+R248,Penalized K-Nearest-Neighbor-Graph Based Metrics for Clustering,0,ALL,0.820773173872986,-245.2729379137977
+R249,Solving Inverse Problems with Piecewise Linear Estimators: From Gaussian Mixture Models to Structured Sparsity,0,ALL,0.9022183876553822,-153.45493469940504
+R250,Survey of Nearest Neighbor Techniques,0,ALL,0.916099365694118,-138.99041236700953
+R251,A Parallel Framework for Multilayer Perceptron for Human Face Recognition,0,ALL,0.8161440233085919,-282.2661326320747
+R252,Image Pixel Fusion for Human Face Recognition,0,ALL,0.8135856023142264,-275.73452890215
+R253,Registration of Brain Images using Fast Walsh Hadamard Transform,0,ALL,0.893113630369159,-162.20361700651756
+R254,Multi-environment model estimation for motility analysis of Caenorhabditis Elegans,0,ALL,0.9117712031969238,-273.3558383289205
+R255,Video Event Recognition for Surveillance Applications (VERSA),0,ALL,0.8817805889916372,-202.27650674977738
+R256,Ear Identification by Fusion of Segmented Slice Regions using Invariant Features: An Experimental Manifold with Dual Fusion Approach,0,ALL,0.8931529113679278,-213.94897548208348
+R257,Optimally Training a Cascade Classifier,0,ALL,0.8672532547320588,-223.49173012203224
+R258,Evolutionary Computational Method of Facial Expression Analysis for Content-based Video Retrieval using 2-Dimensional Cellular Automata,0,ALL,0.8334918723747322,-390.53787037495607
+R259,Modeling Instantaneous Changes In Natural Scenes,0,ALL,0.8956817120663295,-341.97474681731717
+R260,Face Detection with Effective Feature Extraction,0,ALL,0.8202673609094188,-163.09446766786186
+R261,Collaborative Sources Identification in Mixed Signals via Hierarchical Sparse Modeling,0,ALL,0.8890167647355943,-339.4239406688247
+R262,Selective Image Super-Resolution,0,ALL,0.8277683012860644,-177.42995804989627
+R263,Generalized Tree-Based Wavelet Transform,0,ALL,0.8593608875930346,-290.5088102647864
+R264,Learning sparse representations of depth,0,ALL,0.7556379249210373,-338.27245333653315
+R265,Sparse motion segmentation using multiple six-point consistencies,0,ALL,0.8850819141591254,-164.5726386458761
+R266,Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition,0,ALL,0.8214071757483609,-370.8046242247786
+R267,State Abstraction in MAXQ Hierarchical Reinforcement Learning,0,ALL,0.8840600771789167,-129.95335188370393
+R268,Top-down induction of clustering trees,0,ALL,0.8236745246991333,-117.91033385440599
+R269,Preference Learning in Terminology Extraction: A ROC-based approach,0,ALL,0.9131223839413346,-129.99906551011992
+R270,Using Pseudo-Stochastic Rational Languages in Probabilistic Grammatical Inference,0,ALL,0.8740787134611888,-325.0535901459263
+R271,Parametric Learning and Monte Carlo Optimization,0,ALL,0.8039606437049185,-238.211411781575
+R272,Density estimation in linear time,0,ALL,0.8703014719054207,-211.3174901570691
+R273,A Novel Clustering Algorithm Based on Quantum Random Walk,0,ALL,0.8179457274359287,-180.48355990059326
+R274,Transfer Learning Using Feature Selection,0,ALL,0.8794718259393295,-278.6611530013381
+R275,Clustering for Improved Learning in Maze Traversal Problem,0,ALL,0.9086280982429134,-164.51099330167486
+R276,Randomized Algorithms for Large scale SVMs,0,ALL,0.903789456709468,-128.75386383256455
+R277,Variable sigma Gaussian processes: An expectation propagation perspective,0,ALL,0.8833897741788177,-185.4284340223062
+R278,Competing with Gaussian linear experts,0,ALL,0.9133768688492001,-82.1297223277971
+R279,Online Distributed Sensor Selection,0,ALL,0.8839517849418848,-215.3321676403982
+R280,Asymptotic Analysis of Generative Semi-Supervised Learning,0,ALL,0.8689763204929744,-122.89379413317798
+R281,Model Selection with the Loss Rank Principle,0,ALL,0.8583310524619507,-167.14732591078302
+R282,Extension of Wirtinger's Calculus to Reproducing Kernel Hilbert Spaces and the Complex Kernel LMS,0,ALL,0.8091701701218645,-388.23597016796833
+R283,Comparison of Support Vector Machine and Back Propagation Neural Network in Evaluating the Enterprise Financial Distress,0,ALL,0.875448708075867,-144.42616546295986
+R284,Efficient L1/Lq Norm Regularization,0,ALL,0.8895697555247938,-237.43386340816957
+R285,Algorithms for nonnegative matrix factorization with the beta-divergence,0,ALL,0.8352720296549617,-270.4235920976808
+R286,"How I won the ""Chess Ratings - Elo vs the Rest of the World"" Competition",0,ALL,0.8230998207919913,-374.6238105119558
+R287,Positive factor networks: A graphical framework for modeling non-negative sequential data,0,ALL,0.7611765087912026,-345.29275237642156
+R288,Delay-Optimal Power and Subcarrier Allocation for OFDMA Systems via Stochastic Approximation,0,ALL,0.859125486770447,-341.36422475065984
+R289,A Novel method for the design of 2-DOF Parallel mechanisms for machining applications,0,ALL,0.925096009145483,-140.1353205713746
+R290,"The Virtual Manufacturing concept: Scope, Socio-Economic Aspects and Future Trends",0,ALL,0.8970641041452657,-159.56302774029885
+R291,"Architecture Optimization of a 3-DOF Translational Parallel Mechanism for Machining Applications, the Orthoglide",0,ALL,0.9111921849467465,-153.05232709463294
+R292,Design Strategies for the Geometric Synthesis of Orthoglide-type Mechanisms,0,ALL,0.9037704859451516,-222.3282562328372
+R293,Development of Architectures for Internet Telerobotics Systems,0,ALL,0.8779275563507325,-261.76910718823416
+R294,Wavelet Based Iterative Learning Control with Fuzzy PD Feedback for Position Tracking of A Pneumatic Servo System,0,ALL,0.8720198722317174,-244.65893698776324
+R295,Urologic robots and future directions,0,ALL,0.8840395542872617,-267.9211659379997
+R296,Robust Global Localization Using Clustered Particle Filtering,0,ALL,0.7696702073651809,-313.66708241512026
+R297,Automatic Image Segmentation by Dynamic Region Merging,0,ALL,0.7976148156787565,-313.77075451381893
+R298,A Multi-stage Probabilistic Algorithm for Dynamic Path-Planning,0,ALL,0.7315074618628528,-143.1501114297652
+R299,Combining a Probabilistic Sampling Technique and Simple Heuristics to solve the Dynamic Path Planning Problem,0,ALL,0.765012865818707,-196.00260571765997
+R300,Bayesian Classification and Regression with High Dimensional Features,0,ALL,0.8978903945069642,-275.246875030156
+R301,The nested Chinese restaurant process and Bayesian nonparametric inference of topic hierarchies,0,ALL,0.8536836058799957,-231.7984101194655
+R302,Component models for large networks,0,ALL,0.9087590335098443,-181.0960858342696
+R303,Supervised functional classification: A theoretical remark and some comparisons,0,ALL,0.8711573099836988,-204.24310112203875
+R304,An information-theoretic derivation of min-cut based clustering,0,ALL,0.8727019844421252,-194.61299721049147
+R305,Reconstruction of Epsilon-Machines in Predictive Frameworks and Decisional States,0,ALL,0.9040263496473118,-238.17707873226226
+R306,KNIFE: Kernel Iterative Feature Extraction,0,ALL,0.8568374697388145,-230.87996327480883
+R307,Bayesian Agglomerative Clustering with Coalescents,0,ALL,0.8356902501448926,-84.62377122328641
+R308,Structured Sparse Principal Component Analysis,0,ALL,0.8619898397885593,-155.13252584827467
+R309,Sparse Convolved Multiple Output Gaussian Processes,0,ALL,0.8985367093222425,-229.83350611861437
+R310,Sparse Group Restricted Boltzmann Machines,0,ALL,0.7912789051443122,-284.6325195949444
+R311,Fast Sparse Decomposition by Iterative Detection-Estimation,0,ALL,0.8840957519131343,-268.61581545252574
+R312,Regularizers for Structured Sparsity,0,ALL,0.8488913068581322,-333.73202977132433
+R313,Exact block-wise optimization in group lasso and sparse group lasso for linear regression,0,ALL,0.8317334417823601,-272.87791408524373
+R314,An Introduction to Conditional Random Fields,0,ALL,0.9157785344237102,-168.74030348417253
+R315,Ultra-high Dimensional Multiple Output Learning With Simultaneous Orthogonal Matching Pursuit: A Sure Screening Approach,0,ALL,0.8386164549128441,-313.7165189087113
+R316,Hyper-sparse optimal aggregation,0,ALL,0.9109053134840313,-213.18152152804595
+R317,Foundations of a Multi-way Spectral Clustering Framework for Hybrid Linear Modeling,0,ALL,0.8423098934539852,-227.81329757506902
+R318,A D.C. Programming Approach to the Sparse Generalized Eigenvalue Problem,0,ALL,0.8653272787422219,-296.5285127289415
+R319,Matrix Completion from Noisy Entries,0,ALL,0.9240718535484296,-120.99278778589898
+R320,Sparse Canonical Correlation Analysis,0,ALL,0.8919475902971665,-176.30853159831966
+R321,SpicyMKL,0,ALL,0.8906406485094556,-160.42078102483106
+R322,High-dimensional variable selection for Cox's proportional hazards model,0,ALL,0.8631609894137209,-169.3264153805025
+R323,Incorporating Side Information in Probabilistic Matrix Factorization with Gaussian Processes,0,ALL,0.9030370044271048,-195.78981191471064
+R324,Quantum learning: optimal classification of qubit states,0,ALL,0.8931017043914167,-320.3908051699179
+R325,Graph-Valued Regression,0,ALL,0.8795461733208111,-181.86955149472757
+R326,NESVM: a Fast Gradient Method for Support Vector Machines,0,ALL,0.8706516945780085,-294.0149143277841
+R327,Hierarchical Semi-Markov Conditional Random Fields for Recursive Sequential Data,0,ALL,0.9072782178101813,-142.28489660905277
+R328,Model Selection by Loss Rank for Classification and Unsupervised Learning,0,ALL,0.9072423944483704,-112.92341069694714
+R329,Using a Kernel Adatron for Object Classification with RCS Data,0,ALL,0.9013748738732396,-175.22157688577792
+R330,On the numeric stability of the SFA implementation sfa-tk,0,ALL,0.8995775198553362,-182.68317117792853

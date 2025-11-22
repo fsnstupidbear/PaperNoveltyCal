@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+rank-bm25
+gensim
+matplotlib
+pyyaml
+tqdm

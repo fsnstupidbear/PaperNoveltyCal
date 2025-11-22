@@ -1,0 +1,2 @@
+{"id":"R1","title":"A 2024 neural ABR","abstract":"Neural-based ABR and saliency for 360.","year":2024,"field":"VR/360","methods":["ABR","saliency"],"tasks":["streaming","viewport-prediction"]}
+{"id":"R2","title":"A 2025 edge SR","abstract":"Edge super-resolution under viewport focus.","year":2025,"field":"VR/360","methods":["SR","edge"],"tasks":["streaming"]}

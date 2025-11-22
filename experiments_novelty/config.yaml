@@ -1,0 +1,69 @@
+# Central experiment configuration
+# === Paths (edit these to your data) ===
+historical_path: examples/historical.jsonl
+recent_path:     examples/recent.jsonl
+
+# file format: jsonl | csv
+file_format: jsonl
+
+# Column mapping (edit to match your data)
+columns:
+  id: id
+  title: title
+  abstract: abstract
+  year: year
+  field: field           # e.g., 'VR/360', 'NLP', optional but recommended
+  methods: methods       # list[str] OR ';'-separated string
+  tasks: tasks           # list[str] OR ';'-separated string
+
+# Preprocessing
+text_lowercase: true
+remove_stopwords: true
+bigram: false
+
+# Scoring weights for S
+weights:
+  method_entity: 1.0     # s_m
+  task_entity:   1.0     # s_t
+  combo_pair:    1.0     # s_{m,t}
+# normalization per component: min-max per split
+norm_eps: 1e-8
+
+# Silver-label for retrieval (choose one)
+silver_label: "year"     # "year" or "distance"
+year_top_k: 5            # when silver_label = 'year', treat top-K most recent as positives
+distance_top_percent: 10 # when silver_label='distance', top % farthest to history as positives
+
+# Candidate pool
+pool:
+  by_field: true
+  max_size: 4000
+  near_years: 10
+
+# Embeddings (optional)
+embeddings:
+  use_sci_bert: false          # if you have transformers available
+  model_name: "allenai/scibert_scivocab_uncased"
+  batch_size: 16
+  device: "cpu"
+
+# Topic model
+lda:
+  enabled: true
+  num_topics: 100
+  passes: 5
+  random_state: 42
+
+# Time robustness
+time_splits:
+  - { historical: [2015, 2021], recent: [2022, 2023] }
+  - { historical: [2016, 2022], recent: [2023, 2024] }
+  - { historical: [2017, 2023], recent: [2024, 2025] }
+
+# Bootstrap
+bootstrap:
+  rounds: 1000
+  seed: 123
+
+# Output
+save_intermediate: true

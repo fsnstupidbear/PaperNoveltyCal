@@ -1,0 +1,3 @@
+{"id":"H1","title":"A 2018 VR streaming method","abstract":"We propose a viewport adaptive method for 360 video.","year":2018,"field":"VR/360","methods":["viewport-adaptive","ABR"],"tasks":["streaming","QoE"]}
+{"id":"H2","title":"A 2019 ABR controller","abstract":"An ABR controller for panoramic videos.","year":2019,"field":"VR/360","methods":["ABR"],"tasks":["streaming"]}
+{"id":"H3","title":"A 2020 saliency map","abstract":"Predicting gaze saliency for spherical videos.","year":2020,"field":"VR/360","methods":["saliency"],"tasks":["viewport-prediction"]}

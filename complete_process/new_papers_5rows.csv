@@ -1,0 +1,1580 @@
+﻿Title,Summary,Authors,Published,Category
+A Meta-Learning Algorithm for Interrogative Agendas,"Explainability is a key challenge and a major research theme in AI research
+for developing intelligent systems that are capable of working with humans more
+effectively. An obvious choice in developing explainable intelligent systems
+relies on employing knowledge representation formalisms which are inherently
+tailored towards expressing human knowledge e.g., interrogative agendas. In the
+scope of this work, we focus on formal concept analysis (FCA), a standard
+knowledge representation formalism, to express interrogative agendas, and in
+particular to categorize objects w.r.t. a given set of features. Several
+FCA-based algorithms have already been in use for standard machine learning
+tasks such as classification and outlier detection. These algorithms use a
+single concept lattice for such a task, meaning that the set of features used
+for the categorization is fixed. Different sets of features may have different
+importance in that categorization, we call a set of features an agenda. In many
+applications a correct or good agenda for categorization is not known
+beforehand. In this paper, we propose a meta-learning algorithm to construct a
+good interrogative agenda explaining the data. Such algorithm is meant to call
+existing FCA-based classification and outlier detection algorithms iteratively,
+to increase their accuracy and reduce their sample complexity. The proposed
+method assigns a measure of importance to different set of features used in the
+categorization, hence making the results more explainable.","Erman Acar, Andrea De Domenico, Krishna Manoorkar, Mattia Panettiere",2023-01-04T22:09:36Z,cs.AI
+What is a decision problem?,"This paper presents a general framework about what is a decision problem. Our
+motivation is related to the fact that decision analysis and operational
+research are structured (as disciplines) around classes of methods, while
+instead we should first characterise the decision problems our clients present
+us. For this purpose we introduce a new framework, independent from any
+existing method, based upon primitives provided by (or elicited from) the
+client. We show that the number of archetypal decision problems are finite and
+so the archetypal decision support methods.","Alberto Colorni, Alexis Tsoukiàs",2023-01-07T01:03:08Z,cs.AI
+Knowledge Reasoning via Jointly Modeling Knowledge Graphs and Soft Rules,"Knowledge graphs (KGs) play a crucial role in many applications, such as
+question answering, but incompleteness is an urgent issue for their broad
+application. Much research in knowledge graph completion (KGC) has been
+performed to resolve this issue. The methods of KGC can be classified into two
+major categories: rule-based reasoning and embedding-based reasoning. The
+former has high accuracy and good interpretability, but a major challenge is to
+obtain effective rules on large-scale KGs. The latter has good efficiency and
+scalability, but it relies heavily on data richness and cannot fully use domain
+knowledge in the form of logical rules. We propose a novel method that injects
+rules and learns representations iteratively to take full advantage of rules
+and embeddings. Specifically, we model the conclusions of rule groundings as
+0-1 variables and use a rule confidence regularizer to remove the uncertainty
+of the conclusions. The proposed approach has the following advantages: 1) It
+combines the benefits of both rules and knowledge graph embeddings (KGEs) and
+achieves a good balance between efficiency and scalability. 2) It uses an
+iterative method to continuously improve KGEs and remove incorrect rule
+conclusions. Evaluations on two public datasets show that our method
+outperforms the current state-of-the-art methods, improving performance by
+2.7\% and 4.3\% in mean reciprocal rank (MRR).","Yinyu Lan, Shizhu He, Kang Liu, Jun Zhao",2023-01-07T05:24:29Z,cs.AI
+Mind Reasoning Manners: Enhancing Type Perception for Generalized Zero-shot Logical Reasoning over Text,"Logical reasoning task involves diverse types of complex reasoning over text,
+based on the form of multiple-choice question answering. Given the context,
+question and a set of options as the input, previous methods achieve superior
+performances on the full-data setting. However, the current benchmark dataset
+has the ideal assumption that the reasoning type distribution on the train
+split is close to the test split, which is inconsistent with many real
+application scenarios. To address it, there remain two problems to be studied:
+(1) How is the zero-shot capability of the models (train on seen types and test
+on unseen types)? (2) How to enhance the perception of reasoning types for the
+models? For problem 1, we propose a new benchmark for generalized zero-shot
+logical reasoning, named ZsLR. It includes six splits based on the three type
+sampling strategies. For problem 2, a type-aware model TaCo is proposed. It
+utilizes both the heuristic input reconstruction and the contrastive learning
+to improve the type perception in the global representation. Extensive
+experiments on both the zero-shot and full-data settings prove the superiority
+of TaCo over the state-of-the-art methods. Also, we experiment and verify the
+generalization capability of TaCo on other logical reasoning dataset.","Fangzhi Xu, Jun Liu, Qika Lin, Tianzhe Zhao, Jian Zhang, Lingling Zhang",2023-01-08T05:24:34Z,cs.AI
+Semantic rule Web-based Diagnosis and Treatment of Vector-Borne Diseases using SWRL rules,"Vector-borne diseases (VBDs) are a kind of infection caused through the
+transmission of vectors generated by the bites of infected parasites, bacteria,
+and viruses, such as ticks, mosquitoes, triatomine bugs, blackflies, and
+sandflies. If these diseases are not properly treated within a reasonable time
+frame, the mortality rate may rise. In this work, we propose a set of
+ontologies that will help in the diagnosis and treatment of vector-borne
+diseases. For developing VBD's ontology, electronic health records taken from
+the Indian Health Records website, text data generated from Indian government
+medical mobile applications, and doctors' prescribed handwritten notes of
+patients are used as input. This data is then converted into correct text using
+Optical Character Recognition (OCR) and a spelling checker after
+pre-processing. Natural Language Processing (NLP) is applied for entity
+extraction from text data for making Resource Description Framework (RDF)
+medical data with the help of the Patient Clinical Data (PCD) ontology.
+Afterwards, Basic Formal Ontology (BFO), National Vector Borne Disease Control
+Program (NVBDCP) guidelines, and RDF medical data are used to develop
+ontologies for VBDs, and Semantic Web Rule Language (SWRL) rules are applied
+for diagnosis and treatment. The developed ontology helps in the construction
+of decision support systems (DSS) for the NVBDCP to control these diseases.","Ritesh Chandra, Sadhana Tiwari, Sonali Agarwal, Navjot Singh",2023-01-08T10:32:38Z,cs.AI
+A Divide-Align-Conquer Strategy for Program Synthesis,"A major bottleneck in search-based program synthesis is the exponentially
+growing search space which makes learning large programs intractable. Humans
+mitigate this problem by leveraging the compositional nature of the real world:
+In structured domains, a logical specification can often be decomposed into
+smaller, complementary solution programs. We show that compositional
+segmentation can be applied in the programming by examples setting to divide
+the search for large programs across multiple smaller program synthesis
+problems. For each example, we search for a decomposition into smaller units
+which maximizes the reconstruction accuracy in the output under a latent task
+program. A structural alignment of the constituent parts in the input and
+output leads to pairwise correspondences used to guide the program synthesis
+search. In order to align the input/output structures, we make use of the
+Structure-Mapping Theory (SMT), a formal model of human analogical reasoning
+which originated in the cognitive sciences. We show that decomposition-driven
+program synthesis with structural alignment outperforms Inductive Logic
+Programming (ILP) baselines on string transformation tasks even with minimal
+knowledge priors. Unlike existing methods, the predictive accuracy of our agent
+monotonically increases for additional examples and achieves an average time
+complexity of $\mathcal{O}(m)$ in the number $m$ of partial programs for highly
+structured domains such as strings. We extend this method to the complex
+setting of visual reasoning in the Abstraction and Reasoning Corpus (ARC) for
+which ILP methods were previously infeasible.","Jonas Witt, Stef Rasing, Sebastijan Dumančić, Tias Guns, Claus-Christian Carbon",2023-01-08T19:10:55Z,cs.AI
+"A Robust Multilabel Method Integrating Rule-based Transparent Model, Soft Label Correlation Learning and Label Noise Resistance","Model transparency, label correlation learning and the robust-ness to label
+noise are crucial for multilabel learning. However, few existing methods study
+these three characteristics simultaneously. To address this challenge, we
+propose the robust multilabel Takagi-Sugeno-Kang fuzzy system (R-MLTSK-FS) with
+three mechanisms. First, we design a soft label learning mechanism to reduce
+the effect of label noise by explicitly measuring the interactions between
+labels, which is also the basis of the other two mechanisms. Second, the
+rule-based TSK FS is used as the base model to efficiently model the inference
+relationship be-tween features and soft labels in a more transparent way than
+many existing multilabel models. Third, to further improve the performance of
+multilabel learning, we build a correlation enhancement learning mechanism
+based on the soft label space and the fuzzy feature space. Extensive
+experiments are conducted to demonstrate the superiority of the proposed
+method.","Qiongdan Lou, Zhaohong Deng, Kup-Sze Choi, Shitong Wang",2023-01-09T11:54:14Z,cs.AI
+Measuring Board Game Distance,"This paper presents a general approach for measuring distances between board
+games within the Ludii general game system. These distances are calculated
+using a previously published set of general board game concepts, each of which
+represents a common game idea or shared property. Our results compare and
+contrast two different measures of distance, highlighting the subjective nature
+of such metrics and discussing the different ways that they can be interpreted.","Matthew Stephenson, Dennis J. N. J. Soemers, Éric Piette, Cameron Browne",2023-01-10T11:34:57Z,cs.AI
+Causal Abstraction for Faithful Model Interpretation,"A faithful and interpretable explanation of an AI model's behavior and
+internal structure is a high-level explanation that is human-intelligible but
+also consistent with the known, but often opaque low-level causal details of
+the model. We argue that the theory of causal abstraction provides the
+mathematical foundations for the desired kinds of model explanations. In causal
+abstraction analysis, we use interventions on model-internal states to
+rigorously assess whether an interpretable high-level causal model is a
+faithful description of an AI model. Our contributions in this area are: (1) We
+generalize causal abstraction to cyclic causal structures and typed high-level
+variables. (2) We show how multi-source interchange interventions can be used
+to conduct causal abstraction analyses. (3) We define a notion of approximate
+causal abstraction that allows us to assess the degree to which a high-level
+causal model is a causal abstraction of a lower-level one. (4) We prove
+constructive causal abstraction can be decomposed into three operations we
+refer to as marginalization, variable-merge, and value-merge. (5) We formalize
+the XAI methods of LIME, causal effect estimation, causal mediation analysis,
+iterated nullspace projection, and circuit-based explanations as special cases
+of causal abstraction analysis.","Atticus Geiger, Chris Potts, Thomas Icard",2023-01-11T20:42:41Z,cs.AI
+On the Structural Generalization in Text-to-SQL,"Exploring the generalization of a text-to-SQL parser is essential for a
+system to automatically adapt the real-world databases. Previous works provided
+investigations focusing on lexical diversity, including the influence of the
+synonym and perturbations in both natural language questions and databases.
+However, research on the structure variety of database schema~(DS) is
+deficient. Specifically, confronted with the same input question, the target
+SQL is probably represented in different ways when the DS comes to a different
+structure. In this work, we provide in-deep discussions about the structural
+generalization of text-to-SQL tasks. We observe that current datasets are too
+templated to study structural generalization. To collect eligible test data, we
+propose a framework to generate novel text-to-SQL data via automatic and
+synchronous (DS, SQL) pair altering. In the experiments, significant
+performance reduction when evaluating well-trained text-to-SQL models on the
+synthetic samples demonstrates the limitation of current research regarding
+structural generalization. According to comprehensive analysis, we suggest the
+practical reason is the overfitting of (NL, SQL) patterns.","Jieyu Li, Lu Chen, Ruisheng Cao, Su Zhu, Hongshen Xu, Zhi Chen, Hanchong Zhang, Kai Yu",2023-01-12T02:52:51Z,cs.AI
+Against Algorithmic Exploitation of Human Vulnerabilities,"Decisions such as which movie to watch next, which song to listen to, or
+which product to buy online, are increasingly influenced by recommender systems
+and user models that incorporate information on users' past behaviours,
+preferences, and digitally created content. Machine learning models that enable
+recommendations and that are trained on user data may unintentionally leverage
+information on human characteristics that are considered vulnerabilities, such
+as depression, young age, or gambling addiction. The use of algorithmic
+decisions based on latent vulnerable state representations could be considered
+manipulative and could have a deteriorating impact on the condition of
+vulnerable individuals. In this paper, we are concerned with the problem of
+machine learning models inadvertently modelling vulnerabilities, and want to
+raise awareness for this issue to be considered in legislation and AI ethics.
+Hence, we define and describe common vulnerabilities, and illustrate cases
+where they are likely to play a role in algorithmic decision-making. We propose
+a set of requirements for methods to detect the potential for vulnerability
+modelling, detect whether vulnerable groups are treated differently by a model,
+and detect whether a model has created an internal representation of
+vulnerability. We conclude that explainable artificial intelligence methods may
+be necessary for detecting vulnerability exploitation by machine learning-based
+recommendation systems.","Inga Strümke, Marija Slavkovik, Clemens Stachl",2023-01-12T13:15:24Z,cs.AI
+Persistence-Based Discretization for Learning Discrete Event Systems from Time Series,"To get a good understanding of a dynamical system, it is convenient to have
+an interpretable and versatile model of it. Timed discrete event systems are a
+kind of model that respond to these requirements. However, such models can be
+inferred from timestamped event sequences but not directly from numerical data.
+To solve this problem, a discretization step must be done to identify events or
+symbols in the time series. Persist is a discretization method that intends to
+create persisting symbols by using a score called persistence score. This
+allows to mitigate the risk of undesirable symbol changes that would lead to a
+too complex model. After the study of the persistence score, we point out that
+it tends to favor excessive cases making it miss interesting persisting
+symbols. To correct this behavior, we replace the metric used in the
+persistence score, the Kullback-Leibler divergence, with the Wasserstein
+distance. Experiments show that the improved persistence score enhances
+Persist's ability to capture the information of the original time series and
+that it makes it better suited for discrete event systems learning.","Lénaïg Cornanguer, Christine Largouët, Laurence Rozé, Alexandre Termier",2023-01-12T14:10:30Z,cs.AI
+Discovering and Explaining Driver Behaviour under HoS Regulations,"World wide transport authorities are imposing complex Hours of Service
+regulations to drivers, which constraint the amount of working, driving and
+resting time when delivering a service. As a consequence, transport companies
+are responsible not only of scheduling driving plans aligned with laws that
+define the legal behaviour of a driver, but also of monitoring and identifying
+as soon as possible problematic patterns that can incur in costs due to
+sanctions. Transport experts are frequently in charge of many drivers and lack
+time to analyse the vast amount of data recorded by the onboard sensors, and
+companies have grown accustomed to pay sanctions rather than predict and
+forestall wrongdoings. This paper exposes an application for summarising raw
+driver activity logs according to these regulations and for explaining driver
+behaviour in a human readable format. The system employs planning, constraint,
+and clustering techniques to extract and describe what the driver has been
+doing while identifying infractions and the activities that originate them.
+Furthermore, it groups drivers based on similar driving patterns. An
+experimentation in real world data indicates that recurring driving patterns
+can be clustered from short basic driving sequences to whole drivers working
+days.","Ignacio Vellido, Juan Fdez-Olivares, Raúl Pérez",2023-01-12T15:30:11Z,cs.AI
+Multitask Weakly Supervised Learning for Origin Destination Travel Time Estimation,"Travel time estimation from GPS trips is of great importance to order
+duration, ridesharing, taxi dispatching, etc. However, the dense trajectory is
+not always available due to the limitation of data privacy and acquisition,
+while the origin destination (OD) type of data, such as NYC taxi data, NYC bike
+data, and Capital Bikeshare data, is more accessible. To address this issue,
+this paper starts to estimate the OD trips travel time combined with the road
+network. Subsequently, a Multitask Weakly Supervised Learning Framework for
+Travel Time Estimation (MWSL TTE) has been proposed to infer transition
+probability between roads segments, and the travel time on road segments and
+intersection simultaneously. Technically, given an OD pair, the transition
+probability intends to recover the most possible route. And then, the output of
+travel time is equal to the summation of all segments' and intersections'
+travel time in this route. A novel route recovery function has been proposed to
+iteratively maximize the current route's co occurrence probability, and
+minimize the discrepancy between routes' probability distribution and the
+inverse distribution of routes' estimation loss. Moreover, the expected log
+likelihood function based on a weakly supervised framework has been deployed in
+optimizing the travel time from road segments and intersections concurrently.
+We conduct experiments on a wide range of real world taxi datasets in Xi'an and
+Chengdu and demonstrate our method's effectiveness on route recovery and travel
+time estimation.","Hongjun Wang, Zhiwen Zhang, Zipei Fan, Jiyuan Chen, Lingyu Zhang, Ryosuke Shibasaki, Xuan Song",2023-01-13T00:11:56Z,cs.AI
+Contrast with Major Classifier Vectors for Federated Medical Relation Extraction with Heterogeneous Label Distribution,"Federated medical relation extraction enables multiple clients to train a
+deep network collaboratively without sharing their raw medical data. In order
+to handle the heterogeneous label distribution across clients, most of the
+existing works only involve enforcing regularization between local and global
+models during optimization. In this paper, we fully utilize the models of all
+clients and propose a novel concept of \textit{major classifier vectors}, where
+a group of class vectors is obtained in an ensemble rather than the weighted
+average method on the server. The major classifier vectors are then distributed
+to all clients and the local training of each client is Contrasted with Major
+Classifier vectors (FedCMC), so the local model is not prone to overfitting to
+the local label distribution. FedCMC requires only a small amount of additional
+transfer of classifier parameters without any leakage of raw data, extracted
+representations, and label distributions. Our extensive experiments show that
+FedCMC outperforms the other state-of-the-art FL algorithms on three medical
+relation extraction datasets.","Chunhui Du, Hao He, Yaohui Jin",2023-01-13T03:22:07Z,cs.AI
+Evolve Path Tracer: Early Detection of Malicious Addresses in Cryptocurrency,"With the ever-increasing boom of Cryptocurrency, detecting fraudulent
+behaviors and associated malicious addresses draws significant research effort.
+However, most existing studies still rely on the full history features or
+full-fledged address transaction networks, thus cannot meet the requirements of
+early malicious address detection, which is urgent but seldom discussed by
+existing studies. To detect fraud behaviors of malicious addresses in the early
+stage, we present Evolve Path Tracer, which consists of Evolve Path Encoder
+LSTM, Evolve Path Graph GCN, and Hierarchical Survival Predictor. Specifically,
+in addition to the general address features, we propose asset transfer paths
+and corresponding path graphs to characterize early transaction patterns.
+Further, since the transaction patterns are changing rapidly during the early
+stage, we propose Evolve Path Encoder LSTM and Evolve Path Graph GCN to encode
+asset transfer path and path graph under an evolving structure setting.
+Hierarchical Survival Predictor then predicts addresses' labels with nice
+scalability and faster prediction speed. We investigate the effectiveness and
+versatility of Evolve Path Tracer on three real-world illicit bitcoin datasets.
+Our experimental results demonstrate that Evolve Path Tracer outperforms the
+state-of-the-art methods. Extensive scalability experiments demonstrate the
+model's adaptivity under a dynamic prediction setting.","Ling Cheng, Feida Zhu, Yong Wang, Ruicheng Liang, Huiwen Liu",2023-01-13T06:59:52Z,cs.AI
+Trends in Explainable AI (XAI) Literature,"The XAI literature is decentralized, both in terminology and in publication
+venues, but recent years saw the community converge around keywords that make
+it possible to more reliably discover papers automatically. We use keyword
+search using the SemanticScholar API and manual curation to collect a
+well-formatted and reasonably comprehensive set of 5199 XAI papers, available
+at https://github.com/alonjacovi/XAI-Scholar . We use this collection to
+clarify and visualize trends about the size and scope of the literature,
+citation trends, cross-field trends, and collaboration trends. Overall, XAI is
+becoming increasingly multidisciplinary, with relative growth in papers
+belonging to increasingly diverse (non-CS) scientific fields, increasing
+cross-field collaborative authorship, increasing cross-field citation activity.
+The collection can additionally be used as a paper discovery engine, by
+retrieving XAI literature which is cited according to specific constraints (for
+example, papers that are influential outside of their field, or influential to
+non-XAI research).",Alon Jacovi,2023-01-13T08:36:56Z,cs.AI
+Using the profile of publishers to predict barriers across news articles,"Detection of news propagation barriers, being economical, cultural,
+political, time zonal, or geographical, is still an open research issue. We
+present an approach to barrier detection in news spreading by utilizing
+Wikipedia-concepts and metadata associated with each barrier. Solving this
+problem can not only convey the information about the coverage of an event but
+it can also show whether an event has been able to cross a specific barrier or
+not. Experimental results on IPoNews dataset (dataset for information spreading
+over the news) reveals that simple classification models are able to detect
+barriers with high accuracy. We believe that our approach can serve to provide
+useful insights which pave the way for the future development of a system for
+predicting information spreading barriers over the news.","Abdul Sittar, Dunja Mladenic",2023-01-13T13:32:42Z,cs.AI
+Investigating the Combination of Planning-Based and Data-Driven Methods for Goal Recognition,"An important feature of pervasive, intelligent assistance systems is the
+ability to dynamically adapt to the current needs of their users. Hence, it is
+critical for such systems to be able to recognize those goals and needs based
+on observations of the user's actions and state of the environment. In this
+work, we investigate the application of two state-of-the-art, planning-based
+plan recognition approaches in a real-world setting. So far, these approaches
+were only evaluated in artificial settings in combination with agents that act
+perfectly rational. We show that such approaches have difficulties when used to
+recognize the goals of human subjects, because human behaviour is typically not
+perfectly rational. To overcome this issue, we propose an extension to the
+existing approaches through a classification-based method trained on observed
+behaviour data. We empirically show that the proposed extension not only
+outperforms the purely planning-based- and purely data-driven goal recognition
+methods but is also able to recognize the correct goal more reliably,
+especially when only a small number of observations were seen. This
+substantially improves the usefulness of hybrid goal recognition approaches for
+intelligent assistance systems, as recognizing a goal early opens much more
+possibilities for supportive reactions of the system.","Nils Wilken, Lea Cohausz, Johannes Schaum, Stefan Lüdtke, Heiner Stuckenschmidt",2023-01-13T15:24:02Z,cs.AI
+Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions,"An abstraction can be used to relate two structural causal models
+representing the same system at different levels of resolution. Learning
+abstractions which guarantee consistency with respect to interventional
+distributions would allow one to jointly reason about evidence across multiple
+levels of granularity while respecting the underlying cause-effect
+relationships. In this paper, we introduce a first framework for causal
+abstraction learning between SCMs based on the formalization of abstraction
+recently proposed by Rischel (2020). Based on that, we propose a differentiable
+programming solution that jointly solves a number of combinatorial
+sub-problems, and we study its performance and benefits against independent and
+sequential approaches on synthetic settings and on a challenging real-world
+problem related to electric vehicle battery manufacturing.","Fabio Massimo Zennaro, Máté Drávucz, Geanina Apachitei, W. Dhammika Widanage, Theodoros Damoulas",2023-01-14T11:22:16Z,cs.AI
+Max-min Learning of Approximate Weight Matrices from Fuzzy Data,"In this article, we study the approximate solutions set $\Lambda_b$ of an
+inconsistent system of $\max-\min$ fuzzy relational equations $(S): A
+\Box_{\min}^{\max}x =b$. Using the $L_\infty$ norm, we compute by an explicit
+analytical formula the Chebyshev distance $\Delta~=~\inf_{c \in \mathcal{C}}
+\Vert b -c \Vert$, where $\mathcal{C}$ is the set of second members of the
+consistent systems defined with the same matrix $A$. We study the set
+$\mathcal{C}_b$ of Chebyshev approximations of the second member $b$ i.e.,
+vectors $c \in \mathcal{C}$ such that $\Vert b -c \Vert = \Delta$, which is
+associated to the approximate solutions set $\Lambda_b$ in the following sense:
+an element of the set $\Lambda_b$ is a solution vector $x^\ast$ of a system $A
+\Box_{\min}^{\max}x =c$ where $c \in \mathcal{C}_b$. As main results, we
+describe both the structure of the set $\Lambda_b$ and that of the set
+$\mathcal{C}_b$. We then introduce a paradigm for $\max-\min$ learning weight
+matrices that relates input and output data from training data. The learning
+error is expressed in terms of the $L_\infty$ norm. We compute by an explicit
+formula the minimal value of the learning error according to the training data.
+We give a method to construct weight matrices whose learning error is minimal,
+that we call approximate weight matrices.
+  Finally, as an application of our results, we show how to learn approximately
+the rule parameters of a possibilistic rule-based system according to multiple
+training data.",Ismaïl Baaj,2023-01-15T16:48:30Z,cs.AI
+PECAN: Leveraging Policy Ensemble for Context-Aware Zero-Shot Human-AI Coordination,"Zero-shot human-AI coordination holds the promise of collaborating with
+humans without human data. Prevailing methods try to train the ego agent with a
+population of partners via self-play. However, these methods suffer from two
+problems: 1) The diversity of a population with finite partners is limited,
+thereby limiting the capacity of the trained ego agent to collaborate with a
+novel human; 2) Current methods only provide a common best response for every
+partner in the population, which may result in poor zero-shot coordination
+performance with a novel partner or humans. To address these issues, we first
+propose the policy ensemble method to increase the diversity of partners in the
+population, and then develop a context-aware method enabling the ego agent to
+analyze and identify the partner's potential policy primitives so that it can
+take different actions accordingly. In this way, the ego agent is able to learn
+more universal cooperative behaviors for collaborating with diverse partners.
+We conduct experiments on the Overcooked environment, and evaluate the
+zero-shot human-AI coordination performance of our method with both
+behavior-cloned human proxies and real humans. The results demonstrate that our
+method significantly increases the diversity of partners and enables ego agents
+to learn more diverse behaviors than baselines, thus achieving state-of-the-art
+performance in all scenarios. We also open-source a human-AI coordination study
+framework on the Overcooked for the convenience of future studies.","Xingzhou Lou, Jiaxian Guo, Junge Zhang, Jun Wang, Kaiqi Huang, Yali Du",2023-01-16T12:14:58Z,cs.AI
+Causal Models with Constraints,"Causal models have proven extremely useful in offering formal representations
+of causal relationships between a set of variables. Yet in many situations,
+there are non-causal relationships among variables. For example, we may want
+variables $LDL$, $HDL$, and $TOT$ that represent the level of low-density
+lipoprotein cholesterol, the level of lipoprotein high-density lipoprotein
+cholesterol, and total cholesterol level, with the relation $LDL+HDL=TOT$. This
+cannot be done in standard causal models, because we can intervene
+simultaneously on all three variables. The goal of this paper is to extend
+standard causal models to allow for constraints on settings of variables.
+Although the extension is relatively straightforward, to make it useful we have
+to define a new intervention operation that $disconnects$ a variable from a
+causal equation. We give examples showing the usefulness of this extension, and
+provide a sound and complete axiomatization for causal models with constraints.","Sander Beckers, Joseph Y. Halpern, Christopher Hitchcock",2023-01-17T12:43:46Z,cs.AI
+Implicit State and Goals in QBF Encodings for Positional Games (extended version),"We address two bottlenecks for concise QBF encodings of maker-breaker
+positional games, like Hex and Tic-Tac-Toe. Our baseline is a QBF encoding with
+explicit variables for board positions and an explicit representation of
+winning configurations. The first improvement is inspired by lifted planning
+and avoids variables for explicit board positions, introducing a universal
+quantifier representing a symbolic board state. The second improvement
+represents the winning configurations implicitly, exploiting their structure.
+The paper evaluates the size of several encodings, depending on board size and
+game depth. It also reports the performance of QBF solvers on these encodings.
+We evaluate the techniques on Hex instances and also apply them to Harary's
+Tic-Tac-Toe. In particular, we study scalability to 19$\times$19 boards, played
+in human Hex tournaments.","Irfansha Shaik, Valentin Mayer-Eichberger, Jaco van de Pol, Abdallah Saffidine",2023-01-18T07:28:41Z,cs.AI
+Boosting Synthetic Data Generation with Effective Nonlinear Causal Discovery,"Synthetic data generation has been widely adopted in software testing, data
+privacy, imbalanced learning, and artificial intelligence explanation. In all
+such contexts, it is crucial to generate plausible data samples. A common
+assumption of approaches widely used for data generation is the independence of
+the features. However, typically, the variables of a dataset depend on one
+another, and these dependencies are not considered in data generation leading
+to the creation of implausible records. The main problem is that dependencies
+among variables are typically unknown. In this paper, we design a synthetic
+dataset generator for tabular data that can discover nonlinear causalities
+among the variables and use them at generation time. State-of-the-art methods
+for nonlinear causal discovery are typically inefficient. We boost them by
+restricting the causal discovery among the features appearing in the frequent
+patterns efficiently retrieved by a pattern mining algorithm. We design a
+framework for generating synthetic datasets with known causalities to validate
+our proposal. Broad experimentation on many synthetic and real datasets with
+known causalities shows the effectiveness of the proposed method.","Martina Cinquini, Fosca Giannotti, Riccardo Guidotti",2023-01-18T10:54:06Z,cs.AI
+Generalisation Through Negation and Predicate Invention,"The ability to generalise from a small number of examples is a fundamental
+challenge in machine learning. To tackle this challenge, we introduce an
+inductive logic programming (ILP) approach that combines negation and predicate
+invention. Combining these two features allows an ILP system to generalise
+better by learning rules with universally quantified body-only variables. We
+implement our idea in NOPI, which can learn normal logic programs with
+predicate invention, including Datalog programs with stratified negation. Our
+experimental results on multiple domains show that our approach can improve
+predictive accuracies and learning times.","David M. Cerna, Andrew Cropper",2023-01-18T16:12:27Z,cs.AI
+Generative AI-empowered Effective Physical-Virtual Synchronization in the Vehicular Metaverse,"Metaverse seamlessly blends the physical world and virtual space via
+ubiquitous communication and computing infrastructure. In transportation
+systems, the vehicular Metaverse can provide a fully-immersive and hyperreal
+traveling experience (e.g., via augmented reality head-up displays, AR-HUDs) to
+drivers and users in autonomous vehicles (AVs) via roadside units (RSUs).
+However, provisioning real-time and immersive services necessitates effective
+physical-virtual synchronization between physical and virtual entities, i.e.,
+AVs and Metaverse AR recommenders (MARs). In this paper, we propose a
+generative AI-empowered physical-virtual synchronization framework for the
+vehicular Metaverse. In physical-to-virtual synchronization, digital twin (DT)
+tasks generated by AVs are offloaded for execution in RSU with future route
+generation. In virtual-to-physical synchronization, MARs customize diverse and
+personal AR recommendations via generative AI models based on user preferences.
+Furthermore, we propose a multi-task enhanced auction-based mechanism to match
+and price AVs and MARs for RSUs to provision real-time and effective services.
+Finally, property analysis and experimental results demonstrate that the
+proposed mechanism is strategy-proof and adverse-selection free while
+increasing social surplus by 50%.","Minrui Xu, Dusit Niyato, Hongliang Zhang, Jiawen Kang, Zehui Xiong, Shiwen Mao, Zhu Han",2023-01-18T16:25:42Z,cs.AI
+Decision-Focused Evaluation: Analyzing Performance of Deployed Restless Multi-Arm Bandits,"Restless multi-arm bandits (RMABs) is a popular decision-theoretic framework
+that has been used to model real-world sequential decision making problems in
+public health, wildlife conservation, communication systems, and beyond.
+Deployed RMAB systems typically operate in two stages: the first predicts the
+unknown parameters defining the RMAB instance, and the second employs an
+optimization algorithm to solve the constructed RMAB instance.
+  In this work we provide and analyze the results from a first-of-its-kind
+deployment of an RMAB system in public health domain, aimed at improving
+maternal and child health. Our analysis is focused towards understanding the
+relationship between prediction accuracy and overall performance of deployed
+RMAB systems. This is crucial for determining the value of investing in
+improving predictive accuracy towards improving the final system performance,
+and is useful for diagnosing, monitoring deployed RMAB systems.
+  Using real-world data from our deployed RMAB system, we demonstrate that an
+improvement in overall prediction accuracy may even be accompanied by a
+degradation in the performance of RMAB system -- a broad investment of
+resources to improve overall prediction accuracy may not yield expected
+results. Following this, we develop decision-focused evaluation metrics to
+evaluate the predictive component and show that it is better at explaining
+(both empirically and theoretically) the overall performance of a deployed RMAB
+system.","Paritosh Verma, Shresth Verma, Aditya Mate, Aparna Taneja, Milind Tambe",2023-01-19T01:04:55Z,cs.AI
+Subject-Independent Brain-Computer Interfaces with Open-Set Subject Recognition,"A brain-computer interface (BCI) can't be effectively used since
+electroencephalography (EEG) varies between and within subjects. BCI systems
+require calibration steps to adjust the model to subject-specific data. It is
+widely acknowledged that this is a major obstacle to the development of BCIs.
+To address this issue, previous studies have trained a generalized model by
+removing the subjects' information. In contrast, in this work, we introduce a
+style information encoder as an auxiliary task that classifies various source
+domains and recognizes open-set domains. Open-set recognition method was used
+as an auxiliary task to learn subject-related style information from the source
+subjects, while at the same time helping the shared feature extractor map
+features in an unseen target. This paper compares various OSR methods within an
+open-set subject recognition (OSSR) framework. As a result of our experiments,
+we found that the OSSR auxiliary network that encodes domain information
+improves generalization performance.","Dong-Kyun Han, Dong-Young Kim, Geun-Deok Jang",2023-01-19T05:48:05Z,cs.AI
+Generalization through Diversity: Improving Unsupervised Environment Design,"Agent decision making using Reinforcement Learning (RL) heavily relies on
+either a model or simulator of the environment (e.g., moving in an 8x8 maze
+with three rooms, playing Chess on an 8x8 board). Due to this dependence, small
+changes in the environment (e.g., positions of obstacles in the maze, size of
+the board) can severely affect the effectiveness of the policy learned by the
+agent. To that end, existing work has proposed training RL agents on an
+adaptive curriculum of environments (generated automatically) to improve
+performance on out-of-distribution (OOD) test scenarios. Specifically, existing
+research has employed the potential for the agent to learn in an environment
+(captured using Generalized Advantage Estimation, GAE) as the key factor to
+select the next environment(s) to train the agent. However, such a mechanism
+can select similar environments (with a high potential to learn) thereby making
+agent training redundant on all but one of those environments. To that end, we
+provide a principled approach to adaptively identify diverse environments based
+on a novel distance measure relevant to environment design. We empirically
+demonstrate the versatility and effectiveness of our method in comparison to
+multiple leading approaches for unsupervised environment design on three
+distinct benchmark problems used in literature.","Wenjun Li, Pradeep Varakantham, Dexun Li",2023-01-19T11:55:47Z,cs.AI
+"causalgraph: A Python Package for Modeling, Persisting and Visualizing Causal Graphs Embedded in Knowledge Graphs","This paper describes a novel Python package, named causalgraph, for modeling
+and saving causal graphs embedded in knowledge graphs. The package has been
+designed to provide an interface between causal disciplines such as causal
+discovery and causal inference. With this package, users can create and save
+causal graphs and export the generated graphs for use in other graph-based
+packages. The main advantage of the proposed package is its ability to
+facilitate the linking of additional information and metadata to causal
+structures. In addition, the package offers a variety of functions for graph
+modeling and plotting, such as editing, adding, and deleting nodes and edges.
+It is also compatible with widely used graph data science libraries such as
+NetworkX and Tigramite and incorporates a specially developed causalgraph
+ontology in the background. This paper provides an overview of the package's
+main features, functionality, and usage examples, enabling the reader to use
+the package effectively in practice.","Sven Pieper, Carl Willy Mehling, Dominik Hirsch, Tobias Lüke, Steffen Ihlenfeldt",2023-01-20T09:36:32Z,cs.AI
+Generative Logic with Time: Beyond Logical Consistency and Statistical Possibility,"This paper gives a simple theory of inference to logically reason symbolic
+knowledge fully from data over time. We take a Bayesian approach to model how
+data causes symbolic knowledge. Probabilistic reasoning with symbolic knowledge
+is modelled as a process of going the causality forwards and backwards. The
+forward and backward processes correspond to an interpretation and inverse
+interpretation of formal logic, respectively. The theory is applied to a
+localisation problem to show a robot with broken or noisy sensors can
+efficiently solve the problem in a fully data-driven fashion.",Hiroyuki Kido,2023-01-20T10:55:49Z,cs.AI
+On the Foundations of Cycles in Bayesian Networks,"Bayesian networks (BNs) are a probabilistic graphical model widely used for
+representing expert knowledge and reasoning under uncertainty. Traditionally,
+they are based on directed acyclic graphs that capture dependencies between
+random variables. However, directed cycles can naturally arise when
+cross-dependencies between random variables exist, e.g., for modeling feedback
+loops. Existing methods to deal with such cross-dependencies usually rely on
+reductions to BNs without cycles. These approaches are fragile to generalize,
+since their justifications are intermingled with additional knowledge about the
+application context. In this paper, we present a foundational study regarding
+semantics for cyclic BNs that are generic and conservatively extend the
+cycle-free setting. First, we propose constraint-based semantics that specify
+requirements for full joint distributions over a BN to be consistent with the
+local conditional probabilities and independencies. Second, two kinds of limit
+semantics that formalize infinite unfolding approaches are introduced and shown
+to be computable by a Markov chain construction.","Christel Baier, Clemens Dubslaff, Holger Hermanns, Nikolai Käfer",2023-01-20T14:40:17Z,cs.AI
+Counterexample Guided Abstraction Refinement with Non-Refined Abstractions for Multi-Agent Path Finding,"Counterexample guided abstraction refinement (CEGAR) represents a powerful
+symbolic technique for various tasks such as model checking and reachability
+analysis. Recently, CEGAR combined with Boolean satisfiability (SAT) has been
+applied for multi-agent path finding (MAPF), a problem where the task is to
+navigate agents from their start positions to given individual goal positions
+so that the agents do not collide with each other.
+  The recent CEGAR approach used the initial abstraction of the MAPF problem
+where collisions between agents were omitted and were eliminated in subsequent
+abstraction refinements. We propose in this work a novel CEGAR-style solver for
+MAPF based on SAT in which some abstractions are deliberately left non-refined.
+This adds the necessity to post-process the answers obtained from the
+underlying SAT solver as these answers slightly differ from the correct MAPF
+solutions. Non-refining however yields order-of-magnitude smaller SAT encodings
+than those of the previous approach and speeds up the overall solving process
+making the SAT-based solver for MAPF competitive again in relevant benchmarks.",Pavel Surynek,2023-01-20T17:18:49Z,cs.AI
+"Mathematics, word problems, common sense, and artificial intelligence","The paper discusses the capacities and limitations of current artificial
+intelligence (AI) technology to solve word problems that combine elementary
+knowledge with commonsense reasoning. No existing AI systems can solve these
+reliably. We review three approaches that have been developed, using AI natural
+language technology: outputting the answer directly, outputting a computer
+program that solves the problem, and outputting a formalized representation
+that can be input to an automated theorem verifier. We review some benchmarks
+that have been developed to evaluate these systems and some experimental
+studies. We discuss the limitations of the existing technology at solving these
+kinds of problems. We argue that it is not clear whether these kinds of
+limitations will be important in developing AI technology for pure mathematical
+research, but that they will be important in applications of mathematics, and
+may well be important in developing programs capable of reading and
+understanding mathematical content written by humans.",Ernest Davis,2023-01-23T21:21:39Z,cs.AI
+Language-guided Task Adaptation for Imitation Learning,"We introduce a novel setting, wherein an agent needs to learn a task from a
+demonstration of a related task with the difference between the tasks
+communicated in natural language. The proposed setting allows reusing
+demonstrations from other tasks, by providing low effort language descriptions,
+and can also be used to provide feedback to correct agent errors, which are
+both important desiderata for building intelligent agents that assist humans in
+daily tasks. To enable progress in this proposed setting, we create two
+benchmarks -- Room Rearrangement and Room Navigation -- that cover a diverse
+set of task adaptations. Further, we propose a framework that uses a
+transformer-based model to reason about the entities in the tasks and their
+relationships, to learn a policy for the target task","Prasoon Goyal, Raymond J. Mooney, Scott Niekum",2023-01-24T00:56:43Z,cs.AI
+Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction,"We study the problem of learning goal-conditioned policies in Minecraft, a
+popular, widely accessible yet challenging open-ended environment for
+developing human-level multi-task agents. We first identify two main challenges
+of learning such policies: 1) the indistinguishability of tasks from the state
+distribution, due to the vast scene diversity, and 2) the non-stationary nature
+of environment dynamics caused by partial observability. To tackle the first
+challenge, we propose Goal-Sensitive Backbone (GSB) for the policy to encourage
+the emergence of goal-relevant visual state representations. To tackle the
+second challenge, the policy is further fueled by an adaptive horizon
+prediction module that helps alleviate the learning uncertainty brought by the
+non-stationary dynamics. Experiments on 20 Minecraft tasks show that our method
+significantly outperforms the best baseline so far; in many of them, we double
+the performance. Our ablation and exploratory studies then explain how our
+approach beat the counterparts and also unveil the surprising bonus of
+zero-shot generalization to new scenes (biomes). We hope our agent could help
+shed some light on learning goal-conditioned, multi-task agents in challenging,
+open-ended environments like Minecraft.","Shaofei Cai, Zihao Wang, Xiaojian Ma, Anji Liu, Yitao Liang",2023-01-21T08:15:38Z,cs.AI
+Reformulation Techniques for Automated Planning: A Systematic Review,"Automated planning is a prominent area of Artificial Intelligence, and an
+important component for intelligent autonomous agents. A cornerstone of
+domain-independent planning is the separation between planning logic, i.e. the
+automated reasoning side, and the knowledge model, that encodes a formal
+representation of domain knowledge needed to reason upon a given problem to
+synthesise a solution plan. Such a separation enables the use of reformulation
+techniques, which transform how a model is represented in order to improve the
+efficiency of plan generation. Over the past decades, significant research
+effort has been devoted to the design of reformulation techniques. In this
+paper, we present a systematic review of the large body of work on
+reformulation techniques for classical planning, aiming to provide a holistic
+view of the field and to foster future research in the area. As a tangible
+outcome, we provide a qualitative comparison of the existing classes of
+techniques, that can help researchers gain an overview of their strengths and
+weaknesses.","Diaeddin Alarnaouti, George Baryannis, Mauro Vallati",2023-01-24T15:33:37Z,cs.AI
+NeSIG: A Neuro-Symbolic Method for Learning to Generate Planning Problems,"In the field of Automated Planning there is often the need for a set of
+planning problems from a particular domain, e.g., to be used as training data
+for Machine Learning or as benchmarks in planning competitions. In most cases,
+these problems are created either by hand or by a domain-specific generator,
+putting a burden on the human designers. In this paper we propose NeSIG, to the
+best of our knowledge the first domain-independent method for automatically
+generating planning problems that are valid, diverse and difficult to solve. We
+formulate problem generation as a Markov Decision Process and train two
+generative policies with Deep Reinforcement Learning to generate problems with
+the desired properties. We conduct experiments on several classical domains,
+comparing our method with handcrafted domain-specific generators that generate
+valid and diverse problems but do not optimize difficulty. The results show
+NeSIG is able to automatically generate valid problems of greater difficulty
+than the competitor approaches, while maintaining good diversity.","Carlos Núñez-Molina, Pablo Mesejo, Juan Fernández-Olivares",2023-01-24T19:37:59Z,cs.AI
+PushWorld: A benchmark for manipulation planning with tools and movable obstacles,"While recent advances in artificial intelligence have achieved human-level
+performance in environments like Starcraft and Go, many physical reasoning
+tasks remain challenging for modern algorithms. To date, few algorithms have
+been evaluated on physical tasks that involve manipulating objects when movable
+obstacles are present and when tools must be used to perform the manipulation.
+To promote research on such tasks, we introduce PushWorld, an environment with
+simplistic physics that requires manipulation planning with both movable
+obstacles and tools. We provide a benchmark of more than 200 PushWorld puzzles
+in PDDL and in an OpenAI Gym environment. We evaluate state-of-the-art
+classical planning and reinforcement learning algorithms on this benchmark, and
+we find that these baseline results are below human-level performance. We then
+provide a new classical planning heuristic that solves the most puzzles among
+the baselines, and although it is 40 times faster than the best baseline
+planner, it remains below human-level performance.","Ken Kansky, Skanda Vaidyanath, Scott Swingle, Xinghua Lou, Miguel Lazaro-Gredilla, Dileep George",2023-01-24T20:20:17Z,cs.AI
+Leveraging Planning Landmarks for Hybrid Online Goal Recognition,"Goal recognition is an important problem in many application domains (e.g.,
+pervasive computing, intrusion detection, computer games, etc.). In many
+application scenarios it is important that goal recognition algorithms can
+recognize goals of an observed agent as fast as possible and with minimal
+domain knowledge. Hence, in this paper, we propose a hybrid method for online
+goal recognition that combines a symbolic planning landmark based approach and
+a data-driven goal recognition approach and evaluate it in a real-world cooking
+scenario. The empirical results show that the proposed method is not only
+significantly more efficient in terms of computation time than the
+state-of-the-art but also improves goal recognition performance. Furthermore,
+we show that the utilized planning landmark based approach, which was so far
+only evaluated on artificial benchmark domains, achieves also good recognition
+performance when applied to a real-world cooking scenario.","Nils Wilken, Lea Cohausz, Johannes Schaum, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt",2023-01-25T13:21:30Z,cs.AI
+Reflective Artificial Intelligence,"Artificial Intelligence (AI) is about making computers that do the sorts of
+things that minds can do, and as we progress towards this goal, we tend to
+increasingly delegate human tasks to machines. However, AI systems usually do
+these tasks with an unusual imbalance of insight and understanding: new, deeper
+insights are present, yet many important qualities that a human mind would have
+previously brought to the activity are utterly absent. Therefore, it is crucial
+to ask which features of minds have we replicated, which are missing, and if
+that matters. One core feature that humans bring to tasks, when dealing with
+the ambiguity, emergent knowledge, and social context presented by the world,
+is reflection. Yet this capability is utterly missing from current mainstream
+AI. In this paper we ask what reflective AI might look like. Then, drawing on
+notions of reflection in complex systems, cognitive science, and agents, we
+sketch an architecture for reflective AI agents, and highlight ways forward.","Peter R. Lewis, Stefan Sarkadi",2023-01-25T20:50:26Z,cs.AI
+Towards Knowledge-Centric Process Mining,"Process analytic approaches play a critical role in supporting the practice
+of business process management and continuous process improvement by leveraging
+process-related data to identify performance bottlenecks, extracting insights
+about reducing costs and optimizing the utilization of available resources.
+Process analytic techniques often have to contend with real-world settings
+where available logs are noisy or incomplete. In this paper we present an
+approach that permits process analytics techniques to deliver value in the face
+of noisy/incomplete event logs. Our approach leverages knowledge graphs to
+mitigate the effects of noise in event logs while supporting process analysts
+in understanding variability associated with event logs.","Asjad Khan, Arsal Huda, Aditya Ghose, Hoa Khanh Dam",2023-01-26T04:23:04Z,cs.AI
+A Systematic Review of Green AI,"With the ever-growing adoption of AI-based systems, the carbon footprint of
+AI is no longer negligible. AI researchers and practitioners are therefore
+urged to hold themselves accountable for the carbon emissions of the AI models
+they design and use. This led in recent years to the appearance of researches
+tackling AI environmental sustainability, a field referred to as Green AI.
+Despite the rapid growth of interest in the topic, a comprehensive overview of
+Green AI research is to date still missing. To address this gap, in this paper,
+we present a systematic review of the Green AI literature. From the analysis of
+98 primary studies, different patterns emerge. The topic experienced a
+considerable growth from 2020 onward. Most studies consider monitoring AI model
+footprint, tuning hyperparameters to improve model sustainability, or
+benchmarking models. A mix of position papers, observational studies, and
+solution papers are present. Most papers focus on the training phase, are
+algorithm-agnostic or study neural networks, and use image data. Laboratory
+experiments are the most common research strategy. Reported Green AI energy
+savings go up to 115%, with savings over 50% being rather common. Industrial
+parties are involved in Green AI studies, albeit most target academic readers.
+Green AI tool provisioning is scarce. As a conclusion, the Green AI research
+field results to have reached a considerable level of maturity. Therefore, from
+this review emerges that the time is suitable to adopt other Green AI research
+strategies, and port the numerous promising academic results to industrial
+practice.","Roberto Verdecchia, June Sallou, Luís Cruz",2023-01-26T11:41:46Z,cs.AI
+Generalized Planning as Heuristic Search: A new planning search-space that leverages pointers over objects,"Planning as heuristic search is one of the most successful approaches to
+classical planning but unfortunately, it does not extend trivially to
+Generalized Planning (GP). GP aims to compute algorithmic solutions that are
+valid for a set of classical planning instances from a given domain, even if
+these instances differ in the number of objects, the number of state variables,
+their domain size, or their initial and goal configuration. The generalization
+requirements of GP make it impractical to perform the state-space search that
+is usually implemented by heuristic planners. This paper adapts the planning as
+heuristic search paradigm to the generalization requirements of GP, and
+presents the first native heuristic search approach to GP. First, the paper
+introduces a new pointer-based solution space for GP that is independent of the
+number of classical planning instances in a GP problem and the size of those
+instances (i.e. the number of objects, state variables and their domain sizes).
+Second, the paper defines a set of evaluation and heuristic functions for
+guiding a combinatorial search in our new GP solution space. The computation of
+these evaluation and heuristic functions does not require grounding states or
+actions in advance. Therefore our GP as heuristic search approach can handle
+large sets of state variables with large numerical domains, e.g.~integers.
+Lastly, the paper defines an upgraded version of our novel algorithm for GP
+called Best-First Generalized Planning (BFGP), that implements a best-first
+search in our pointer-based solution space, and that is guided by our
+evaluation/heuristic functions for GP.","Javier Segovia-Aguas, Sergio Jiménez, Anders Jonsson",2023-01-26T13:25:39Z,cs.AI
+Polycraft World AI Lab (PAL): An Extensible Platform for Evaluating Artificial Intelligence Agents,"As artificial intelligence research advances, the platforms used to evaluate
+AI agents need to adapt and grow to continue to challenge them. We present the
+Polycraft World AI Lab (PAL), a task simulator with an API based on the
+Minecraft mod Polycraft World. Our platform is built to allow AI agents with
+different architectures to easily interact with the Minecraft world, train and
+be evaluated in multiple tasks. PAL enables the creation of tasks in a flexible
+manner as well as having the capability to manipulate any aspect of the task
+during an evaluation. All actions taken by AI agents and external actors
+(non-player-characters, NPCs) in the open-world environment are logged to
+streamline evaluation. Here we present two custom tasks on the PAL platform,
+one focused on multi-step planning and one focused on navigation, and
+evaluations of agents solving them. In summary, we report a versatile and
+extensible AI evaluation platform with a low barrier to entry for AI
+researchers to utilize.","Stephen A. Goss, Robert J. Steininger, Dhruv Narayanan, Daniel V. Olivença, Yutong Sun, Peng Qiu, Jim Amato, Eberhard O. Voit, Walter E. Voit, Eric J. Kildebeck",2023-01-27T18:08:04Z,cs.AI
+"Even if Explanations: Prior Work, Desiderata & Benchmarks for Semi-Factual XAI","Recently, eXplainable AI (XAI) research has focused on counterfactual
+explanations as post-hoc justifications for AI-system decisions (e.g. a
+customer refused a loan might be told: If you asked for a loan with a shorter
+term, it would have been approved). Counterfactuals explain what changes to the
+input-features of an AI system change the output-decision. However, there is a
+sub-type of counterfactual, semi-factuals, that have received less attention in
+AI (though the Cognitive Sciences have studied them extensively). This paper
+surveys these literatures to summarise historical and recent breakthroughs in
+this area. It defines key desiderata for semi-factual XAI and reports benchmark
+tests of historical algorithms (along with a novel, naieve method) to provide a
+solid basis for future algorithmic developments.","Saugat Aryal, Mark T Keane",2023-01-27T19:58:12Z,cs.AI
+Context Matters: A Strategy to Pre-train Language Model for Science Education,"This study aims at improving the performance of scoring student responses in
+science education automatically. BERT-based language models have shown
+significant superiority over traditional NLP models in various language-related
+tasks. However, science writing of students, including argumentation and
+explanation, is domain-specific. In addition, the language used by students is
+different from the language in journals and Wikipedia, which are training
+sources of BERT and its existing variants. All these suggest that a
+domain-specific model pre-trained using science education data may improve
+model performance. However, the ideal type of data to contextualize pre-trained
+language model and improve the performance in automatically scoring student
+written responses remains unclear. Therefore, we employ different data in this
+study to contextualize both BERT and SciBERT models and compare their
+performance on automatic scoring of assessment tasks for scientific
+argumentation. We use three datasets to pre-train the model: 1) journal
+articles in science education, 2) a large dataset of students' written
+responses (sample size over 50,000), and 3) a small dataset of students'
+written responses of scientific argumentation tasks. Our experimental results
+show that in-domain training corpora constructed from science questions and
+responses improve language model performance on a wide variety of downstream
+tasks. Our study confirms the effectiveness of continual pre-training on
+domain-specific data in the education domain and demonstrates a generalizable
+strategy for automating science education tasks with high accuracy. We plan to
+release our data and SciEdBERT models for public use and community engagement.","Zhengliang Liu, Xinyu He, Lei Liu, Tianming Liu, Xiaoming Zhai",2023-01-27T23:50:16Z,cs.AI
+HAT-GAE: Self-Supervised Graph Auto-encoders with Hierarchical Adaptive Masking and Trainable Corruption,"Self-supervised auto-encoders have emerged as a successful framework for
+representation learning in computer vision and natural language processing in
+recent years, However, their application to graph data has been met with
+limited performance due to the non-Euclidean and complex structure of graphs in
+comparison to images or text, as well as the limitations of conventional
+auto-encoder architectures. In this paper, we investigate factors impacting the
+performance of auto-encoders on graph data and propose a novel auto-encoder
+model for graph representation learning. Our model incorporates a hierarchical
+adaptive masking mechanism to incrementally increase the difficulty of training
+in order to mimic the process of human cognitive learning, and a trainable
+corruption scheme to enhance the robustness of learned representations. Through
+extensive experimentation on ten benchmark datasets, we demonstrate the
+superiority of our proposed method over state-of-the-art graph representation
+learning models.",Chengyu Sun,2023-01-28T02:43:54Z,cs.AI
+A System for Human-AI collaboration for Online Customer Support,"AI enabled chat bots have recently been put to use to answer customer service
+queries, however it is a common feedback of users that bots lack a personal
+touch and are often unable to understand the real intent of the user's
+question. To this end, it is desirable to have human involvement in the
+customer servicing process. In this work, we present a system where a human
+support agent collaborates in real-time with an AI agent to satisfactorily
+answer customer queries. We describe the user interaction elements of the
+solution, along with the machine learning techniques involved in the AI agent.","Debayan Banerjee, Mathis Poser, Christina Wiethof, Varun Shankar Subramanian, Richard Paucar, Eva A. C. Bittner, Chris Biemann",2023-01-28T11:07:23Z,cs.AI
+MVKT-ECG: Efficient Single-lead ECG Classification on Multi-Label Arrhythmia by Multi-View Knowledge Transferring,"The widespread emergence of smart devices for ECG has sparked demand for
+intelligent single-lead ECG-based diagnostic systems. However, it is
+challenging to develop a single-lead-based ECG interpretation model for
+multiple diseases diagnosis due to the lack of some key disease information. In
+this work, we propose inter-lead Multi-View Knowledge Transferring of ECG
+(MVKT-ECG) to boost single-lead ECG's ability for multi-label disease
+diagnosis. This training strategy can transfer superior disease knowledge from
+multiple different views of ECG (e.g. 12-lead ECG) to single-lead-based ECG
+interpretation model to mine details in single-lead ECG signals that are easily
+overlooked by neural networks. MVKT-ECG allows this lead variety as a
+supervision signal within a teacher-student paradigm, where the teacher
+observes multi-lead ECG educates a student who observes only single-lead ECG.
+Since the mutual disease information between the single-lead ECG and muli-lead
+ECG plays a key role in knowledge transferring, we present a new disease-aware
+Contrastive Lead-information Transferring(CLT) to improve the mutual disease
+information between the single-lead ECG and muli-lead ECG. Moreover, We modify
+traditional Knowledge Distillation to multi-label disease Knowledge
+Distillation (MKD) to make it applicable for multi-label disease diagnosis. The
+comprehensive experiments verify that MVKT-ECG has an excellent performance in
+improving the diagnostic effect of single-lead ECG.","Yuzhen Qin, Li Sun, Hui Chen, Wei-qiang Zhang, Wenming Yang, Jintao Fei, Guijin Wang",2023-01-28T12:28:39Z,cs.AI
+Interactive Log Parsing via Light-weight User Feedback,"Template mining is one of the foundational tasks to support log analysis,
+which supports the diagnosis and troubleshooting of large scale Web
+applications. This paper develops a human-in-the-loop template mining framework
+to support interactive log analysis, which is highly desirable in real-world
+diagnosis or troubleshooting of Web applications but yet previous template
+mining algorithms fails to support it. We formulate three types of light-weight
+user feedbacks and based on them we design three atomic human-in-the-loop
+template mining algorithms. We derive mild conditions under which the outputs
+of our proposed algorithms are provably correct. We also derive upper bounds on
+the computational complexity and query complexity of each algorithm. We
+demonstrate the versatility of our proposed algorithms by combining them to
+improve the template mining accuracy of five representative algorithms over
+sixteen widely used benchmark datasets.","Liming Wang, Hong Xie, Ye Li, Jian Tan, John C. S. Lui",2023-01-28T15:19:43Z,cs.AI
+Predicting Visit Cost of Obstructive Sleep Apnea using Electronic Healthcare Records with Transformer,"Background: Obstructive sleep apnea (OSA) is growing increasingly prevalent
+in many countries as obesity rises. Sufficient, effective treatment of OSA
+entails high social and financial costs for healthcare. Objective: For
+treatment purposes, predicting OSA patients' visit expenses for the coming year
+is crucial. Reliable estimates enable healthcare decision-makers to perform
+careful fiscal management and budget well for effective distribution of
+resources to hospitals. The challenges created by scarcity of high-quality
+patient data are exacerbated by the fact that just a third of those data from
+OSA patients can be used to train analytics models: only OSA patients with more
+than 365 days of follow-up are relevant for predicting a year's expenditures.
+Methods and procedures: The authors propose a method applying two Transformer
+models, one for augmenting the input via data from shorter visit histories and
+the other predicting the costs by considering both the material thus enriched
+and cases with more than a year's follow-up. Results: The two-model solution
+permits putting the limited body of OSA patient data to productive use.
+Relative to a single-Transformer solution using only a third of the
+high-quality patient data, the solution with two models improved the prediction
+performance's $R^{2}$ from 88.8% to 97.5%. Even using baseline models with the
+model-augmented data improved the $R^{2}$ considerably, from 61.6% to 81.9%.
+Conclusion: The proposed method makes prediction with the most of the available
+high-quality data by carefully exploiting details, which are not directly
+relevant for answering the question of the next year's likely expenditure.","Zhaoyang Chen, Lina Siltala-Li, Mikko Lassila, Pekka Malo, Eeva Vilkkumaa, Tarja Saaresranta, Arho Veli Virkki",2023-01-28T20:08:00Z,cs.AI
+"Data-driven intelligent computational design for products: Method, techniques, and applications","Data-driven intelligent computational design (DICD) is a research hotspot
+emerged under the context of fast-developing artificial intelligence. It
+emphasizes on utilizing deep learning algorithms to extract and represent the
+design features hidden in historical or fabricated design process data, and
+then learn the combination and mapping patterns of these design features for
+the purposes of design solution retrieval, generation, optimization,
+evaluation, etc. Due to its capability of automatically and efficiently
+generating design solutions and thus supporting human-in-the-loop intelligent
+and innovative design activities, DICD has drawn the attentions from both
+academic and industrial fields. However, as an emerging research subject, there
+are still many unexplored issues that limit the development and application of
+DICD, such as specific dataset building, engineering design related feature
+engineering, systematic methods and techniques for DICD implementation in the
+entire product design process, etc. In this regard, a systematic and operable
+road map for DICD implementation from full-process perspective is established,
+including a general workflow for DICD project planning, an overall framework
+for DICD project implementation, the computing mechanisms for DICD
+implementation, key enabling technologies for detailed DICD implementation, and
+three application scenarios of DICD. The road map reveals the common mechanisms
+and calculation principles of existing DICD researches, and thus it can provide
+systematic guidance for the possible DICD applications that have not been
+explored.","Maolin Yang, Pingyu Jiang, Tianshuo Zang, Yuhao Liu",2023-01-29T07:17:46Z,cs.AI
+HeroNet: A Hybrid Retrieval-Generation Network for Conversational Bots,"Using natural language, Conversational Bot offers unprecedented ways to many
+challenges in areas such as information searching, item recommendation, and
+question answering. Existing bots are usually developed through retrieval-based
+or generative-based approaches, yet both of them have their own advantages and
+disadvantages. To assemble this two approaches, we propose a hybrid
+retrieval-generation network (HeroNet) with the three-fold ideas: 1). To
+produce high-quality sentence representations, HeroNet performs multi-task
+learning on two subtasks: Similar Queries Discovery and Query-Response
+Matching. Specifically, the retrieval performance is improved while the model
+size is reduced by training two lightweight, task-specific adapter modules that
+share only one underlying T5-Encoder model. 2). By introducing adversarial
+training, HeroNet is able to solve both retrieval\&generation tasks
+simultaneously while maximizing performance of each other. 3). The retrieval
+results are used as prior knowledge to improve the generation performance while
+the generative result are scored by the discriminator and their scores are
+integrated into the generator's cross-entropy loss function. The experimental
+results on a open dataset demonstrate the effectiveness of the HeroNet and our
+code is available at https://github.com/TempHero/HeroNet.git","Bolin Zhang, Yunzhe Xu, Zhiying Tu, Dianhui Chu",2023-01-29T09:36:44Z,cs.AI
+BERT-based Authorship Attribution on the Romanian Dataset called ROST,"Being around for decades, the problem of Authorship Attribution is still very
+much in focus currently. Some of the more recent instruments used are the
+pre-trained language models, the most prevalent being BERT. Here we used such a
+model to detect the authorship of texts written in the Romanian language. The
+dataset used is highly unbalanced, i.e., significant differences in the number
+of texts per author, the sources from which the texts were collected, the time
+period in which the authors lived and wrote these texts, the medium intended to
+be read (i.e., paper or online), and the type of writing (i.e., stories, short
+stories, fairy tales, novels, literary articles, and sketches). The results are
+better than expected, sometimes exceeding 87\% macro-accuracy.",Sanda-Maria Avram,2023-01-29T17:37:29Z,cs.AI
+Distilling Internet-Scale Vision-Language Models into Embodied Agents,"Instruction-following agents must ground language into their observation and
+action spaces. Learning to ground language is challenging, typically requiring
+domain-specific engineering or large quantities of human interaction data. To
+address this challenge, we propose using pretrained vision-language models
+(VLMs) to supervise embodied agents. We combine ideas from model distillation
+and hindsight experience replay (HER), using a VLM to retroactively generate
+language describing the agent's behavior. Simple prompting allows us to control
+the supervision signal, teaching an agent to interact with novel objects based
+on their names (e.g., planes) or their features (e.g., colors) in a 3D rendered
+environment. Fewshot prompting lets us teach abstract category membership,
+including pre-existing categories (food vs toys) and ad-hoc ones (arbitrary
+preferences over objects). Our work outlines a new and effective way to use
+internet-scale VLMs, repurposing the generic language grounding acquired by
+such models to teach task-relevant groundings to embodied agents.","Theodore Sumers, Kenneth Marino, Arun Ahuja, Rob Fergus, Ishita Dasgupta",2023-01-29T18:21:05Z,cs.AI
+EMP-EVAL: A Framework for Measuring Empathy in Open Domain Dialogues,"Measuring empathy in conversation can be challenging, as empathy is a complex
+and multifaceted psychological construct that involves both cognitive and
+emotional components. Human evaluations can be subjective, leading to
+inconsistent results. Therefore, there is a need for an automatic method for
+measuring empathy that reduces the need for human evaluations. In this paper,
+we proposed a novel approach EMP-EVAL, a simple yet effective automatic empathy
+evaluation method. The proposed technique takes the influence of Emotion,
+Cognitive and Emotional empathy. To the best knowledge, our work is the first
+to systematically measure empathy without the human-annotated provided scores.
+Experimental results demonstrate that our metrics can correlate with human
+preference, achieving comparable results with human judgments.","Bushra Amjad, Muhammad Zeeshan, Mirza Omer Beg",2023-01-29T18:42:19Z,cs.AI
+A Mental Model Based Theory of Trust,"Handling trust is one of the core requirements for facilitating effective
+interaction between the human and the AI agent. Thus, any decision-making
+framework designed to work with humans must possess the ability to estimate and
+leverage human trust. In this paper, we propose a mental model based theory of
+trust that not only can be used to infer trust, thus providing an alternative
+to psychological or behavioral trust inference methods, but also can be used as
+a foundation for any trust-aware decision-making frameworks. First, we
+introduce what trust means according to our theory and then use the theory to
+define trust evolution, human reliance and decision making, and a formalization
+of the appropriate level of trust in the agent. Using human subject studies, we
+compare our theory against one of the most common trust scales (Muir scale) to
+evaluate 1) whether the observations from the human studies match our proposed
+theory and 2) what aspects of trust are more aligned with our proposed theory.","Zahra Zahedi, Sarath Sreedharan, Subbarao Kambhampati",2023-01-29T22:36:37Z,cs.AI
+Transferring Multiple Policies to Hotstart Reinforcement Learning in an Air Compressor Management Problem,"Many instances of similar or almost-identical industrial machines or tools
+are often deployed at once, or in quick succession. For instance, a particular
+model of air compressor may be installed at hundreds of customers. Because
+these tools perform distinct but highly similar tasks, it is interesting to be
+able to quickly produce a high-quality controller for machine $N+1$ given the
+controllers already produced for machines $1..N$. This is even more important
+when the controllers are learned through Reinforcement Learning, as training
+takes time, energy and other resources. In this paper, we apply Policy
+Intersection, a Policy Shaping method, to help a Reinforcement Learning agent
+learn to solve a new variant of a compressors control problem faster, by
+transferring knowledge from several previously learned controllers. We show
+that our approach outperforms loading an old controller, and significantly
+improves performance in the long run.","Hélène Plisnier, Denis Steckelmacher, Jeroen Willems, Bruno Depraetere, Ann Nowé",2023-01-30T12:18:36Z,cs.AI
+Distributed Swarm Intelligence,"This paper presents the development of a distributed application that
+facilitates the understanding and application of swarm intelligence in solving
+optimization problems. The platform comprises a search space of customizable
+random particles, allowing users to tailor the solution to their specific
+needs. By leveraging the power of Ray distributed computing, the application
+can support multiple users simultaneously, offering a flexible and scalable
+solution. The primary objective of this project is to provide a user-friendly
+platform that enhances the understanding and practical use of swarm
+intelligence in problem-solving.","Karthik Reddy Kanjula, Sai Meghana Kolla",2023-01-30T20:36:35Z,cs.AI
+On the Complexity of Enumerating Prime Implicants from Decision-DNNF Circuits,"We consider the problem EnumIP of enumerating prime implicants of Boolean
+functions represented by decision decomposable negation normal form (dec-DNNF)
+circuits. We study EnumIP from dec-DNNF within the framework of enumeration
+complexity and prove that it is in OutputP, the class of output polynomial
+enumeration problems, and more precisely in IncP, the class of polynomial
+incremental time enumeration problems. We then focus on two closely related,
+but seemingly harder, enumeration problems where further restrictions are put
+on the prime implicants to be generated. In the first problem, one is only
+interested in prime implicants representing subset-minimal abductive
+explanations, a notion much investigated in AI for more than three decades. In
+the second problem, the target is prime implicants representing sufficient
+reasons, a recent yet important notion in the emerging field of eXplainable AI,
+since they aim to explain predictions achieved by machine learning classifiers.
+We provide evidence showing that enumerating specific prime implicants
+corresponding to subset-minimal abductive explanations or to sufficient reasons
+is not in OutputP.","Alexis de Colnet, Pierre Marquis",2023-01-30T23:23:45Z,cs.AI
+Purposeful and Operation-based Cognitive System for AGI,"This paper proposes a new cognitive model, acting as the main component of an
+AGI agent. The model is introduced in its mature state, and as an extension of
+previous models, DENN, and especially AKREM, by including operational models
+(frames/classes) and will. In addition, it is mainly based on the duality
+principle in every known intelligent aspect, such as exhibiting both top-down
+and bottom-up model learning, generalization verse specialization, and more.
+Furthermore, a holistic approach is advocated for AGI designing and cognition
+under constraints or efficiency is proposed, in the form of reusability and
+simplicity. Finally, reaching this mature state is described via a cognitive
+evolution from infancy to adulthood, utilizing a consolidation principle. The
+final product of this cognitive model is a dynamic operational memory of models
+and instances.",Shimon Komarovsky,2023-01-31T11:11:38Z,cs.AI
+Reverse engineering adversarial attacks with fingerprints from adversarial examples,"In spite of intense research efforts, deep neural networks remain vulnerable
+to adversarial examples: an input that forces the network to confidently
+produce incorrect outputs. Adversarial examples are typically generated by an
+attack algorithm that optimizes a perturbation added to a benign input. Many
+such algorithms have been developed. If it were possible to reverse engineer
+attack algorithms from adversarial examples, this could deter bad actors
+because of the possibility of attribution. Here we formulate reverse
+engineering as a supervised learning problem where the goal is to assign an
+adversarial example to a class that represents the algorithm and parameters
+used. To our knowledge it has not been previously shown whether this is even
+possible. We first test whether we can classify the perturbations added to
+images by attacks on undefended single-label image classification models.
+Taking a ""fight fire with fire"" approach, we leverage the sensitivity of deep
+neural networks to adversarial examples, training them to classify these
+perturbations. On a 17-class dataset (5 attacks, 4 bounded with 4 epsilon
+values each), we achieve an accuracy of 99.4% with a ResNet50 model trained on
+the perturbations. We then ask whether we can perform this task without access
+to the perturbations, obtaining an estimate of them with signal processing
+algorithms, an approach we call ""fingerprinting"". We find the JPEG algorithm
+serves as a simple yet effective fingerprinter (85.05% accuracy), providing a
+strong baseline for future work. We discuss how our approach can be extended to
+attack agnostic, learnable fingerprints, and to open-world scenarios with
+unknown attacks.","David Aaron Nicholson, Vincent Emanuele",2023-01-31T18:59:37Z,cs.AI
+The Impacts of Unanswerable Questions on the Robustness of Machine Reading Comprehension Models,"Pretrained language models have achieved super-human performances on many
+Machine Reading Comprehension (MRC) benchmarks. Nevertheless, their relative
+inability to defend against adversarial attacks has spurred skepticism about
+their natural language understanding. In this paper, we ask whether training
+with unanswerable questions in SQuAD 2.0 can help improve the robustness of MRC
+models against adversarial attacks. To explore that question, we fine-tune
+three state-of-the-art language models on either SQuAD 1.1 or SQuAD 2.0 and
+then evaluate their robustness under adversarial attacks. Our experiments
+reveal that current models fine-tuned on SQuAD 2.0 do not initially appear to
+be any more robust than ones fine-tuned on SQuAD 1.1, yet they reveal a measure
+of hidden robustness that can be leveraged to realize actual performance gains.
+Furthermore, we find that the robustness of models fine-tuned on SQuAD 2.0
+extends to additional out-of-domain datasets. Finally, we introduce a new
+adversarial attack to reveal artifacts of SQuAD 2.0 that current MRC models are
+learning.","Son Quoc Tran, Phong Nguyen-Thuan Do, Uyen Le, Matt Kretchmar",2023-01-31T20:51:14Z,cs.AI
+Learning Universal Policies via Text-Guided Video Generation,"A goal of artificial intelligence is to construct an agent that can solve a
+wide variety of tasks. Recent progress in text-guided image synthesis has
+yielded models with an impressive ability to generate complex novel images,
+exhibiting combinatorial generalization across domains. Motivated by this
+success, we investigate whether such tools can be used to construct more
+general-purpose agents. Specifically, we cast the sequential decision making
+problem as a text-conditioned video generation problem, where, given a
+text-encoded specification of a desired goal, a planner synthesizes a set of
+future frames depicting its planned actions in the future, after which control
+actions are extracted from the generated video. By leveraging text as the
+underlying goal specification, we are able to naturally and combinatorially
+generalize to novel goals. The proposed policy-as-video formulation can further
+represent environments with different state and action spaces in a unified
+space of images, which, for example, enables learning and generalization across
+a variety of robot manipulation tasks. Finally, by leveraging pretrained
+language embeddings and widely available videos from the internet, the approach
+enables knowledge transfer through predicting highly realistic video plans for
+real robots.","Yilun Du, Mengjiao Yang, Bo Dai, Hanjun Dai, Ofir Nachum, Joshua B. Tenenbaum, Dale Schuurmans, Pieter Abbeel",2023-01-31T21:28:13Z,cs.AI
+A Deep Behavior Path Matching Network for Click-Through Rate Prediction,"User behaviors on an e-commerce app not only contain different kinds of
+feedback on items but also sometimes imply the cognitive clue of the user's
+decision-making. For understanding the psychological procedure behind user
+decisions, we present the behavior path and propose to match the user's current
+behavior path with historical behavior paths to predict user behaviors on the
+app. Further, we design a deep neural network for behavior path matching and
+solve three difficulties in modeling behavior paths: sparsity, noise
+interference, and accurate matching of behavior paths. In particular, we
+leverage contrastive learning to augment user behavior paths, provide behavior
+path self-activation to alleviate the effect of noise, and adopt a two-level
+matching mechanism to identify the most appropriate candidate. Our model shows
+excellent performance on two real-world datasets, outperforming the
+state-of-the-art CTR model. Moreover, our model has been deployed on the
+Meituan food delivery platform and has accumulated 1.6% improvement in CTR and
+1.8% improvement in advertising revenue.","Jian Dong, Yisong Yu, Yapeng Zhang, Yimin Lv, Shuli Wang, Beihong Jin, Yongkang Wang, Xingxing Wang, Dong Wang",2023-02-01T08:08:21Z,cs.AI
+"Multimodality Representation Learning: A Survey on Evolution, Pretraining and Its Applications","Multimodality Representation Learning, as a technique of learning to embed
+information from different modalities and their correlations, has achieved
+remarkable success on a variety of applications, such as Visual Question
+Answering (VQA), Natural Language for Visual Reasoning (NLVR), and Vision
+Language Retrieval (VLR). Among these applications, cross-modal interaction and
+complementary information from different modalities are crucial for advanced
+models to perform any multimodal task, e.g., understand, recognize, retrieve,
+or generate optimally. Researchers have proposed diverse methods to address
+these tasks. The different variants of transformer-based architectures
+performed extraordinarily on multiple modalities. This survey presents the
+comprehensive literature on the evolution and enhancement of deep learning
+multimodal architectures to deal with textual, visual and audio features for
+diverse cross-modal and modern multimodal tasks. This study summarizes the (i)
+recent task-specific deep learning methodologies, (ii) the pretraining types
+and multimodal pretraining objectives, (iii) from state-of-the-art pretrained
+multimodal approaches to unifying architectures, and (iv) multimodal task
+categories and possible future improvements that can be devised for better
+multimodal learning. Moreover, we prepare a dataset section for new researchers
+that covers most of the benchmarks for pretraining and finetuning. Finally,
+major challenges, gaps, and potential research topics are explored. A
+constantly-updated paperlist related to our survey is maintained at
+https://github.com/marslanm/multimodality-representation-learning.","Muhammad Arslan Manzoor, Sarah Albarri, Ziting Xian, Zaiqiao Meng, Preslav Nakov, Shangsong Liang",2023-02-01T11:48:34Z,cs.AI
+For the Underrepresented in Gender Bias Research: Chinese Name Gender Prediction with Heterogeneous Graph Attention Network,"Achieving gender equality is an important pillar for humankind's sustainable
+future. Pioneering data-driven gender bias research is based on large-scale
+public records such as scientific papers, patents, and company registrations,
+covering female researchers, inventors and entrepreneurs, and so on. Since
+gender information is often missing in relevant datasets, studies rely on tools
+to infer genders from names. However, available open-sourced Chinese
+gender-guessing tools are not yet suitable for scientific purposes, which may
+be partially responsible for female Chinese being underrepresented in
+mainstream gender bias research and affect their universality. Specifically,
+these tools focus on character-level information while overlooking the fact
+that the combinations of Chinese characters in multi-character names, as well
+as the components and pronunciations of characters, convey important messages.
+As a first effort, we design a Chinese Heterogeneous Graph Attention (CHGAT)
+model to capture the heterogeneity in component relationships and incorporate
+the pronunciations of characters. Our model largely surpasses current tools and
+also outperforms the state-of-the-art algorithm. Last but not least, the most
+popular Chinese name-gender dataset is single-character based with far less
+female coverage from an unreliable source, naturally hindering relevant
+studies. We open-source a more balanced multi-character dataset from an
+official source together with our code, hoping to help future research
+promoting gender equality.","Zihao Pan, Kai Peng, Shuai Ling, Haipeng Zhang",2023-02-01T13:08:50Z,cs.AI
+Digital Twin Applications in Urban Logistics: An Overview,"Urban traffic attributed to commercial and industrial transportation is
+observed to largely affect living standards in cities due to external effects
+pertaining to pollution and congestion. In order to counter this, smart cities
+deploy technological tools to achieve sustainability. Such tools include
+Digital Twins (DT)s which are virtual replicas of real-life physical systems.
+Research suggests that DTs can be very beneficial in how they control a
+physical system by constantly optimizing its performance. The concept has been
+extensively studied in other technology-driven industries like manufacturing.
+However, little work has been done with regards to their application in urban
+logistics. In this paper, we seek to provide a framework by which DTs could be
+easily adapted to urban logistics networks. To do this, we provide a
+characterization of key factors in urban logistics for dynamic decision-making.
+We also survey previous research on DT applications in urban logistics as we
+found that a holistic overview is lacking. Using this knowledge in combination
+with the characterization, we produce a conceptual model that describes the
+ontology, learning capabilities and optimization prowess of an urban logistics
+digital twin through its quantitative models. We finish off with a discussion
+on potential research benefits and limitations based on previous research and
+our practical experience.","Abdo Abouelrous, Laurens Bliek, Yingqian Zhang",2023-02-01T14:48:01Z,cs.AI
+Trash to Treasure: Using text-to-image models to inform the design of physical artefacts,"Text-to-image generative models have recently exploded in popularity and
+accessibility. Yet so far, use of these models in creative tasks that bridge
+the 2D digital world and the creation of physical artefacts has been
+understudied. We conduct a pilot study to investigate if and how text-to-image
+models can be used to assist in upstream tasks within the creative process,
+such as ideation and visualization, prior to a sculpture-making activity.
+Thirty participants selected sculpture-making materials and generated three
+images using the Stable Diffusion text-to-image generator, each with text
+prompts of their choice, with the aim of informing and then creating a physical
+sculpture. The majority of participants (23/30) reported that the generated
+images informed their sculptures, and 28/30 reported interest in using
+text-to-image models to help them in a creative task in the future. We identify
+several prompt engineering strategies and find that a participant's prompting
+strategy relates to their stage in the creative process. We discuss how our
+findings can inform support for users at different stages of the design process
+and for using text-to-image models for physical artefact design.","Amy Smith, Hope Schroeder, Ziv Epstein, Michael Cook, Simon Colton, Andrew Lippman",2023-02-01T16:26:34Z,cs.AI
+Clinical Decision Transformer: Intended Treatment Recommendation through Goal Prompting,"With recent achievements in tasks requiring context awareness, foundation
+models have been adopted to treat large-scale data from electronic health
+record (EHR) systems. However, previous clinical recommender systems based on
+foundation models have a limited purpose of imitating clinicians' behavior and
+do not directly consider a problem of missing values. In this paper, we propose
+Clinical Decision Transformer (CDT), a recommender system that generates a
+sequence of medications to reach a desired range of clinical states given as
+goal prompts. For this, we conducted goal-conditioned sequencing, which
+generated a subsequence of treatment history with prepended future goal state,
+and trained the CDT to model sequential medications required to reach that goal
+state. For contextual embedding over intra-admission and inter-admissions, we
+adopted a GPT-based architecture with an admission-wise attention mask and
+column embedding. In an experiment, we extracted a diabetes dataset from an EHR
+system, which contained treatment histories of 4788 patients. We observed that
+the CDT achieved the intended treatment effect according to goal prompt ranges
+(e.g., NormalA1c, LowerA1c, and HigherA1c), contrary to the case with behavior
+cloning. To the best of our knowledge, this is the first study to explore
+clinical recommendations from the perspective of goal prompting. See
+https://clinical-decision-transformer.github.io for code and additional
+information.","Seunghyun Lee, Da Young Lee, Sujeong Im, Nan Hee Kim, Sung-Min Park",2023-02-01T17:26:01Z,cs.AI
+Conditioning Predictive Models: Risks and Strategies,"Our intention is to provide a definitive reference on what it would take to
+safely make use of generative/predictive models in the absence of a solution to
+the Eliciting Latent Knowledge problem. Furthermore, we believe that large
+language models can be understood as such predictive models of the world, and
+that such a conceptualization raises significant opportunities for their safe
+yet powerful use via carefully conditioning them to predict desirable outputs.
+Unfortunately, such approaches also raise a variety of potentially fatal safety
+problems, particularly surrounding situations where predictive models predict
+the output of other AI systems, potentially unbeknownst to us. There are
+numerous potential solutions to such problems, however, primarily via carefully
+conditioning models to predict the things we want (e.g. humans) rather than the
+things we don't (e.g. malign AIs). Furthermore, due to the simplicity of the
+prediction objective, we believe that predictive models present the easiest
+inner alignment problem that we are aware of. As a result, we think that
+conditioning approaches for predictive models represent the safest known way of
+eliciting human-level and slightly superhuman capabilities from large language
+models and other similar future models.","Evan Hubinger, Adam Jermyn, Johannes Treutlein, Rubi Hudson, Kate Woolverton",2023-02-02T00:06:36Z,cs.AI
+Goal Alignment: A Human-Aware Account of Value Alignment Problem,"Value alignment problems arise in scenarios where the specified objectives of
+an AI agent don't match the true underlying objective of its users. The problem
+has been widely argued to be one of the central safety problems in AI.
+Unfortunately, most existing works in value alignment tend to focus on issues
+that are primarily related to the fact that reward functions are an unintuitive
+mechanism to specify objectives. However, the complexity of the objective
+specification mechanism is just one of many reasons why the user may have
+misspecified their objective. A foundational cause for misalignment that is
+being overlooked by these works is the inherent asymmetry in human expectations
+about the agent's behavior and the behavior generated by the agent for the
+specified objective. To address this lacuna, we propose a novel formulation for
+the value alignment problem, named goal alignment that focuses on a few central
+challenges related to value alignment. In doing so, we bridge the currently
+disparate research areas of value alignment and human-aware planning.
+Additionally, we propose a first-of-its-kind interactive algorithm that is
+capable of using information generated under incorrect beliefs about the agent,
+to determine the true underlying goal of the user.","Malek Mechergui, Sarath Sreedharan",2023-02-02T01:18:57Z,cs.AI
+MetaTKG: Learning Evolutionary Meta-Knowledge for Temporal Knowledge Graph Reasoning,"Reasoning over Temporal Knowledge Graphs (TKGs) aims to predict future facts
+based on given history. One of the key challenges for prediction is to learn
+the evolution of facts. Most existing works focus on exploring evolutionary
+information in history to obtain effective temporal embeddings for entities and
+relations, but they ignore the variation in evolution patterns of facts, which
+makes them struggle to adapt to future data with different evolution patterns.
+Moreover, new entities continue to emerge along with the evolution of facts
+over time. Since existing models highly rely on historical information to learn
+embeddings for entities, they perform poorly on such entities with little
+historical information. To tackle these issues, we propose a novel Temporal
+Meta-learning framework for TKG reasoning, MetaTKG for brevity. Specifically,
+our method regards TKG prediction as many temporal meta-tasks, and utilizes the
+designed Temporal Meta-learner to learn evolutionary meta-knowledge from these
+meta-tasks. The proposed method aims to guide the backbones to learn to adapt
+quickly to future data and deal with entities with little historical
+information by the learned meta-knowledge. Specially, in temporal meta-learner,
+we design a Gating Integration module to adaptively establish temporal
+correlations between meta-tasks. Extensive experiments on four widely-used
+datasets and three backbones demonstrate that our method can greatly improve
+the performance.","Yuwei Xia, Mengqi Zhang, Qiang Liu, Shu Wu, Xiao-Yu Zhang",2023-02-02T05:55:41Z,cs.AI
+Policy Expansion for Bridging Offline-to-Online Reinforcement Learning,"Pre-training with offline data and online fine-tuning using reinforcement
+learning is a promising strategy for learning control policies by leveraging
+the best of both worlds in terms of sample efficiency and performance. One
+natural approach is to initialize the policy for online learning with the one
+trained offline. In this work, we introduce a policy expansion scheme for this
+task. After learning the offline policy, we use it as one candidate policy in a
+policy set. We then expand the policy set with another policy which will be
+responsible for further learning. The two policies will be composed in an
+adaptive manner for interacting with the environment. With this approach, the
+policy previously learned offline is fully retained during online learning,
+thus mitigating the potential issues such as destroying the useful behaviors of
+the offline policy in the initial stage of online learning while allowing the
+offline policy participate in the exploration naturally in an adaptive manner.
+Moreover, new useful behaviors can potentially be captured by the newly added
+policy through learning. Experiments are conducted on a number of tasks and the
+results demonstrate the effectiveness of the proposed approach.","Haichao Zhang, We Xu, Haonan Yu",2023-02-02T08:25:12Z,cs.AI
+Visual Imitation Learning with Patch Rewards,"Visual imitation learning enables reinforcement learning agents to learn to
+behave from expert visual demonstrations such as videos or image sequences,
+without explicit, well-defined rewards. Previous research either adopted
+supervised learning techniques or induce simple and coarse scalar rewards from
+pixels, neglecting the dense information contained in the image demonstrations.
+In this work, we propose to measure the expertise of various local regions of
+image samples, or called \textit{patches}, and recover multi-dimensional
+\textit{patch rewards} accordingly. Patch reward is a more precise rewarding
+characterization that serves as a fine-grained expertise measurement and visual
+explainability tool. Specifically, we present Adversarial Imitation Learning
+with Patch Rewards (PatchAIL), which employs a patch-based discriminator to
+measure the expertise of different local parts from given images and provide
+patch rewards. The patch-based knowledge is also used to regularize the
+aggregated reward and stabilize the training. We evaluate our method on
+DeepMind Control Suite and Atari tasks. The experiment results have
+demonstrated that PatchAIL outperforms baseline methods and provides valuable
+interpretations for visual demonstrations.","Minghuan Liu, Tairan He, Weinan Zhang, Shuicheng Yan, Zhongwen Xu",2023-02-02T09:13:10Z,cs.AI
+MLOps with enhanced performance control and observability,"The explosion of data and its ever increasing complexity in the last few
+years, has made MLOps systems more prone to failure, and new tools need to be
+embedded in such systems to avoid such failure. In this demo, we will introduce
+crucial tools in the observability module of a MLOps system that target
+difficult issues like data drfit and model version control for optimum model
+selection. We believe integrating these features in our MLOps pipeline would go
+a long way in building a robust system immune to early stage ML system
+failures.","Indradumna Banerjee, Dinesh Ghanta, Girish Nautiyal, Pradeep Sanchana, Prateek Katageri, Atin Modi",2023-02-02T12:47:07Z,cs.AI
+"NFRsTDO v1.2's Terms, Properties, and Relationships -- A Top-Domain Non-Functional Requirements Ontology","This preprint specifies and defines all the Terms, Properties, and
+Relationships of NFRsTDO (Non-Functional Requirements Top-Domain Ontology).
+NFRsTDO v1.2, whose UML conceptualization is shown in Figure 1 is a slightly
+updated version of its predecessor, namely NFRsTDO v1.1. NFRsTDO is an ontology
+mainly devoted to quality (non-functional) requirements and quality/cost views,
+which is placed at the top-domain level in the context of a multilayer
+ontological architecture called FCD-OntoArch (Foundational, Core, Domain, and
+instance Ontological Architecture for sciences). Figure 2 depicts its five
+tiers, which entail Foundational, Core, Top-Domain, Low-Domain, and Instance.
+Each level is populated with ontological components or, in other words,
+ontologies. Ontologies at the same level can be related to each other, except
+at the foundational level, where only ThingFO (Thing Foundational Ontology) is
+found. In addition, ontologies' terms and relationships at lower levels can be
+semantically enriched by ontologies' terms and relationships from the higher
+levels. NFRsTDO's terms and relationships are mainly extended/reused from
+ThingFO, SituationCO (Situation Core Ontology), ProcessCO (Process Core
+Ontology), and FRsTDO (Functional Requirements Top-Domain Ontology).
+Stereotypes are the used mechanism for enriching NFRsTDO terms. Note that
+annotations of updates from the previous version (NFRsTDO v1.1) to the current
+one (v1.2) can be found in Appendix A.","Luis Olsina, María Fernanda Papa, Pablo Becker",2023-02-02T13:33:33Z,cs.AI
+Tab2KG: Semantic Table Interpretation with Lightweight Semantic Profiles,"Tabular data plays an essential role in many data analytics and machine
+learning tasks. Typically, tabular data does not possess any machine-readable
+semantics. In this context, semantic table interpretation is crucial for making
+data analytics workflows more robust and explainable. This article proposes
+Tab2KG - a novel method that targets at the interpretation of tables with
+previously unseen data and automatically infers their semantics to transform
+them into semantic data graphs. We introduce original lightweight semantic
+profiles that enrich a domain ontology's concepts and relations and represent
+domain and table characteristics. We propose a one-shot learning approach that
+relies on these profiles to map a tabular dataset containing previously unseen
+instances to a domain ontology. In contrast to the existing semantic table
+interpretation approaches, Tab2KG relies on the semantic profiles only and does
+not require any instance lookup. This property makes Tab2KG particularly
+suitable in the data analytics context, in which data tables typically contain
+new instances. Our experimental evaluation on several real-world datasets from
+different application domains demonstrates that Tab2KG outperforms
+state-of-the-art semantic table interpretation baselines.","Simon Gottschalk, Elena Demidova",2023-02-02T15:12:30Z,cs.AI
+DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems,"Online social media platforms offer access to a vast amount of information,
+but sifting through the abundance of news can be overwhelming and tiring for
+readers. personalised recommendation algorithms can help users find information
+that interests them. However, most existing models rely solely on observations
+of user behaviour, such as viewing history, ignoring the connections between
+the news and a user's prior knowledge. This can result in a lack of diverse
+recommendations for individuals. In this paper, we propose a novel method to
+address the complex problem of news recommendation. Our approach is based on
+the idea of dual observation, which involves using a deep neural network with
+observation mechanisms to identify the main focus of a news article as well as
+the focus of the user on the article. This is achieved by taking into account
+the user's belief network, which reflects their personal interests and biases.
+By considering both the content of the news and the user's perspective, our
+approach is able to provide more personalised and accurate recommendations. We
+evaluate the performance of our model on real-world datasets and show that our
+proposed method outperforms several popular baselines.","Mengyan Wang, Weihua Li, Jingli Shi, Shiqing Wu, Quan Bai",2023-02-02T22:16:53Z,cs.AI
+Lateralization in Agents' Decision Making: Evidence of Benefits/Costs from Artificial Intelligence,"Lateralization is ubiquitous in vertebrate brains which, as well as its role
+in locomotion, is considered an important factor in biological intelligence.
+Lateralization has been associated with both poor and good performance. It has
+been hypothesized that lateralization has benefits that may counterbalance its
+costs. Given that lateralization is ubiquitous, it likely has advantages that
+can benefit artificial intelligence. In turn, lateralized artificial
+intelligent systems can be used as tools to advance the understanding of
+lateralization in biological intelligence. Recently lateralization has been
+incorporated into artificially intelligent systems to solve complex problems in
+computer vision and navigation domains. Here we describe and test two novel
+lateralized artificial intelligent systems that simultaneously represent and
+address given problems at constituent and holistic levels. The experimental
+results demonstrate that the lateralized systems outperformed state-of-the-art
+non-lateralized systems in resolving complex problems. The advantages arise
+from the abilities, (i) to represent an input signal at both the constituent
+level and holistic level simultaneously, such that the most appropriate
+viewpoint controls the system; (ii) to avoid extraneous computations by
+generating excite and inhibit signals. The computational costs associated with
+the lateralized AI systems are either less than the conventional AI systems or
+countered by providing better solutions.","Abubakar Siddique, Will N. Browne, Gina M. Grimshaw",2023-02-03T04:34:44Z,cs.AI
+"Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents","We investigate the challenge of task planning for multi-task embodied agents
+in open-world environments. Two main difficulties are identified: 1) executing
+plans in an open-world environment (e.g., Minecraft) necessitates accurate and
+multi-step reasoning due to the long-term nature of tasks, and 2) as vanilla
+planners do not consider how easy the current agent can achieve a given
+sub-task when ordering parallel sub-goals within a complicated plan, the
+resulting plan could be inefficient or even infeasible. To this end, we propose
+""$\underline{D}$escribe, $\underline{E}$xplain, $\underline{P}$lan and
+$\underline{S}$elect"" ($\textbf{DEPS}$), an interactive planning approach based
+on Large Language Models (LLMs). DEPS facilitates better error correction on
+initial LLM-generated $\textit{plan}$ by integrating $\textit{description}$ of
+the plan execution process and providing self-$\textit{explanation}$ of
+feedback when encountering failures during the extended planning phases.
+Furthermore, it includes a goal $\textit{selector}$, which is a trainable
+module that ranks parallel candidate sub-goals based on the estimated steps of
+completion, consequently refining the initial plan. Our experiments mark the
+milestone of the first zero-shot multi-task agent that can robustly accomplish
+70+ Minecraft tasks and nearly double the overall performances. Further testing
+reveals our method's general effectiveness in popularly adopted non-open-ended
+domains as well (i.e., ALFWorld and tabletop manipulation). The ablation and
+exploratory studies detail how our design beats the counterparts and provide a
+promising update on the $\texttt{ObtainDiamond}$ grand challenge with our
+approach. The code is released at https://github.com/CraftJarvis/MC-Planner.","Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian Ma, Yitao Liang",2023-02-03T06:06:27Z,cs.AI
+Hierarchically Composing Level Generators for the Creation of Complex Structures,"Procedural content generation (PCG) is a growing field, with numerous
+applications in the video game industry and great potential to help create
+better games at a fraction of the cost of manual creation. However, much of the
+work in PCG is focused on generating relatively straightforward levels in
+simple games, as it is challenging to design an optimisable objective function
+for complex settings. This limits the applicability of PCG to more complex and
+modern titles, hindering its adoption in industry. Our work aims to address
+this limitation by introducing a compositional level generation method that
+recursively composes simple low-level generators to construct large and complex
+creations. This approach allows for easily-optimisable objectives and the
+ability to design a complex structure in an interpretable way by referencing
+lower-level components. We empirically demonstrate that our method outperforms
+a non-compositional baseline by more accurately satisfying a designer's
+functional requirements in several tasks. Finally, we provide a qualitative
+showcase (in Minecraft) illustrating the large and complex, but still coherent,
+structures that were generated using simple base generators.","Michael Beukman, Manuel Fokam, Marcel Kruger, Guy Axelrod, Muhammad Nasir, Branden Ingram, Benjamin Rosman, Steven James",2023-02-03T06:08:28Z,cs.AI
+Searching Large Neighborhoods for Integer Linear Programs with Contrastive Learning,"Integer Linear Programs (ILPs) are powerful tools for modeling and solving a
+large number of combinatorial optimization problems. Recently, it has been
+shown that Large Neighborhood Search (LNS), as a heuristic algorithm, can find
+high quality solutions to ILPs faster than Branch and Bound. However, how to
+find the right heuristics to maximize the performance of LNS remains an open
+problem. In this paper, we propose a novel approach, CL-LNS, that delivers
+state-of-the-art anytime performance on several ILP benchmarks measured by
+metrics including the primal gap, the primal integral, survival rates and the
+best performing rate. Specifically, CL-LNS collects positive and negative
+solution samples from an expert heuristic that is slow to compute and learns a
+new one with a contrastive loss. We use graph attention networks and a richer
+set of features to further improve its performance.","Taoan Huang, Aaron Ferber, Yuandong Tian, Bistra Dilkina, Benoit Steiner",2023-02-03T07:15:37Z,cs.AI
+"Learning Zero-Shot Cooperation with Humans, Assuming Humans Are Biased","There is a recent trend of applying multi-agent reinforcement learning (MARL)
+to train an agent that can cooperate with humans in a zero-shot fashion without
+using any human data. The typical workflow is to first repeatedly run self-play
+(SP) to build a policy pool and then train the final adaptive policy against
+this pool. A crucial limitation of this framework is that every policy in the
+pool is optimized w.r.t. the environment reward function, which implicitly
+assumes that the testing partners of the adaptive policy will be precisely
+optimizing the same reward function as well. However, human objectives are
+often substantially biased according to their own preferences, which can differ
+greatly from the environment reward. We propose a more general framework,
+Hidden-Utility Self-Play (HSP), which explicitly models human biases as hidden
+reward functions in the self-play objective. By approximating the reward space
+as linear functions, HSP adopts an effective technique to generate an augmented
+policy pool with biased policies. We evaluate HSP on the Overcooked benchmark.
+Empirical results show that our HSP method produces higher rewards than
+baselines when cooperating with learned human models, manually scripted
+policies, and real humans. The HSP policy is also rated as the most assistive
+policy based on human feedback.","Chao Yu, Jiaxuan Gao, Weilin Liu, Botian Xu, Hao Tang, Jiaqi Yang, Yu Wang, Yi Wu",2023-02-03T09:06:42Z,cs.AI
+Domain Adaptation via Alignment of Operation Profile for Remaining Useful Lifetime Prediction,"Effective Prognostics and Health Management (PHM) relies on accurate
+prediction of the Remaining Useful Life (RUL). Data-driven RUL prediction
+techniques rely heavily on the representativeness of the available
+time-to-failure trajectories. Therefore, these methods may not perform well
+when applied to data from new units of a fleet that follow different operating
+conditions than those they were trained on. This is also known as domain
+shifts. Domain adaptation (DA) methods aim to address the domain shift problem
+by extracting domain invariant features. However, DA methods do not distinguish
+between the different phases of operation, such as steady states or transient
+phases. This can result in misalignment due to under- or over-representation of
+different operation phases. This paper proposes two novel DA approaches for RUL
+prediction based on an adversarial domain adaptation framework that considers
+the different phases of the operation profiles separately. The proposed
+methodologies align the marginal distributions of each phase of the operation
+profile in the source domain with its counterpart in the target domain. The
+effectiveness of the proposed methods is evaluated using the New Commercial
+Modular Aero-Propulsion System (N-CMAPSS) dataset, where sub-fleets of turbofan
+engines operating in one of the three different flight classes (short, medium,
+and long) are treated as separate domains. The experimental results show that
+the proposed methods improve the accuracy of RUL predictions compared to
+current state-of-the-art DA methods.","Ismail Nejjar, Fabian Geissmann, Mengjie Zhao, Cees Taal, Olga Fink",2023-02-03T13:02:27Z,cs.AI
+Towards Avoiding the Data Mess: Industry Insights from Data Mesh Implementations,"With the increasing importance of data and artificial intelligence,
+organizations strive to become more data-driven. However, current data
+architectures are not necessarily designed to keep up with the scale and scope
+of data and analytics use cases. In fact, existing architectures often fail to
+deliver the promised value associated with them. Data mesh is a
+socio-technical, decentralized, distributed concept for enterprise data
+management. As the concept of data mesh is still novel, it lacks empirical
+insights from the field. Specifically, an understanding of the motivational
+factors for introducing data mesh, the associated challenges, implementation
+strategies, its business impact, and potential archetypes is missing. To
+address this gap, we conduct 15 semi-structured interviews with industry
+experts. Our results show, among other insights, that organizations have
+difficulties with the transition toward federated governance associated with
+the data mesh concept, the shift of responsibility for the development,
+provision, and maintenance of data products, and the comprehension of the
+overall concept. In our work, we derive multiple implementation strategies and
+suggest organizations introduce a cross-domain steering unit, observe the data
+product usage, create quick wins in the early phases, and favor small dedicated
+teams that prioritize data products. While we acknowledge that organizations
+need to apply implementation strategies according to their individual needs, we
+also deduct two archetypes that provide suggestions in more detail. Our
+findings synthesize insights from industry experts and provide researchers and
+professionals with preliminary guidelines for the successful adoption of data
+mesh.","Jan Bode, Niklas Kühl, Dominik Kreuzberger, Sebastian Hirschl, Carsten Holtmann",2023-02-03T13:09:57Z,cs.AI
+"Customer Profiling, Segmentation, and Sales Prediction using AI in Direct Marketing","In an increasingly customer-centric business environment, effective
+communication between marketing and senior management is crucial for success.
+With the rise of globalization and increased competition, utilizing new data
+mining techniques to identify potential customers is essential for direct
+marketing efforts. This paper proposes a data mining preprocessing method for
+developing a customer profiling system to improve sales performance, including
+customer equity estimation and customer action prediction. The RFM-analysis
+methodology is used to evaluate client capital and a boosting tree for
+prediction. The study highlights the importance of customer segmentation
+methods and algorithms to increase the accuracy of the prediction. The main
+result of this study is the creation of a customer profile and forecast for the
+sale of goods.","Mahmoud SalahEldin Kasem, Mohamed Hamada, Islam Taj-Eddin",2023-02-03T14:45:09Z,cs.AI
+Rating Sentiment Analysis Systems for Bias through a Causal Lens,"Sentiment Analysis Systems (SASs) are data-driven Artificial Intelligence
+(AI) systems that, given a piece of text, assign one or more numbers conveying
+the polarity and emotional intensity expressed in the input. Like other
+automatic machine learning systems, they have also been known to exhibit model
+uncertainty where a (small) change in the input leads to drastic swings in the
+output. This can be especially problematic when inputs are related to protected
+features like gender or race since such behavior can be perceived as a lack of
+fairness, i.e., bias. We introduce a novel method to assess and rate SASs where
+inputs are perturbed in a controlled causal setting to test if the output
+sentiment is sensitive to protected variables even when other components of the
+textual input, e.g., chosen emotion words, are fixed. We then use the result to
+assign labels (ratings) at fine-grained and overall levels to convey the
+robustness of the SAS to input changes. The ratings serve as a principled basis
+to compare SASs and choose among them based on behavior. It benefits all users,
+especially developers who reuse off-the-shelf SASs to build larger AI systems
+but do not have access to their code or training data to compare.","Kausik Lakkaraju, Biplav Srivastava, Marco Valtorta",2023-02-04T00:22:43Z,cs.AI
+A Pre-training Framework for Knowledge Graph Completion,"Knowledge graph completion (KGC) is one of the effective methods to identify
+new facts in knowledge graph. Except for a few methods based on graph network,
+most of KGC methods trend to be trained based on independent triples, while are
+difficult to take a full account of the information of global network
+connection contained in knowledge network. To address these issues, in this
+study, we propose a simple and effective Network-based Pre-training framework
+for knowledge graph completion (termed NetPeace), which takes into account the
+information of global network connection and local triple relationships in
+knowledge graph. Experiments show that in NetPeace framework, multiple KGC
+models yields consistent and significant improvements on benchmarks (e.g.,
+36.45% Hits@1 and 27.40% MRR improvements for TuckER on FB15k-237), especially
+dense knowledge graph. On the challenging low-resource task, NetPeace that
+benefits from the global features of KG achieves higher performance (104.03%
+MRR and 143.89% Hit@1 improvements at most) than original models.","Kuan Xu, Kuo Yang, Hanyang Dong, Xinyan Wang, Jian Yu, Xuezhong Zhou",2023-02-06T08:23:01Z,cs.AI
+Toward a normative theory of (self-)management by goal-setting,"People are often confronted with problems whose complexity exceeds their
+cognitive capacities. To deal with this complexity, individuals and managers
+can break complex problems down into a series of subgoals. Which subgoals are
+most effective depends on people's cognitive constraints and the cognitive
+mechanisms of goal pursuit. This creates an untapped opportunity to derive
+practical recommendations for which subgoals managers and individuals should
+set from cognitive models of bounded rationality. To seize this opportunity, we
+apply the principle of resource-rationality to formulate a mathematically
+precise normative theory of (self-)management by goal-setting. We leverage this
+theory to computationally derive optimal subgoals from a resource-rational
+model of human goal pursuit. Finally, we show that the resulting subgoals
+improve the problem-solving performance of bounded agents and human
+participants. This constitutes a first step towards grounding prescriptive
+theories of management and practical recommendations for goal-setting in
+computational models of the relevant psychological processes and cognitive
+limitations.","Nishad Singhi, Florian Mohnert, Ben Prystawski, Falk Lieder",2023-02-06T09:06:54Z,cs.AI
+Leveraging AI to improve human planning in large partially observable environments,"AI can not only outperform people in many planning tasks, but also teach them
+how to plan better. All prior work was conducted in fully observable
+environments, but the real world is only partially observable. To bridge this
+gap, we developed the first metareasoning algorithm for discovering
+resource-rational strategies for human planning in partially observable
+environments. Moreover, we developed an intelligent tutor teaching the
+automatically discovered strategy by giving people feedback on how they plan in
+increasingly more difficult problems. We showed that our strategy discovery
+method is superior to the state-of-the-art and tested our intelligent tutor in
+a preregistered training experiment with 330 participants. The experiment
+showed that people's intuitive strategies for planning in partially observable
+environments are highly suboptimal, but can be substantially improved by
+training with our intelligent tutor. This suggests our human-centred tutoring
+approach can successfully boost human planning in complex, partially observable
+sequential decision problems.","Lovis Heindrich, Saksham Consul, Falk Lieder",2023-02-06T13:57:08Z,cs.AI
+The Fifteen Puzzle- A New Approach through Hybridizing Three Heuristics Methods,"Fifteen Puzzle problem is one of the most classical problems that have
+captivated mathematical enthusiasts for centuries. This is mainly because of
+the huge size of the state space with approximately 1013 states that have to be
+explored and several algorithms have been applied to solve the Fifteen Puzzle
+instances. In this paper, to deal with this large state space, Bidirectional A*
+(BA*) search algorithm with three heuristics, such as Manhattan distance (MD),
+linear conflict (LC), and walking distance (WD) has been used to solve the
+Fifteen Puzzle problems. The three mentioned heuristics will be hybridized in a
+way that can dramatically reduce the number of generated states by the
+algorithm. Moreover, all those heuristics require only 25KB of storage but help
+the algorithm effectively reduce the number of generated states and expand
+fewer nodes. Our implementation of BA* search can significantly reduce the
+space complexity, and guarantee either optimal or near-optimal solutions.1","Dler O. Hasan, Aso M. Aladdin, Hardi Sabah Talabani, Tarik Ahmed Rashid, Seyedali Mirjalili",2023-01-06T07:17:23Z,cs.AI
+Who wants what and how: a Mapping Function for Explainable Artificial Intelligence,"The increasing complexity of AI systems has led to the growth of the field of
+explainable AI (XAI), which aims to provide explanations and justifications for
+the outputs of AI algorithms. These methods mainly focus on feature importance
+and identifying changes that can be made to achieve a desired outcome.
+Researchers have identified desired properties for XAI methods, such as
+plausibility, sparsity, causality, low run-time, etc. The objective of this
+study is to conduct a review of existing XAI research and present a
+classification of XAI methods. The study also aims to connect XAI users with
+the appropriate method and relate desired properties to current XAI approaches.
+The outcome of this study will be a clear strategy that outlines how to choose
+the right XAI method for a particular goal and user and provide a personalized
+explanation for users.",Maryam Hashemi,2023-02-07T01:06:38Z,cs.AI
+Emergent Causality and the Foundation of Consciousness,"To make accurate inferences in an interactive setting, an agent must not
+confuse passive observation of events with having intervened to cause them. The
+$do$ operator formalises interventions so that we may reason about their
+effect. Yet there exist pareto optimal mathematical formalisms of general
+intelligence in an interactive setting which, presupposing no explicit
+representation of intervention, make maximally accurate inferences. We examine
+one such formalism. We show that in the absence of a $do$ operator, an
+intervention can be represented by a variable. We then argue that variables are
+abstractions, and that need to explicitly represent interventions in advance
+arises only because we presuppose these sorts of abstractions. The
+aforementioned formalism avoids this and so, initial conditions permitting,
+representations of relevant causal interventions will emerge through induction.
+These emergent abstractions function as representations of one`s self and of
+any other object, inasmuch as the interventions of those objects impact the
+satisfaction of goals. We argue that this explains how one might reason about
+one`s own identity and intent, those of others, of one`s own as perceived by
+others and so on. In a narrow sense this describes what it is to be aware, and
+is a mechanistic explanation of aspects of consciousness.",Michael Timothy Bennett,2023-02-07T01:41:23Z,cs.AI
+Towards Understanding the Effects of Evolving the MCTS UCT Selection Policy,"Monte Carlo Tree Search (MCTS) is a sampling best-first method to search for
+optimal decisions. The success of MCTS depends heavily on how the MCTS
+statistical tree is built and the selection policy plays a fundamental role in
+this. A particular selection policy that works particularly well, widely
+adopted in MCTS, is the Upper Confidence Bounds for Trees, referred to as UCT.
+Other more sophisticated bounds have been proposed by the community with the
+goal to improve MCTS performance on particular problems. Thus, it is evident
+that while the MCTS UCT behaves generally well, some variants might behave
+better. As a result of this, multiple works have been proposed to evolve a
+selection policy to be used in MCTS. Although all these works are inspiring,
+none of them have carried out an in-depth analysis shedding light under what
+circumstances an evolved alternative of MCTS UCT might be beneficial in MCTS
+due to focusing on a single type of problem. In sharp contrast to this, in this
+work we use five functions of different nature, going from a unimodal function,
+covering multimodal functions to deceptive functions. We demonstrate how the
+evolution of the MCTS UCT might be beneficial in multimodal and deceptive
+scenarios, whereas the MCTS UCT is robust in unimodal scenarios and competitive
+in the rest of the scenarios used in this study.","Fred Valdez Ameneyro, Edgar Galvan",2023-02-07T09:50:55Z,cs.AI
+Act for Your Duties but Maintain Your Rights,"Most of the synthesis literature has focused on studying how to synthesize a
+strategy to fulfill a task. This task is a duty for the agent. In this paper,
+we argue that intelligent agents should also be equipped with rights, that is,
+tasks that the agent itself can choose to fulfill (e.g., the right of
+recharging the battery). The agent should be able to maintain these rights
+while acting for its duties. We study this issue in the context of LTLf
+synthesis: we give duties and rights in terms of LTLf specifications, and
+synthesize a suitable strategy to achieve the duties that can be modified
+on-the-fly to achieve also the rights, if the agent chooses to do so. We show
+that handling rights does not make synthesis substantially more difficult,
+although it requires a more sophisticated solution concept than standard LTLf
+synthesis. We also extend our results to the case in which further duties and
+rights are given to the agent while already executing.","Shufang Zhu, Giuseppe De Giacomo",2023-02-07T10:44:47Z,cs.AI
+Towards a Deeper Understanding of Concept Bottleneck Models Through End-to-End Explanation,"Concept Bottleneck Models (CBMs) first map raw input(s) to a vector of
+human-defined concepts, before using this vector to predict a final
+classification. We might therefore expect CBMs capable of predicting concepts
+based on distinct regions of an input. In doing so, this would support human
+interpretation when generating explanations of the model's outputs to visualise
+input features corresponding to concepts. The contribution of this paper is
+threefold: Firstly, we expand on existing literature by looking at relevance
+both from the input to the concept vector, confirming that relevance is
+distributed among the input features, and from the concept vector to the final
+classification where, for the most part, the final classification is made using
+concepts predicted as present. Secondly, we report a quantitative evaluation to
+measure the distance between the maximum input feature relevance and the ground
+truth location; we perform this with the techniques, Layer-wise Relevance
+Propagation (LRP), Integrated Gradients (IG) and a baseline gradient approach,
+finding LRP has a lower average distance than IG. Thirdly, we propose using the
+proportion of relevance as a measurement for explaining concept importance.","Jack Furby, Daniel Cunnington, Dave Braines, Alun Preece",2023-02-07T16:43:43Z,cs.AI
